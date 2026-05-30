@@ -638,3 +638,11 @@ textarea:focus {
   color: #64748b;
   opacity: 0.7;
 }
+
+
+/* mobile: altura que entende o teclado virtual */
+@supports (height: 100dvh) {
+  .min-h-dvh {
+    min-height: 100dvh;
+  }
+}

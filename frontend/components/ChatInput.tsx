@@ -67,7 +67,7 @@ export default function ChatInput({
               rows={1}
               className="
                 flex-1 bg-transparent resize-none
-                font-sans text-sm text-star placeholder-star-dim/50
+                font-sans text-base md:text-sm text-star placeholder-star-dim/50
                 disabled:opacity-50 disabled:cursor-not-allowed
                 min-h-[24px] max-h-[160px]
                 leading-relaxed

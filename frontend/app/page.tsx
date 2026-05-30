@@ -188,13 +188,13 @@ export default function ChatPage() {
   const hasMessages = messages.length > 0;
 
   return (
-    <div className="stars-bg noise-bg min-h-screen bg-space-950 text-star">
+    <div className="stars-bg noise-bg min-h-dvh bg-space-950 text-star">
       <div className="comets-bg" />
       <Header />
 
       <main
         ref={messagesContainerRef}
-        className="pt-16 pb-32 min-h-screen"
+        className="pt-16 pb-32 min-h-dvh"
       >
         {!hasMessages ? (
           <WelcomeScreen onSuggestedQuestion={(q) => handleSend(q)} />
