@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "document_id": "DOC-04",
+    "title": "Links e Contatos Úteis — Caça Asteroides MCTI 2026",
+    "description": "Centraliza todos os canais oficiais de comunicação, contatos, redes sociais e links úteis do programa Caça Asteroides MCTI e do IASC, orientando o participante sobre qual canal usar em cada situação.",
+    "source": "links_e_contatos",
+    "version": "1.0",
+    "created_at": "2026-03-17",
+    "tags": ["links", "contatos", "e-mail", "instagram", "youtube", "whatsapp", "IASC", "suporte", "canais oficiais"]
+  },
+
+  "chunks": [
+
+    {
+      "id": "DOC04-LCU-01",
+      "chunk_index": 1,
+      "importance": "high",
+      "title": "Canal Oficial para Dúvidas Gerais sobre o programa — E-mail do Caça Asteroides",
+      "category": "contato_brasil",
+      "source": "links_e_contatos",
+      "content": "Para dúvidas gerais sobre o programa Caça Asteroides MCTI — inscrições, regras, edital, campanhas, certificados, medalhas ou qualquer outra questão relacionada ao programa no Brasil — o canal oficial é o e-mail: cacaasteroidesbrasil@gmail.com. Este é o endereço da Comissão Organizadora do Caça Asteroides MCTI. Caso o chatbot não consiga responder sua dúvida, este é o contato certo para obter ajuda diretamente da equipe organizadora.",
+      "keywords": ["dúvidas gerais", "e-mail", "cacaasteroidesbrasil@gmail.com", "Comissão Organizadora", "contato", "suporte", "ajuda", "perguntas", "Brasil"],
+      "related_questions": [
+        "onde tiro dúvidas sobre o programa",
+        "qual o email de contato do caça asteroides",
+        "como falar com a organização",
+        "onde posso pedir ajuda geral",
+        "qual email usar para dúvidas"
+      ]
+    },
+
+    {
+      "id": "DOC04-LCU-02",
+      "chunk_index": 2,
+      "importance": "high",
+      "title": "Envio de Documentos da Inscrição — E-mail Específico",
+      "category": "contato_brasil",
+      "source": "links_e_contatos",
+      "content": "O envio dos documentos exigidos no edital — como os termos de autorização de uso de imagem (Anexo I e Anexo II) — deve ser feito exclusivamente para o e-mail: cacasteroidesdocumentos@gmail.com. Este endereço é específico para recebimento de documentação. Não envie documentos para o e-mail de dúvidas (cacaasteroidesbrasil@gmail.com) — use sempre o e-mail correto para cada finalidade.",
+      "keywords": ["documentos", "envio documentos", "cacasteroidesdocumentos@gmail.com", "Anexo I", "Anexo II", "termos de imagem", "inscrição", "documentação", "e-mail documentos"],
+      "related_questions": [
+        "onde envio os documentos da inscrição",
+        "qual email para enviar os termos",
+        "para onde mando os anexos da inscrição",
+        "posso enviar documentos no email de dúvidas",
+        "qual email enviar documentos do caça asteroides"
+      ]
+    },
+
+    {
+      "id": "DOC04-LCU-03",
+      "chunk_index": 3,
+      "importance": "medium",
+      "title": "Instagram Oficial — @cacaasteroidemcti",
+      "category": "redes_sociais",
+      "source": "links_e_contatos",
+      "content": "O Instagram oficial do programa é @cacaasteroidemcti. Por lá são publicadas informações atualizadas sobre o programa, anúncios de novas campanhas, datas de treinamentos, resultados, fotos das equipes participantes, notícias sobre descobertas e muito mais. É um dos melhores canais para se manter atualizado sobre tudo que acontece no Caça Asteroides MCTI. Recomenda-se que todos os participantes e interessados sigam o perfil para não perder nenhuma novidade, inclusive anúncios sobre a cerimônia de medalhas.",
+      "keywords": ["Instagram", "@cacaasteroidemcti", "redes sociais", "novidades", "anúncios", "campanhas", "treinamentos", "resultados", "seguir", "atualizado"],
+      "related_questions": [
+        "qual é o instagram oficial do programa",
+        "onde ver novidades do caça asteroides",
+        "tem instagram do programa",
+        "onde acompanho notícias e resultados",
+        "qual rede social seguir"
+      ]
+    },
+
+    {
+      "id": "DOC04-LCU-04",
+      "chunk_index": 4,
+      "importance": "low",
+      "title": "Canal no YouTube — Vídeos e Treinamentos",
+      "category": "redes_sociais",
+      "source": "links_e_contatos",
+      "content": "O canal oficial do Caça Asteroides MCTI no YouTube é: https://www.youtube.com/@cacaasteroidesmcti3770. No canal são publicados vídeos explicativos sobre o programa, tutoriais, treinamentos e conteúdos educativos sobre astronomia e ciência cidadã. É um recurso valioso especialmente para líderes que querem se preparar melhor antes da campanha e para equipes que querem entender melhor como funciona o processo de busca de asteroides.",
+      "keywords": ["YouTube", "canal", "vídeos", "tutoriais", "treinamentos", "explicativos", "astronomia", "youtube.com/@cacaasteroidesmcti3770", "preparação", "conteúdo educativo"],
+      "related_questions": [
+        "tem vídeos explicando o programa",
+        "onde assistir os treinamentos",
+        "tem canal no youtube do caça asteroides",
+        "onde ver tutoriais do programa",
+        "como aprender pelo youtube"
+      ]
+    },
+
+    {
+      "id": "DOC04-LCU-05",
+      "chunk_index": 5,
+      "importance": "medium",
+      "title": "Grupo de WhatsApp Oficial — Apenas para Líderes Inscritos",
+      "category": "suporte",
+      "source": "links_e_contatos",
+      "content": "Os líderes de equipe que se inscrevem em uma campanha do Caça Asteroides MCTI recebem acesso a um grupo de WhatsApp oficial do programa. Esse grupo é um canal direto para tirar dúvidas, receber comunicados e interagir com outros líderes e com a equipe organizadora durante o andamento da campanha. O acesso ao grupo é concedido após a inscrição confirmada — não é um grupo público e não é possível entrar por conta própria.",
+      "keywords": ["WhatsApp", "grupo WhatsApp", "líderes", "inscritos", "comunicados", "dúvidas", "canal direto", "acesso após inscrição", "não público", "durante campanha"],
+      "related_questions": [
+        "tem grupo de whatsapp do programa",
+        "como entrar no grupo de whatsapp",
+        "quem pode entrar no grupo",
+        "o grupo de whatsapp é aberto",
+        "como participar do grupo oficial"
+      ]
+    },
+
+    {
+      "id": "DOC04-LCU-06",
+      "chunk_index": 6,
+      "importance": "high",
+      "title": "Site Oficial do IASC — Portal Central da Campanha",
+      "category": "iasc",
+      "source": "links_e_contatos",
+      "content": "O site oficial do IASC é https://iasc.cosmosearch.org/. É o portal central onde toda a operação da campanha acontece. Por lá o líder pode: fazer login na plataforma, acessar a Team Page da equipe, baixar o Astrometrica e os materiais de instalação, baixar os image sets da campanha, enviar os relatórios MPC, consultar o FAQ e entrar em contato com os Trainers voluntários. Este é o site mais importante para qualquer participante ativo de uma campanha.",
+      "keywords": ["site IASC", "iasc.cosmosearch.org", "portal", "login", "Team Page", "Astrometrica", "image sets", "relatórios", "FAQ", "Trainers"],
+      "related_questions": [
+        "qual o site do iasc",
+        "onde acesso a plataforma do iasc",
+        "onde faço login no iasc",
+        "qual site usar para participar",
+        "onde encontro os image sets"
+      ]
+    },
+
+    {
+      "id": "DOC04-LCU-07",
+      "chunk_index": 7,
+      "importance": "high",
+      "title": "FAQ e Trainers do IASC — Suporte Técnico sobre o Astrometrica",
+      "category": "iasc",
+      "source": "links_e_contatos",
+      "content": "Para dúvidas técnicas sobre o uso do Astrometrica, identificação de assinaturas verdadeiras e falsas, preparação de relatórios MPC ou qualquer outra questão técnica da campanha, o suporte é feito pelos Trainers voluntários do IASC. Eles são especialistas no uso do software e podem responder dúvidas pelo FAQ da plataforma: https://iasc.cosmosearch.org/Home/FAQ. O IASC também pode ser contatado diretamente pelo e-mail: iascsearch@cisco.edu (Cassidy Davis — IASC Coordinator).",
+      "keywords": ["FAQ", "Trainers", "suporte técnico", "Astrometrica", "dúvidas técnicas", "iasc.cosmosearch.org/Home/FAQ", "iascsearch@cisco.edu", "Cassidy Davis", "especialistas", "MPC"],
+      "related_questions": [
+        "onde tirar dúvidas técnicas do astrometrica",
+        "onde acho suporte tecnico pro astrometrica",
+        "quem ajuda com problemas no astrometrica",
+        "como resolver problemas no astrometrica",
+        "quem pode ajudar com erro no astrometrica",
+        "onde pedir ajuda técnica",
+        "como falar com o iasc",
+        "como entrar em contato com o suporte técnico",
+        "onde encontro ajuda para análise técnica",
+        "onde encontro o faq do iasc",
+        "quem são os trainers do iasc",
+        "quem responde dúvidas técnicas do programa"
+      ]
+    },
+
+    {
+      "id": "DOC04-LCU-08",
+      "chunk_index": 8,
+      "importance": "high",
+      "title": "Download do Astrometrica — Link Direto",
+      "category": "iasc",
+      "source": "links_e_contatos",
+      "content": "O Astrometrica e todos os materiais necessários para a campanha — instalador, Quick Start Guide e image sets de prática — podem ser baixados diretamente em: https://iasc.cosmosearch.org/Home/Astrometrica. O software é gratuito para participantes das campanhas do IASC. As instruções de instalação e registro estão detalhadas no Quick Start Guide disponível na mesma página.",
+      "keywords": ["download Astrometrica", "iasc.cosmosearch.org/Home/Astrometrica", "instalador", "Quick Start Guide", "image sets prática", "gratuito", "link download", "materiais"],
+      "related_questions": [
+        "onde baixar o astrometrica",
+        "qual o link para download do astrometrica",
+        "onde baixar o programa da campanha",
+        "como instalar o astrometrica",
+        "onde encontro os arquivos de instalação"
+      ]
+    },
+
+    {
+      "id": "DOC04-LCU-09",
+      "chunk_index": 9,
+      "importance": "medium",
+      "title": "Assinatura Eletrônica dos Termos — GOV.BR",
+      "category": "documentacao",
+      "source": "links_e_contatos",
+      "content": "Para assinar eletronicamente os termos de autorização de uso de imagem (Anexo I e Anexo II) exigidos no edital, o programa recomenda o uso da plataforma de assinatura eletrônica do governo federal: https://www.gov.br/governodigital/pt-br/identidade/assinatura-eletronica. O serviço é gratuito e tem validade jurídica. Após assinar, os arquivos devem ser enviados em formato PDF para o e-mail cacasteroidesdocumentos@gmail.com dentro do prazo de 15 dias do início da campanha.",
+      "keywords": ["assinatura eletrônica", "GOV.BR", "gov.br", "termos", "Anexo I", "Anexo II", "gratuito", "validade jurídica", "PDF", "assinar online"],
+      "related_questions": [
+        "como assinar os termos online",
+        "onde faço assinatura eletrônica",
+        "como usar o gov.br para assinar documentos",
+        "preciso assinar os termos digitalmente",
+        "como assinar o anexo i e ii"
+      ]
+    },
+
+    {
+      "id": "DOC04-LCU-10",
+      "chunk_index": 10,
+      "importance": "high",
+      "title": "Links de Inscrição das Campanhas de 2026",
+      "category": "inscricao",
+      "source": "links_e_contatos",
+      "content": "Os links para inscrição em cada campanha do Caça Asteroides MCTI 2026 são: Campanha 1 (março/abril): https://forms.gle/VkEsQPV1Pnqfauuo8 | Campanha 2 (abril/maio): https://forms.gle/7n519bTmsP1wfymr5 | Campanha 3 (maio/junho): https://forms.gle/KQM3UewJ18qqncjz8 | Campanha 4 (junho/julho): https://forms.gle/3d7mcUKxmi4JYB9KA | Campanha 5 (julho/agosto): https://forms.gle/S43R6dBWuqW8qCbz8 | Campanha 6 (agosto/setembro): https://forms.gle/d2TAptuSuE15Msnd9 | Campanha 7 (setembro/outubro): https://forms.gle/XuhmiwykxKg74WaS7 | Campanha 8 (outubro): https://forms.gle/fiRjvpJ3zPErqHPn7. As inscrições são gratuitas e realizadas exclusivamente pelo líder da equipe.",
+      "keywords": ["links inscrição", "formulário", "campanhas 2026", "forms.gle", "inscrever", "como se inscrever", "link campanha", "gratuito", "formulário Google"],
+      "related_questions": [
+        "onde faço a inscrição",
+        "qual o link de inscrição",
+        "como se inscrever nas campanhas",
+        "onde encontrar o formulário de inscrição",
+        "qual link usar para se inscrever"
+      ]
+    },
+
+    {
+      "id": "DOC04-LCU-11",
+      "chunk_index": 11,
+      "importance": "high",
+      "title": "Guia Rápido — Qual Canal para dúvidas sobre a campanha usar em Cada Situação",
+      "category": "guia_canais",
+      "source": "links_e_contatos",
+      "content": "Use o canal certo para cada necessidade: DÚVIDAS GERAIS sobre o programa → cacaasteroidesbrasil@gmail.com. ENVIO DE DOCUMENTOS (termos de imagem) → cacasteroidesdocumentos@gmail.com. DÚVIDAS TÉCNICAS sobre o Astrometrica → FAQ do IASC em iasc.cosmosearch.org/Home/FAQ ou e-mail iascsearch@cisco.edu. NOVIDADES E ANÚNCIOS → Instagram @cacaasteroidemcti. VÍDEOS E TUTORIAIS → YouTube youtube.com/@cacaasteroidesmcti3770. COMUNICADOS DURANTE A CAMPANHA → Grupo de WhatsApp (acesso após inscrição confirmada). ACESSAR A PLATAFORMA E IMAGE SETS → iasc.cosmosearch.org.",
+      "keywords": ["qual canal usar", "guia rápido", "situação", "dúvidas", "documentos", "técnico", "novidades", "vídeos", "WhatsApp", "plataforma", "resumo canais"],
+      "related_questions": [
+        "onde tiro dúvida durante a campanha",
+        "onde posso tirar dúvidas sobre o programa",
+        "como falar com o suporte do caça asteroides",
+        "com quem eu falo se tiver dúvida",
+        "quem pode me ajudar no programa",
+        "tem suporte durante a campanha",
+        "como entrar em contato com o programa",
+        "qual email para tirar dúvidas",
+        "onde posso mandar dúvida",
+        "como falar com a organização",
+        "qual canal usar para cada dúvida",
+        "qual email usar em cada situação",
+        "como saber onde pedir ajuda",
+        "qual o canal correto para cada caso",
+        "onde falar sobre problemas técnicos",
+        "onde pedir ajuda com astrometrica",
+        "onde enviar documentos da inscrição",
+        "qual email mandar os termos"
+      ]
+    }
+  ]
+}

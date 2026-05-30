@@ -1,0 +1,256 @@
+{
+  "metadata": {
+    "document_id": "DOC-01",
+    "title": "Visão Geral do Programa Caça Asteroides MCTI e Parceiros",
+    "description": "Contextualização completa sobre o que é o programa Caça Asteroides MCTI, seus objetivos, parceiros institucionais, o IASC e sua escala global, o telescópio Pan-STARRS e conceitos científicos básicos.",
+    "source": "visao_geral_e_parceiros",
+    "version": "1.0",
+    "created_at": "2026-03-17",
+    "tags": ["visão geral", "programa", "parceiros", "IASC", "MCTI", "Pan-STARRS", "ciência cidadã", "asteroides"]
+  },
+
+  "chunks": [
+
+    {
+      "id": "DOC01-VGP-01",
+      "chunk_index": 1,
+      "importance": "high",
+      "title": "O que é o Caça Asteroides MCTI",
+      "category": "visao_geral",
+      "source": "visao_geral_e_parceiros",
+      "content": "O Caça Asteroides MCTI é um programa brasileiro de ciência cidadã que permite que qualquer pessoa — estudantes, professores, astrônomos amadores ou cidadãos comuns — participe ativamente da busca por asteroides. Por meio do programa, os participantes analisam imagens reais do céu, captadas por um dos telescópios mais poderosos do mundo, e podem fazer descobertas astronômicas originais. O programa é totalmente gratuito, de abrangência nacional e internacional, e não exige conhecimento prévio em astronomia para participar.",
+      "keywords": ["o que é", "caça asteroides", "ciência cidadã", "programa brasileiro", "gratuito", "descobertas", "astronomia", "participação"],
+      "related_questions": [
+        "o que é o caça asteroides mcti",
+        "como funciona o programa caça asteroides",
+        "qual é esse programa de asteroides",
+        "o que faz no caça asteroides",
+        "qual o objetivo do caça asteroides"
+      ]
+    },
+
+    {
+      "id": "DOC01-VGP-02",
+      "chunk_index": 2,
+      "importance": "medium",
+      "title": "Objetivo do Programa",
+      "category": "visao_geral",
+      "source": "visao_geral_e_parceiros",
+      "content": "O principal objetivo do Caça Asteroides MCTI é popularizar a ciência entre cidadãos voluntários, tornando a astronomia algo acessível e prático. Os participantes se tornam cientistas cidadãos capazes de realizar medições reais de asteroides do Cinturão Principal (Main Belt Asteroids) e, em alguns casos, detectar objetos próximos à Terra (NEOs) e objetos trans-netunianos (TNOs). O programa une educação científica, tecnologia e colaboração internacional em uma única experiência.",
+      "keywords": ["objetivo", "popularizar ciência", "cientistas cidadãos", "asteroides", "cinturão principal", "NEOs", "TNOs", "educação", "astronomia prática"],
+      "related_questions": [
+        "qual o objetivo do programa",
+        "pra que serve o caça asteroides",
+        "o que os participantes fazem no programa",
+        "qual a finalidade do projeto",
+        "o que vou aprender no programa"
+      ]
+    },
+
+    {
+      "id": "DOC01-VGP-03",
+      "chunk_index": 3,
+      "importance": "medium",
+      "title": "Quem Coordena o Programa no Brasil",
+      "category": "parceiros_brasil",
+      "source": "visao_geral_e_parceiros",
+      "content": "O Caça Asteroides MCTI é uma iniciativa do Ministério da Ciência, Tecnologia e Inovação (MCTI) em parceria com o IASC. No Brasil, a coordenação é feita pelo Observatório Nacional (ON-MCTI), pela Universidade Federal da Integração Latino-Americana (UNILA) e pela Universidade Federal de Mato Grosso do Sul (UFMS), com a colaboração das demais Unidades de Pesquisa do MCTI. A Agência Espacial Brasileira (AEB) também figura entre os parceiros institucionais do programa.",
+      "keywords": ["coordenação", "MCTI", "Observatório Nacional", "ON", "UNILA", "UFMS", "AEB", "parceiros", "Brasil", "universidades"],
+      "related_questions": [
+        "quem organiza o caça asteroides no brasil",
+        "quem coordena o programa",
+        "quais instituições participam",
+        "quem está por trás do programa",
+        "quais são os parceiros no brasil"
+      ]
+    },
+
+    {
+      "id": "DOC01-VGP-04",
+      "chunk_index": 4,
+      "importance": "high",
+      "title": "O que é o IASC",
+      "category": "parceiros_iasc",
+      "source": "visao_geral_e_parceiros",
+      "content": "O IASC (International Astronomical Search Collaboration), pronunciado 'Isaac', é uma organização americana de ciência cidadã voltada para a busca de asteroides. Fundado em outubro de 2006 e sediado no Cisco Community College em Abilene, Texas (EUA), o IASC é parceiro da NASA e coordena campanhas de busca de asteroides em todo o mundo. É o IASC que fornece as imagens astronômicas, o software Astrometrica, a plataforma de envio de relatórios e o suporte técnico para todas as equipes participantes ao redor do mundo, incluindo as equipes brasileiras do Caça Asteroides MCTI.",
+      "keywords": ["IASC", "Isaac", "International Astronomical Search Collaboration", "NASA parceiro", "Cisco College", "Texas", "organização", "fundado 2006", "o que é IASC"],
+      "related_questions": [
+        "o que é o iasc",
+        "o que significa iasc",
+        "quem é o iasc",
+        "o que faz o iasc",
+        "o que é international astronomical search collaboration"
+      ]
+    },
+
+    {
+      "id": "DOC01-VGP-05",
+      "chunk_index": 5,
+      "importance": "medium",
+      "title": "Escala Global do IASC",
+      "category": "parceiros_iasc",
+      "source": "visao_geral_e_parceiros",
+      "content": "O IASC é um dos maiores programas de ciência cidadã em astronomia do mundo. A cada ano, cerca de 10.000 equipes de mais de 100 países participam das campanhas. Desde sua fundação em 2006, os participantes já realizaram mais de 7.000 descobertas de asteroides. Desses, 97 foram numerados e inseridos no catálogo oficial de corpos menores do sistema solar, mantido pela União Astronômica Internacional (IAU, Paris). Asteroides numerados podem ser oficialmente nomeados por seus descobridores. O programa MCTI 2026 é uma das muitas campanhas nacionais que o IASC coordena simultaneamente ao redor do mundo.",
+      "keywords": ["10000 equipes", "100 países", "7000 descobertas", "97 numerados", "IAU", "catálogo oficial", "nomear asteroide", "escala global", "campanhas simultâneas"],
+      "related_questions": [
+        "quantas pessoas participam do iasc",
+        "qual o tamanho do programa iasc",
+        "quantas descobertas já foram feitas",
+        "quantos países participam",
+        "o programa é grande no mundo"
+      ]
+    },
+
+    {
+      "id": "DOC01-VGP-06",
+      "chunk_index": 6,
+      "importance": "medium",
+      "title": "O Telescópio Pan-STARRS e as Imagens da Campanha",
+      "category": "pan_starrs",
+      "source": "visao_geral_e_parceiros",
+      "content": "As imagens utilizadas nas campanhas do IASC e do Caça Asteroides MCTI são fornecidas pelo Pan-STARRS (Panoramic Survey Telescope and Rapid Response System), um telescópio de 1,8 metros de diâmetro localizado no Monte Haleakala, no Havaí (EUA), operado pelo Instituto de Astronomia (IfA) da Universidade do Havaí. Quando as condições de céu permitem — noite escura e sem lua —, o Pan-STARRS captura imagens ao longo da eclíptica, que é a região do céu onde a maioria dos asteroides é encontrada. Essas imagens chegam às equipes em formato .fits, agrupadas em conjuntos de 4 imagens chamados 'image sets'.",
+      "keywords": ["Pan-STARRS", "telescópio", "Haleakala", "Havaí", "1.8 metros", "Instituto de Astronomia", "Universidade do Havaí", "imagens", "eclíptica", "fits", "image sets"],
+      "related_questions": [
+        "de onde vêm as imagens da campanha",
+        "de onde vêm as imagens que a gente analisa",
+        "de onde vêm os image sets",
+        "quem fornece as imagens da campanha",
+        "qual telescópio tira as imagens",
+        "quem gera as imagens do caça asteroides",
+        "de onde vêm as imagens do iasc",
+        "o que é pan starrs",
+        "qual telescópio é usado",
+        "como são captadas as imagens",
+        "de onde vêm os dados da campanha",
+        "quem captura as imagens dos asteroides"
+      ]
+    },
+
+    {
+      "id": "DOC01-VGP-07",
+      "chunk_index": 7,
+      "importance": "medium",
+      "title": "Quando as Imagens são Disponibilizadas",
+      "category": "pan_starrs",
+      "source": "visao_geral_e_parceiros",
+      "content": "As imagens não ficam disponíveis durante o mês inteiro. Os conjuntos de imagens (image sets) são liberados durante um período de aproximadamente duas semanas, que começa no Quarto Minguante da Lua e termina no Quarto Crescente — ou seja, no período de lua mais escura, quando o céu noturno favorece a observação astronômica. As equipes têm até o próximo Quarto Minguante para concluir a análise e enviar os relatórios ao IASC.",
+      "keywords": ["quando imagens", "quarto minguante", "quarto crescente", "lua nova", "período", "prazo", "duas semanas", "disponibilidade", "image sets"],
+      "related_questions": [
+        "quando as imagens ficam disponíveis",
+        "quanto tempo tenho para analisar",
+        "qual o período das campanhas",
+        "quando começa e termina a análise",
+        "quando posso acessar os image sets"
+      ]
+    },
+
+    {
+      "id": "DOC01-VGP-08",
+      "chunk_index": 8,
+      "importance": "medium",
+      "title": "O que são Asteroides do Cinturão Principal (MBAs)",
+      "category": "conceitos_cientificos",
+      "source": "visao_geral_e_parceiros",
+      "content": "Os asteroides do Cinturão Principal (Main Belt Asteroids — MBAs) são rochas espaciais que orbitam o Sol em uma região entre Marte e Júpiter, chamada Cinturão Principal. São os objetos mais frequentemente detectados nas campanhas do IASC. Quando uma equipe detecta e mede corretamente um asteroide, as observações são enviadas ao Minor Planet Center (MPC), o centro internacional que registra e cataloga todos os corpos menores do sistema solar. Se o asteroide ainda não estava catalogado, ele recebe uma designação provisória e pode eventualmente ser numerado e nomeado pelo descobridor.",
+      "keywords": ["MBA", "Main Belt Asteroid", "cinturão principal", "Marte", "Júpiter", "Minor Planet Center", "MPC", "catalogar", "designação provisória", "descoberta"],
+      "related_questions": [
+        "o que é mba",
+        "o que é main belt asteroid",
+        "o que é cinturão principal",
+        "o que é minor planet center",
+        "o que acontece quando descubro um asteroide"
+      ]
+    },
+
+    {
+      "id": "DOC01-VGP-09",
+      "chunk_index": 9,
+      "importance": "low",
+      "title": "O que são TNOs e NEOs",
+      "category": "conceitos_cientificos",
+      "source": "visao_geral_e_parceiros",
+      "content": "Além dos asteroides do Cinturão Principal, o IASC também registra detecções de outros tipos de objetos. Os TNOs (Trans-Neptunian Objects — Objetos Trans-Netunianos) são corpos que orbitam o Sol além de Netuno, na região mais distante do sistema solar. Já os NEOs (Near-Earth Objects — Objetos Próximos à Terra) são asteroides ou cometas cujas órbitas se aproximam da Terra. Detecções de NEOs têm importância científica especial, pois contribuem para o monitoramento de objetos que poderiam, em teoria, representar risco de impacto com a Terra.",
+      "keywords": ["TNO", "trans-netuniano", "NEO", "próximos à Terra", "cometas", "impacto", "monitoramento", "sistema solar", "órbita"],
+      "related_questions": [
+        "o que é neo",
+        "o que é tno",
+        "qual a diferença entre neo e tno",
+        "o que são objetos próximos da terra",
+        "o que são objetos transnetunianos"
+      ]
+    },
+
+    {
+      "id": "DOC01-VGP-10",
+      "chunk_index": 10,
+      "importance": "low",
+      "title": "Principais Parceiros Internacionais do IASC",
+      "category": "parceiros_iasc",
+      "source": "visao_geral_e_parceiros",
+      "content": "O IASC conta com uma rede global de parceiros institucionais que apoiam suas atividades. Entre os principais estão: a NASA (National Aeronautics and Space Administration), que é parceira oficial do IASC; o Pan-STARRS / Instituto de Astronomia da Universidade do Havaí, que fornece as imagens; o Catalina Sky Survey (Universidade do Arizona), outro importante fornecedor de dados; a Tarleton State University e a Western Kentucky University, nos EUA; e o Astronomers Without Borders. No Brasil, o MCTI e o Clube de Astronomia Louis Cruls (Campos dos Goytacazes) figuram na lista oficial de colaboradores do IASC.",
+      "keywords": ["parceiros internacionais", "NASA", "Catalina Sky Survey", "Astronomers Without Borders", "Tarleton", "Western Kentucky", "colaboradores", "rede global", "Louis Cruls"],
+      "related_questions": [
+        "quem são os parceiros do iasc",
+        "o iasc tem parceria com a nasa",
+        "quais instituições participam do iasc",
+        "quem apoia o programa internacionalmente",
+        "quais são os colaboradores do iasc"
+      ]
+
+    },
+
+    {
+      "id": "DOC01-VGP-11",
+      "chunk_index": 11,
+      "importance": "high",
+      "title": "O Software Astrometrica",
+      "category": "software",
+      "source": "visao_geral_e_parceiros",
+      "content": "O Astrometrica é o software utilizado por todas as equipes do IASC para analisar as imagens astronômicas e identificar asteroides. Ele foi desenvolvido especificamente para astrometria de objetos em movimento e é distribuído gratuitamente para os participantes das campanhas do IASC. O programa roda exclusivamente em Windows e permite que as equipes carreguem os image sets, identifiquem objetos em movimento entre os 4 frames, meçam suas posições e gerem automaticamente o relatório no formato MPC, que é o padrão internacional para comunicação de descobertas astronômicas. O Astrometrica pode ser baixado em: https://iasc.cosmosearch.org/Home/Astrometrica",
+      "keywords": ["Astrometrica", "software", "Windows", "astrometria", "MPC", "relatório", "gratuito", "download", "análise imagens", "campanhas"],
+      "related_questions": [
+        "o que é o astrometrica",
+        "para que serve o astrometrica",
+        "qual software usar no programa",
+        "o que faz o astrometrica",
+        "como funciona o software de análise"
+      ]
+    },
+
+    {
+      "id": "DOC01-VGP-12",
+      "chunk_index": 12,
+      "importance": "high",
+      "title": "Ciência Cidadã: O Papel dos Participantes",
+      "category": "visao_geral",
+      "source": "visao_geral_e_parceiros",
+      "content": "Ciência cidadã é uma modalidade de pesquisa científica em que voluntários sem formação científica formal participam de projetos reais de pesquisa. No Caça Asteroides MCTI, os participantes não simulam descobertas — eles trabalham com dados astronômicos reais, captados por um telescópio profissional, e suas medições são enviadas ao Minor Planet Center (MPC), o banco de dados oficial da União Astronômica Internacional. Isso significa que uma equipe de estudantes do ensino fundamental, por exemplo, pode ter sua descoberta reconhecida internacionalmente e registrada no catálogo oficial de corpos menores do sistema solar.",
+      "keywords": ["ciência cidadã", "voluntários", "pesquisa real", "dados reais", "MPC", "IAU", "reconhecimento internacional", "estudantes", "ensino fundamental", "descoberta oficial"],
+      "related_questions": [
+        "o que é ciência cidadã",
+        "como funciona ciência cidadã",
+        "qual o papel dos participantes",
+        "participantes podem descobrir asteroides de verdade",
+        "como funciona a participação no programa"
+      ]
+    },
+
+    {
+      "id": "DOC01-VGP-13",
+      "chunk_index": 13,
+      "importance": "high",
+      "title": "O Programa é Gratuito",
+      "category": "visao_geral",
+      "source": "visao_geral_e_parceiros",
+      "content": "O Caça Asteroides MCTI é um programa 100% gratuito. Não há taxa de inscrição, mensalidade, cobrança por treinamento, mentoria ou qualquer outro tipo de pagamento. Qualquer cobrança relacionada ao programa é expressamente proibida pelo edital oficial. O software Astrometrica também é fornecido gratuitamente para os participantes das campanhas. Caso alguém tente cobrar por participação ou treinamento relacionado ao Caça Asteroides MCTI, isso constitui uma violação das regras do programa.",
+      "keywords": ["gratuito", "sem custo", "sem taxa", "sem mensalidade", "proibido cobrar", "free", "acesso gratuito", "edital", "cobrança proibida"],
+      "related_questions": [
+        "o programa é pago",
+        "precisa pagar para participar",
+        "o caça asteroides é gratuito",
+        "tem alguma taxa para participar",
+        "preciso pagar pelo astrometrica"
+      ]
+    }
+  ]
+}

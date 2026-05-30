@@ -1,0 +1,371 @@
+{
+  "metadata": {
+    "document_id": "DOC-07",
+    "title": "Erros Frequentes e Soluções — Caça Asteroides MCTI 2026",
+    "description": "Lista de problemas comuns enfrentados pelos participantes durante a campanha, separados por área (site do IASC, software Astrometrica e análise das imagens), com sintoma, causa provável e solução passo a passo. Complementa o guia técnico (Quick Start Guide) com erros nomeados específicos.",
+    "source": "erros_frequentes",
+    "version": "1.0",
+    "created_at": "2026-05-29",
+    "tags": [
+      "erros",
+      "problemas",
+      "troubleshooting",
+      "soluções",
+      "Astrometrica",
+      "IASC",
+      "calibração",
+      "relatório",
+      "suporte"
+    ]
+  },
+  "chunks": [
+    {
+      "id": "DOC07-ERR-01",
+      "chunk_index": 1,
+      "importance": "high",
+      "title": "Erro ao Acessar a Página da Equipe no Site do IASC",
+      "category": "erro_site",
+      "source": "erros_frequentes",
+      "content": "Se ao tentar abrir a página da sua equipe no site do IASC o navegador apenas retorna para a página inicial, geralmente é um problema de acesso à conta. Verifique dois pontos: (1) se você está logado com a conta correta — as credenciais são enviadas por e-mail ao líder da equipe; (2) se está clicando na equipe certa, ou seja, na equipe correspondente ao número que também foi informado por e-mail. O passo a passo de acesso às imagens e à página da equipe está no guia visual: https://caioruas24010.github.io/DocsCacaAsteroides/tutorial-pratico/abrir-imagens. Se o problema persistir, entre em contato com a equipe de suporte.",
+      "keywords": [
+        "página da equipe",
+        "volta para a página inicial",
+        "não consigo acessar a equipe",
+        "login IASC",
+        "conta errada",
+        "número da equipe",
+        "acesso às imagens"
+      ],
+      "related_questions": [
+        "a página da minha equipe não abre",
+        "cliquei na equipe e o site voltou pra tela inicial",
+        "não consigo acessar as imagens da minha equipe no IASC",
+        "por que não abre a página da minha equipe",
+        "não consigo entrar na página da equipe"
+      ]
+    },
+    {
+      "id": "DOC07-ERR-02",
+      "chunk_index": 2,
+      "importance": "high",
+      "title": "Erro F51 ao Enviar o Relatório no Site",
+      "category": "erro_site",
+      "source": "erros_frequentes",
+      "content": "O erro mais comum ao enviar o relatório no site do IASC é o código F51. Ele geralmente indica um problema com o formato do relatório, mas pode aparecer mesmo quando o formato está correto. Soluções: (1) envie o relatório usando o Google Chrome — o site do IASC é otimizado para ele e pode apresentar problemas em outros navegadores; (2) tente usar outra conexão de internet, como os dados do celular, para descartar problemas de rede. Se o erro for diferente do F51, verifique se o formato do relatório está correto seguindo a etapa de envio do relatório. Persistindo, contate o suporte. Guia visual: https://caioruas24010.github.io/DocsCacaAsteroides/apoio/erros-frequentes/problemas-site.",
+      "keywords": [
+        "erro F51",
+        "erro ao enviar relatório",
+        "F51",
+        "navegador",
+        "Google Chrome",
+        "conexão de internet",
+        "formato do relatório",
+        "site IASC"
+      ],
+      "related_questions": [
+        "deu erro F51 ao enviar o relatório",
+        "não consigo enviar o relatório, aparece um código de erro",
+        "o que é o erro F51",
+        "como resolver erro ao submeter o relatório no IASC",
+        "o site dá erro quando envio o relatório"
+      ]
+    },
+    {
+      "id": "DOC07-ERR-03",
+      "chunk_index": 3,
+      "importance": "medium",
+      "title": "O Astrometrica está Pedindo uma Licença",
+      "category": "erro_astrometrica",
+      "source": "erros_frequentes",
+      "content": "Se o Astrometrica pedir uma licença ao abrir, é porque o software ainda não foi registrado. A licença é gratuita para participantes da campanha: a License é 'IASC' e a Key é o código enviado por e-mail ao líder da equipe inscrita. Para registrar, acesse Help > Registration e insira a License e a Key. Sem registro, o Astrometrica funciona em modo limitado por até 100 dias. Se ainda não recebeu a Key, entre em contato com a equipe de treinamento para solicitá-la. Guia visual: https://caioruas24010.github.io/DocsCacaAsteroides/comecando/configuracoes.",
+      "keywords": [
+        "pede licença",
+        "licença Astrometrica",
+        "registration",
+        "license key",
+        "código de registro",
+        "Help Registration",
+        "não registrei o software"
+      ],
+      "related_questions": [
+        "o astrometrica está pedindo uma licença",
+        "como registro o astrometrica",
+        "onde coloco o código de licença do astrometrica",
+        "não recebi a chave do astrometrica",
+        "o software pede uma key para continuar"
+      ]
+    },
+    {
+      "id": "DOC07-ERR-04",
+      "chunk_index": 4,
+      "importance": "high",
+      "title": "Runtime Error ao Abrir o Astrometrica",
+      "category": "erro_astrometrica",
+      "source": "erros_frequentes",
+      "content": "Se aparecer um 'Runtime error' ao abrir o Astrometrica, normalmente falta a pasta de dados locais do software. Solução: pressione Windows + R, digite %LOCALAPPDATA% e clique OK — isso abre a pasta de dados locais do usuário. Verifique se existe uma pasta chamada 'Astrometrica'. Se ela não existir, crie uma pasta com esse nome exato (com 'A' maiúsculo e sem espaços) e tente abrir o Astrometrica novamente. Atenção: qualquer erro de digitação no nome da pasta impede a correção. Guia visual: https://caioruas24010.github.io/DocsCacaAsteroides/apoio/erros-frequentes/problemas-astrometrica.",
+      "keywords": [
+        "runtime error",
+        "erro ao abrir astrometrica",
+        "LOCALAPPDATA",
+        "pasta Astrometrica",
+        "criar pasta",
+        "software não abre",
+        "windows + R"
+      ],
+      "related_questions": [
+        "deu runtime error no astrometrica",
+        "o astrometrica não abre e dá erro",
+        "como resolver runtime error ao abrir o software",
+        "erro ao iniciar o astrometrica",
+        "o programa fecha com erro ao abrir"
+      ]
+    },
+    {
+      "id": "DOC07-ERR-05",
+      "chunk_index": 5,
+      "importance": "high",
+      "title": "Erro de Calibração que Não Resolve com a Option 2 (Vizier Server e MPCORB)",
+      "category": "erro_astrometrica",
+      "source": "erros_frequentes",
+      "content": "A calibração (Data Reduction) é a etapa onde mais aparecem erros. A primeira tentativa para o 'Reference Star Match Error' é selecionar a Option 2 (Automatic Reference Star Match) e clicar OK. Se isso NÃO resolver, ou se aparecer 'No Reference Star Records read', tente em ordem: (1) confirmar que o arquivo de configuração certo está selecionado — PS1.cfg para imagens PS1 e PS2.cfg para imagens PS2; (2) nas configurações, na aba Internet, trocar o 'Vizier Server' para outra opção e testar uma a uma, pois o Astrometrica usa o Vizier na calibração e um servidor específico pode estar indisponível; (3) fechar e reabrir o software e observar se a janela preta mostra algum erro no download do MPCORB. Se nenhuma solução funcionar, contate o suporte. Guia visual: https://caioruas24010.github.io/DocsCacaAsteroides/apoio/erros-frequentes/problemas-astrometrica.",
+      "keywords": [
+        "erro de calibração",
+        "data reduction",
+        "reference star match error",
+        "no reference star records read",
+        "vizier server",
+        "MPCORB",
+        "PS1.cfg",
+        "PS2.cfg",
+        "calibração não funciona"
+      ],
+      "related_questions": [
+        "a option 2 não resolveu o erro de calibração",
+        "erro no data reduction que não passa",
+        "no reference star records read como resolver",
+        "a calibração das imagens dá erro",
+        "como trocar o vizier server no astrometrica"
+      ]
+    },
+    {
+      "id": "DOC07-ERR-06",
+      "chunk_index": 6,
+      "importance": "high",
+      "title": "Erro I/O-error 3 ao Escrever MPCReport.txt",
+      "category": "erro_astrometrica",
+      "source": "erros_frequentes",
+      "content": "O erro 'I/O-error 3 writing Astrometrica/Data/MPCReport.txt' indica falta de permissão de escrita na pasta onde o Astrometrica está instalado. Soluções: (1) feche o software, clique com o botão direito no atalho do Astrometrica e escolha 'Executar como administrador'; se resolver, vale ajustar as permissões da pasta para não precisar fazer isso toda vez; (2) no caminho de instalação indicado na própria mensagem de erro, verifique se existe uma pasta chamada 'Data' — se não existir, crie uma pasta com esse nome e tente a calibração novamente. Guia visual: https://caioruas24010.github.io/DocsCacaAsteroides/apoio/erros-frequentes/problemas-astrometrica.",
+      "keywords": [
+        "I/O-error 3",
+        "MPCReport.txt",
+        "permissão de escrita",
+        "executar como administrador",
+        "pasta Data",
+        "erro ao escrever relatório",
+        "data reduction"
+      ],
+      "related_questions": [
+        "deu I/O-error 3 no astrometrica",
+        "erro ao escrever o MPCReport.txt",
+        "preciso rodar o astrometrica como administrador",
+        "erro de permissão na pasta do astrometrica",
+        "como resolver io error 3"
+      ]
+    },
+    {
+      "id": "DOC07-ERR-07",
+      "chunk_index": 7,
+      "importance": "medium",
+      "title": "Removi Ícones da Barra de Ferramentas e Quero de Volta",
+      "category": "erro_astrometrica",
+      "source": "erros_frequentes",
+      "content": "Se você removeu ícones da barra de ferramentas do Astrometrica e não sabe como recuperá-los, no menu superior do software clique em 'Windows' e ative as 5 últimas opções da lista. Isso restaura os ícones e janelas necessários para a análise das imagens. Guia visual: https://caioruas24010.github.io/DocsCacaAsteroides/apoio/erros-frequentes/problemas-astrometrica.",
+      "keywords": [
+        "sumiram ícones",
+        "barra de ferramentas",
+        "toolbar",
+        "menu Windows",
+        "restaurar ícones",
+        "removi ícones",
+        "recuperar barra"
+      ],
+      "related_questions": [
+        "sumiram os ícones da barra de ferramentas",
+        "como recupero os botões do astrometrica",
+        "removi um ícone e quero de volta",
+        "como restaurar a toolbar do astrometrica",
+        "minha barra de ferramentas está incompleta"
+      ]
+    },
+    {
+      "id": "DOC07-ERR-08",
+      "chunk_index": 8,
+      "importance": "high",
+      "title": "Cliquei para Marcar um Asteroide e Nada Acontece",
+      "category": "erro_analise",
+      "source": "erros_frequentes",
+      "content": "Se ao clicar para marcar um objeto nada acontece, provavelmente o Data Reduction (calibração) não foi realizado naquela imagem. Sem a calibração, o Astrometrica não consegue identificar os objetos e não permite a marcação. Faça o Data Reduction antes de marcar — o passo a passo está no guia de abertura e preparação das imagens: https://caioruas24010.github.io/DocsCacaAsteroides/tutorial-pratico/abrir-imagens.",
+      "keywords": [
+        "nada acontece ao marcar",
+        "não consigo marcar",
+        "data reduction",
+        "calibração",
+        "marcar asteroide não funciona",
+        "clique não marca"
+      ],
+      "related_questions": [
+        "cliquei para marcar e nada acontece",
+        "não consigo marcar o asteroide",
+        "por que o astrometrica não marca o objeto",
+        "marcação não funciona ao clicar",
+        "o clique não registra o objeto"
+      ]
+    },
+    {
+      "id": "DOC07-ERR-09",
+      "chunk_index": 9,
+      "importance": "high",
+      "title": "Marquei o Asteroide mas a Marcação Não Aparece",
+      "category": "erro_analise",
+      "source": "erros_frequentes",
+      "content": "Se você marca um objeto mas a marcação não aparece na imagem, verifique a configuração de 'Select Markings', que define como as marcações são exibidas. Ajuste-a conforme as configurações iniciais recomendadas para o software. Guia visual: https://caioruas24010.github.io/DocsCacaAsteroides/comecando/configuracoes.",
+      "keywords": [
+        "marcação não aparece",
+        "select markings",
+        "marcação invisível",
+        "não vejo a marcação",
+        "configuração de marcação",
+        "exibir marcação"
+      ],
+      "related_questions": [
+        "marquei o asteroide mas não aparece nada",
+        "a marcação não fica visível na imagem",
+        "por que não vejo a marcação que fiz",
+        "select markings não mostra a marcação",
+        "marquei o objeto e não apareceu"
+      ]
+    },
+    {
+      "id": "DOC07-ERR-10",
+      "chunk_index": 10,
+      "importance": "high",
+      "title": "Tabela de Objetos Próximos (Object Designation) Está Vazia",
+      "category": "erro_analise",
+      "source": "erros_frequentes",
+      "content": "Se a tabela de objetos próximos (Object Designation) está vazia, normalmente a base de dados MPCORB não foi baixada corretamente. Soluções: (1) feche e reabra o Astrometrica e observe se a janela preta mostra algum erro no download do MPCORB; (2) nas configurações, na aba Internet, clique em 'Download MPCORB' para baixar a base novamente e depois reabra o software; (3) verifique sua conexão de internet ou aguarde e tente mais tarde, pois pode ser um problema temporário do servidor. Guia visual: https://caioruas24010.github.io/DocsCacaAsteroides/apoio/erros-frequentes/problemas-analise.",
+      "keywords": [
+        "object designation vazia",
+        "tabela vazia",
+        "objetos próximos",
+        "MPCORB",
+        "download MPCORB",
+        "base de dados não baixou",
+        "aba Internet"
+      ],
+      "related_questions": [
+        "a tabela object designation está vazia",
+        "não aparecem objetos conhecidos na tabela",
+        "como baixar o MPCORB de novo",
+        "a lista de objetos próximos não carrega",
+        "objetos conhecidos não aparecem"
+      ]
+    },
+    {
+      "id": "DOC07-ERR-11",
+      "chunk_index": 11,
+      "importance": "high",
+      "title": "Erro Floating Point Error ao Marcar",
+      "category": "erro_analise",
+      "source": "erros_frequentes",
+      "content": "Se aparecer 'Floating point error' ao clicar para marcar um objeto, é provável que você tenha clicado numa área acinzentada da imagem, ou seja, numa região onde não há dados. Clique apenas em áreas com dados, onde é possível ver objetos. NUNCA tente prever ou adivinhar a posição de um objeto clicando numa região sem dados. Guia visual: https://caioruas24010.github.io/DocsCacaAsteroides/apoio/erros-frequentes/problemas-analise.",
+      "keywords": [
+        "floating point error",
+        "área cinza",
+        "região sem dados",
+        "erro ao marcar",
+        "clicar fora da imagem",
+        "prever posição"
+      ],
+      "related_questions": [
+        "deu floating point error ao marcar",
+        "erro floating point no astrometrica",
+        "por que aparece floating point error",
+        "cliquei e deu erro de ponto flutuante",
+        "erro ao clicar em área cinza"
+      ]
+    },
+    {
+      "id": "DOC07-ERR-12",
+      "chunk_index": 12,
+      "importance": "high",
+      "title": "Fiz uma Marcação Errada — Como Corrigir",
+      "category": "erro_analise",
+      "source": "erros_frequentes",
+      "content": "Se você marcou um objeto por engano ou percebeu que ele não atende aos critérios de asteroide, não há como desfazer a marcação dentro do Astrometrica. Opções: se tiver CERTEZA de qual linha está errada, você pode apagar essa linha específica do relatório antes de enviá-lo; a opção mais segura, porém, é fechar as imagens, limpar o relatório (Reset Files) e refazer a análise do pacote do zero. Guia visual: https://caioruas24010.github.io/DocsCacaAsteroides/apoio/erros-frequentes/problemas-analise.",
+      "keywords": [
+        "marcação errada",
+        "marquei errado",
+        "desfazer marcação",
+        "apagar linha do relatório",
+        "reset files",
+        "refazer análise",
+        "corrigir marcação"
+      ],
+      "related_questions": [
+        "fiz uma marcação errada o que faço",
+        "como desfaço uma marcação no astrometrica",
+        "marquei o objeto errado",
+        "dá para apagar uma marcação",
+        "como corrijo uma marcação incorreta"
+      ]
+    },
+    {
+      "id": "DOC07-ERR-13",
+      "chunk_index": 13,
+      "importance": "high",
+      "title": "Esqueci de Marcar um Asteroide e Já Enviei o Relatório",
+      "category": "erro_analise",
+      "source": "erros_frequentes",
+      "content": "Se você esqueceu de marcar um asteroide e já enviou o relatório, não há garantia de correção de um relatório já enviado. Você pode falar com a equipe de suporte para verificar se aceitam uma correção, mas isso não é assegurado. Por isso, analise as imagens com bastante atenção e tenha certeza de ter encontrado todos os objetos presentes antes de enviar o relatório. Guia visual: https://caioruas24010.github.io/DocsCacaAsteroides/apoio/erros-frequentes/problemas-analise.",
+      "keywords": [
+        "esqueci de marcar",
+        "relatório já enviado",
+        "corrigir relatório enviado",
+        "esqueci um asteroide",
+        "suporte",
+        "não dá para corrigir"
+      ],
+      "related_questions": [
+        "esqueci de marcar um asteroide e já enviei",
+        "dá para corrigir um relatório já enviado",
+        "enviei o relatório sem marcar um objeto",
+        "como adicionar um asteroide depois de enviar",
+        "esqueci um objeto no relatório"
+      ]
+    },
+    {
+      "id": "DOC07-ERR-14",
+      "chunk_index": 14,
+      "importance": "medium",
+      "title": "Objeto se Move mas Não Aparece em Todas as Imagens",
+      "category": "erro_analise",
+      "source": "erros_frequentes",
+      "content": "Para um objeto ser catalogado como asteroide, ele precisa aparecer em pelo menos 3 das 4 imagens (além de se mover em linha reta, com velocidade e brilho constantes). Se um objeto se move mas não aparece em pelo menos 3 imagens, não o reporte — pode não ser um asteroide ou pode haver algum problema com as imagens. E nunca tente prever a posição de um objeto clicando numa área onde não há dados. Guia visual: https://caioruas24010.github.io/DocsCacaAsteroides/apoio/erros-frequentes/problemas-analise.",
+      "keywords": [
+        "não aparece em todas as imagens",
+        "3 de 4 imagens",
+        "objeto em movimento",
+        "critério de asteroide",
+        "quantas imagens",
+        "não reportar"
+      ],
+      "related_questions": [
+        "o objeto não aparece em todas as imagens",
+        "em quantas imagens o asteroide precisa aparecer",
+        "objeto aparece só em 2 imagens devo reportar",
+        "preciso ver o objeto nas 4 imagens",
+        "objeto se move mas some em uma imagem"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1112 @@
+{
+  "metadata": {
+    "document_id": "DOC-06",
+    "title": "Quick Start Guide — Astrometrica e Campanha IASC",
+    "description": "Guia técnico completo para uso do software Astrometrica nas campanhas do IASC/Caça Asteroides MCTI. Cobre instalação, configuração, análise de imagens, identificação de assinaturas, geração e envio de relatórios MPC, resolução de erros e glossário técnico.",
+    "source": "quickstartguide",
+    "version": "1.0",
+    "created_at": "2026-03-14",
+    "tags": [
+      "Astrometrica",
+      "instalação",
+      "image set",
+      "MPC",
+      "análise",
+      "assinaturas",
+      "relatório",
+      "IASC",
+      "guia técnico",
+      "Pan-STARRS"
+    ]
+  },
+  "chunks": [
+    {
+      "id": "DOC06-QSG-01",
+      "chunk_index": 1,
+      "importance": "high",
+      "title": "Dois Requisitos Fundamentais Antes de Começar",
+      "category": "preparacao",
+      "source": "quickstartguide",
+      "content": "Antes de iniciar qualquer campanha, o líder DEVE dominar exatamente duas habilidades: (a) usar o Astrometrica para conduzir uma busca manual — carregar imagens, executar Data Reduction, usar Blink Images e medir objetos em movimento; (b) distinguir entre uma assinatura verdadeira e uma falsa para objetos em movimento. Se você dominar essas duas tarefas, seus cientistas cidadãos conseguirão fazer medições importantes de objetos próximos à Terra e poderão detectar um asteroide do Cinturão Principal. Essas habilidades levam algumas horas para dominar — prepare-se ANTES de receber os pacotes de imagens da campanha. O erro mais comum de iniciantes é reportar falsas assinaturas como asteroides.",
+      "keywords": [
+        "requisitos fundamentais",
+        "busca manual",
+        "assinatura verdadeira",
+        "assinatura falsa",
+        "antes da campanha",
+        "habilidades",
+        "iniciantes",
+        "preparação"
+      ],
+      "related_questions": [
+        "o que preciso saber antes de começar",
+        "quais habilidades preciso aprender antes da campanha",
+        "o que preciso dominar no astrometrica",
+        "o que um iniciante precisa saber",
+        "quais são os requisitos antes de começar"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-02",
+      "chunk_index": 2,
+      "importance": "high",
+      "title": "Verificar Sistema Operacional e Acessar o Site do IASC",
+      "category": "preparacao",
+      "source": "quickstartguide",
+      "content": "Certifique-se de que o computador que será usado possui sistema operacional Windows. O Astrometrica funciona exclusivamente em Windows — não é compatível com macOS ou Linux. Pelo menos um integrante da equipe deve ter um computador Windows disponível. O portal central do programa é o site oficial do IASC: https://iasc.cosmosearch.org/. Por lá você: baixa o Astrometrica, acessa sua Team Page, faz download dos image sets, envia relatórios MPC e consulta o FAQ. Guarde este link — toda a operação da campanha acontece por este portal.",
+      "keywords": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "requisito",
+        "IASC",
+        "iasc.cosmosearch.org",
+        "portal",
+        "Team Page",
+        "sistema operacional"
+      ],
+      "related_questions": [
+        "o astrometrica funciona no mac",
+        "precisa ter windows para usar o programa",
+        "qual sistema operacional preciso",
+        "posso usar linux no caça asteroides",
+        "qual é o site do iasc"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-03",
+      "chunk_index": 3,
+      "importance": "high",
+      "title": "Download e Instalação do Astrometrica",
+      "category": "instalacao",
+      "source": "quickstartguide",
+      "content": "Para instalar o Astrometrica: (1) Acesse https://iasc.cosmosearch.org/ e clique em 'Astrometrica' no menu de navegação. (2) Na página do Astrometrica, clique em 'Astrometrica Setup' e faça o download do arquivo IASC-Astrometrica-Installer-v1.0.zip para a Área de Trabalho (Desktop). (3) Clique com o botão direito no arquivo .zip e escolha 'Extrair aqui'. Dentro da pasta extraída, dê duplo clique no arquivo Setup.exe para iniciar a instalação. Você verá dois arquivos: 'IASC Astrometrica Installer.msi' e 'setup.exe' — use o setup.exe. (4) Siga as instruções do assistente de instalação. Ao final, clique em 'Finish'. As opções 'Update MPCORB.dat' e 'Start Astrometrica' estarão marcadas por padrão — mantenha assim. Um ícone 'IASC Astrometrica' aparecerá na Área de Trabalho. Para ajuda adicional: https://iasc.cosmosearch.org/Home/FAQ",
+      "keywords": [
+        "download",
+        "instalar",
+        "Astrometrica",
+        "Setup.exe",
+        "IASC-Astrometrica-Installer-v1.0.zip",
+        "Desktop",
+        "Área de Trabalho",
+        "Finish",
+        "MPCORB",
+        "instalação"
+      ],
+      "related_questions": [
+        "como instalar o astrometrica",
+        "onde baixar o astrometrica",
+        "como fazer o download do programa",
+        "como instalar passo a passo",
+        "onde encontro o instalador"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-04",
+      "chunk_index": 4,
+      "importance": "high",
+      "title": "Registro do Astrometrica – License e Key",
+      "category": "instalacao",
+      "source": "quickstartguide",
+      "content": "Quando o Astrometrica abrir pela primeira vez, uma janela de confirmação aparecerá perguntando se deseja sobrescrever os arquivos MPCReport.txt, PhotReport.txt e Astrometrica.log — clique em 'Yes' para começar com um relatório limpo. Para uso ILIMITADO durante a campanha, registre o software: acesse Help > Registration e insira a License e Key. A License é 'IASC' e a Key é o código numérico enviado por e-mail aos grupos inscritos em uma campanha IASC. IMPORTANTE: a License e Key são enviadas por e-mail EXCLUSIVAMENTE a grupos de ciência cidadã participando ativamente de uma campanha. Sem registro, o Astrometrica pode ser usado em modo limitado por até 100 dias. Antes de prosseguir, revise os documentos: 'Instructions for Using Astrometrica' e 'Signature Guide'.",
+      "keywords": [
+        "registro",
+        "License",
+        "Key",
+        "Help",
+        "Registration",
+        "100 dias",
+        "IASC",
+        "e-mail credenciais",
+        "modo limitado",
+        "MPCReport.txt"
+      ],
+      "related_questions": [
+        "como registrar o astrometrica",
+        "onde coloco a license e key",
+        "o que é license e key do astrometrica",
+        "preciso registrar o software",
+        "onde encontro a chave do astrometrica"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-05",
+      "chunk_index": 5,
+      "importance": "high",
+      "title": "Configuração Inicial – Arquivo PS1.cfg / PS2.cfg",
+      "category": "configuracao",
+      "source": "quickstartguide",
+      "content": "Antes de analisar cada image set, verifique o arquivo de configuração ativo no Astrometrica — exibido no canto inferior direito da tela. Deve ser PS1.cfg ou PS2.cfg (PS = Pan-STARRS, o telescópio de onde vêm as imagens). Se o arquivo estiver errado, as coordenadas calculadas serão imprecisas e as medições inválidas. Para mudar: clique no ícone Settings (chave azul) na barra de ferramentas > clique 'Open' > selecione o arquivo correto na pasta Settings > clique 'OK'. Ao iniciar o Astrometrica, o software pode perguntar se deseja sobrescrever o relatório MPC: clique 'Yes' APENAS se você já completou e enviou o relatório da sessão anterior. Clique 'No' se ainda não terminou.",
+      "keywords": [
+        "PS1.cfg",
+        "PS2.cfg",
+        "configuração",
+        "Settings",
+        "Pan-STARRS",
+        "arquivo de configuração",
+        "calibração",
+        "canto direito",
+        "sobrescrever",
+        "relatório MPC"
+      ],
+      "related_questions": [
+        "o que é ps1.cfg",
+        "qual configuração usar no astrometrica",
+        "como mudar o arquivo cfg",
+        "como configurar o astrometrica",
+        "o que acontece se usar configuração errada"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-06",
+      "chunk_index": 6,
+      "importance": "medium",
+      "title": "Barra de Ferramentas do Astrometrica – Funções Principais",
+      "category": "software",
+      "source": "quickstartguide",
+      "content": "A barra de ferramentas do Astrometrica contém as seguintes funções principais (da esquerda para a direita): Settings (ícone de chave) — abre as configurações e permite trocar o arquivo .cfg. Load Images — carrega as imagens do image set. Data Reduction — calibra as imagens com estrelas de referência. View MPC Report — exibe o relatório MPC gerado. Stack Images — empilha as imagens para visualização combinada. Close all windows — fecha todas as janelas abertas. Known Object Overlay — marca objetos conhecidos com caixas vermelhas. Zoom in/out — amplia ou reduz a imagem. Blink Images — ativa o modo de alternância entre frames. Play blinker — inicia a reprodução automática do blinker. Forward/back one image — navega entre os frames. Stop blinker — para a alternância de imagens. Para imagens da barra de ferramentas anotada, acesse: https://iasc.cosmosearch.org/Home/Astrometrica",
+      "keywords": [
+        "barra de ferramentas",
+        "Settings",
+        "Load Images",
+        "Data Reduction",
+        "View MPC Report",
+        "Known Object Overlay",
+        "Blink Images",
+        "Stop blinker",
+        "Zoom",
+        "Forward",
+        "Back",
+        "Stack Images"
+      ],
+      "related_questions": [
+        "para que serve cada botão do astrometrica",
+        "o que faz o data reduction",
+        "o que é blink images",
+        "o que é known object overlay",
+        "como usar a barra de ferramentas"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-07",
+      "chunk_index": 7,
+      "importance": "high",
+      "title": "Download dos Image Sets pela Team Page do IASC",
+      "category": "download_imagens",
+      "source": "quickstartguide",
+      "content": "Os image sets (pacotes de imagens para analisar) ficam disponíveis na sua Team Page no site do IASC. Acesse https://iasc.cosmosearch.org/, faça login e navegue até sua página de equipe. Você verá uma lista de image sets disponíveis. Clique em 'Download' ao lado do image set desejado — o arquivo será baixado como .zip. Descompacte na Área de Trabalho ou em uma pasta organizada por campanha. Você verá 4 arquivos .fits — as 4 imagens do mesmo campo estelar, tiradas em intervalos de minutos pelo Pan-STARRS. No Astrometrica, clique em 'Load Images' na barra de ferramentas, navegue até a pasta, selecione todas as 4 imagens e clique 'Open'. Sempre carregue todas as 4 imagens do mesmo set juntas. Não misture imagens de sets diferentes.",
+      "keywords": [
+        "Team Page",
+        "image set",
+        "download",
+        "FITS",
+        "4 imagens",
+        "Load Images",
+        "Pan-STARRS",
+        "login",
+        "descompactar",
+        ".zip"
+      ],
+      "related_questions": [
+        "onde baixar os image sets",
+        "como baixar as imagens da campanha",
+        "onde ficam os dados para análise",
+        "como acessar os image sets",
+        "como carregar imagens no astrometrica"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-08",
+      "chunk_index": 8,
+      "importance": "high",
+      "title": "Data Reduction – Calibração das Imagens",
+      "category": "analise_imagens",
+      "source": "quickstartguide",
+      "content": "Com as imagens carregadas no Astrometrica, clique em 'Data Reduction' na barra de ferramentas e clique 'OK' na caixa que aparecer. Esta função identifica estrelas de referência nas imagens e calibra as coordenadas celestes (RA e Dec) para que as medições sejam precisas. O Data Reduction é obrigatório antes de qualquer análise visual — sem ele, as coordenadas medidas serão incorretas. ATENÇÃO: uma janela de erro 'Reference Star Match Error' pode aparecer. Se isso acontecer, NÃO entre em pânico — selecione 'Option 2: Automatic Reference Star Match' e clique OK. Esta opção resolve a maioria dos problemas automaticamente.",
+      "keywords": [
+        "Data Reduction",
+        "estrelas de referência",
+        "calibração",
+        "Reference Star Match Error",
+        "Option 2",
+        "Automatic",
+        "coordenadas",
+        "RA",
+        "Dec",
+        "obrigatório"
+      ],
+      "related_questions": [
+        "o que é data reduction",
+        "como calibrar as imagens",
+        "preciso rodar data reduction",
+        "deu erro reference star match error o que faço",
+        "como corrigir erro no data reduction"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-09",
+      "chunk_index": 9,
+      "importance": "high",
+      "title": "Known Object Overlay e Blink Images – Preparação para Varredura",
+      "category": "analise_imagens",
+      "source": "quickstartguide",
+      "content": "Após o Data Reduction, execute dois passos antes da varredura visual: (1) Clique em 'Known Object Overlay' na barra de ferramentas. Aguarde alguns minutos — o software consulta o banco de dados do MPC e marca todos os asteroides já conhecidos com um quadrado vermelho nas imagens. Seja paciente, este processo pode levar alguns minutos dependendo da conexão. Objetos com caixa vermelha JÁ são conhecidos. (2) Clique em 'Blink Images' para iniciar o modo de alternância entre as 4 imagens. Em seguida, use o zoom para ampliar a imagem — 2x de zoom é um bom ponto de partida. Agora as imagens alternam entre os 4 frames. Estrelas ficam fixas; asteroides aparecem como pontos que 'saltam' de posição.",
+      "keywords": [
+        "Known Object Overlay",
+        "Blink Images",
+        "caixa vermelha",
+        "zoom",
+        "piscar",
+        "frames",
+        "varredura",
+        "objetos conhecidos",
+        "MPC"
+      ],
+      "related_questions": [
+        "o que é blink images",
+        "como identificar asteroides nas imagens",
+        "o que é known object overlay",
+        "como ver objetos conhecidos",
+        "como preparar para análise das imagens"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-10",
+      "chunk_index": 10,
+      "importance": "high",
+      "title": "Varredura Visual – Grid Search Method",
+      "category": "analise_imagens",
+      "source": "quickstartguide",
+      "content": "Com o Blink Images ativo, faça a varredura visual sistemática das imagens em busca de objetos em movimento. Método recomendado: Grid Search — divida mentalmente a imagem em uma grade 4x4 e examine cada seção sistematicamente, da esquerda para a direita e de cima para baixo. Isso garante que nenhuma área seja deixada sem inspecionar. O que procurar: pontos luminosos que se MOVEM enquanto as estrelas ficam fixas. Use os botões Forward/Back para comparar as imagens manualmente quando necessário. Consulte sempre o Signature Guide para distinguir entre assinaturas verdadeiras (asteroides reais) e falsas (artefatos, pixels quentes, saturação, etc.).",
+      "keywords": [
+        "varredura visual",
+        "grid search",
+        "grade",
+        "4x4",
+        "sistemático",
+        "objetos em movimento",
+        "Blink Images",
+        "Forward",
+        "Back",
+        "Signature Guide"
+      ],
+      "related_questions": [
+        "como procurar asteroides nas imagens",
+        "como fazer grid search",
+        "como fazer a varredura das imagens",
+        "como encontrar objetos em movimento",
+        "qual método usar para análise"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-11",
+      "chunk_index": 11,
+      "importance": "high",
+      "title": "Medição de um Objeto Detectado – Passo a Passo Completo",
+      "category": "medicao_objetos",
+      "source": "quickstartguide",
+      "content": "Quando detectar um objeto em movimento: (1) Clique em 'Stop Blinker'. (2) Use Forward/Back para ir para a Imagem 1. (3) Centralize a mira sobre o objeto e clique nele. O Astrometrica mede posição (RA e Dec) e magnitude. (4) Clique no botão (...) ao lado de 'Object Designation' para verificar o banco de dados. Se dRA e dDec estiverem próximos de 0.00 (< 0.2) — objeto CONHECIDO: selecione-o na lista, clique OK, o nome aparece automaticamente na caixa Object Designation. NÃO altere o nome. Clique Accept. Se dRA e dDec forem maiores que 0.2 — objeto DESCONHECIDO / possível nova descoberta: clique Cancel. Na caixa Object Designation, digite um nome no formato 3 letras + 4 números (ex: CAC0001). Sem espaços ou caracteres especiais. Clique Accept. (5) Repita para as Imagens 2, 3 e 4. O mesmo objeto deve ser medido nos 4 frames.",
+      "keywords": [
+        "medir objeto",
+        "Stop Blinker",
+        "Object Designation",
+        "dRA",
+        "dDec",
+        "Accept",
+        "conhecido",
+        "desconhecido",
+        "3 letras 4 números",
+        "Imagem 1 2 3 4",
+        "Forward",
+        "Back"
+      ],
+      "related_questions": [
+        "como medir um asteroide",
+        "como registrar um objeto no astrometrica",
+        "o que é object designation",
+        "como medir um objeto passo a passo",
+        "como identificar objeto conhecido ou novo"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-12",
+      "chunk_index": 12,
+      "importance": "high",
+      "title": "Nomeação de Objeto Desconhecido – Possível Nova Descoberta",
+      "category": "medicao_objetos",
+      "source": "quickstartguide",
+      "content": "Quando um objeto medido não aparece na lista do banco de dados do MPC (dRA e dDec maiores que 0.2), é uma possível nova descoberta. Para nomear: use o formato obrigatório de 3 letras + 4 números. As 3 letras geralmente são as iniciais da sua equipe (ex: CAC para Caça Asteroides). Os 4 números são sequenciais dentro da campanha: primeiro objeto = 0001, segundo = 0002, etc. Exemplos corretos: CAC0001, CAC0002, BRA0001. REGRAS CRÍTICAS: o nome deve ser único durante toda a campanha; sem espaços; sem caracteres especiais; apenas letras e números. Após digitar o nome na caixa Object Designation, clique Accept. Repita para os 4 frames. Este objeto potencialmente novo será verificado pelo IASC e pelo MPC.",
+      "keywords": [
+        "nova descoberta",
+        "nome objeto",
+        "3 letras 4 números",
+        "Object Designation",
+        "CAC0001",
+        "iniciais",
+        "campanha",
+        "único",
+        "sem espaço",
+        "dRA",
+        "dDec"
+      ],
+      "related_questions": [
+        "como nomear um asteroide",
+        "como dar nome para objeto novo",
+        "qual formato do nome do asteroide",
+        "como identificar nova descoberta",
+        "como criar nome cac0001"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-13",
+      "chunk_index": 13,
+      "importance": "high",
+      "title": "Assinaturas Verdadeiras – Como Reconhecer um Asteroide Real",
+      "category": "assinaturas",
+      "source": "quickstartguide",
+      "content": "Para ser classificado como uma assinatura verdadeira (asteroide real), um objeto em movimento DEVE apresentar TODAS as três características: (1) MOVIMENTO EM LINHA RETA: o ponto deve deslocar-se em trajetória linear entre os 4 frames. Teste: posicione a borda de uma régua na tela ao longo do caminho — se o movimento não for reto, é falso. (2) VELOCIDADE CONSTANTE: o deslocamento entre frame 1→2, 2→3 e 3→4 deve ser aproximadamente igual. Acelerações ou decelerações bruscas indicam falsa assinatura. (3) MAGNITUDE CONSTANTE: o brilho (valor R) não deve variar mais de 1 unidade entre os 4 frames. Características visuais adicionais de asteroides reais: bordas arredondadas, mais escuro no centro, formato de ponto estelar (PSF normal). Exemplos visuais disponíveis no Signature Guide: https://iasc.cosmosearch.org/Home/Astrometrica",
+      "keywords": [
+        "assinatura verdadeira",
+        "true signature",
+        "asteroide real",
+        "linha reta",
+        "velocidade constante",
+        "magnitude constante",
+        "PSF",
+        "bordas arredondadas",
+        "teste régua",
+        "3 características"
+      ],
+      "related_questions": [
+        "como saber se é um asteroide real",
+        "o que é assinatura verdadeira",
+        "como identificar asteroide de verdade",
+        "como diferenciar asteroide de erro",
+        "quais características de um asteroide"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-14",
+      "chunk_index": 14,
+      "importance": "high",
+      "title": "Falsas Assinaturas – 9 Tipos que NÃO Devem ser Reportados",
+      "category": "assinaturas",
+      "source": "quickstartguide",
+      "content": "Os 9 principais tipos de falsas assinaturas que NÃO devem constar no relatório MPC: (1) Artefatos com aparência linear — movem em linha reta mas têm PSF anormal. (2) Artefatos genéricos — pixels quentes/raios cósmicos que aparecem em menos de 4 imagens. (3) Flutuação de magnitude — brilho varia mais de 1 unidade entre os frames. (4) Saturação — manchas de estrelas muito brilhantes; NUNCA reporte objetos saturados. (5) Efeito de borda de grid — aparente movimento na borda das seções do grid. (6) Traços de satélites/aviões — riscos alongados em uma única imagem. (7) Spikes de difração — raios de estrelas brilhantes. (8) Objetos conhecidos com caixa vermelha — já catalogados, não são novas descobertas. (9) Estruturas nebulosas ou côsmicas — não são asteroides. Consulte o Signature Guide para imagens ilustrativas de cada tipo.",
+      "keywords": [
+        "falsas assinaturas",
+        "false signature",
+        "artefatos",
+        "saturação",
+        "pixels quentes",
+        "satélites",
+        "difração",
+        "magnitude",
+        "NÃO reportar",
+        "9 tipos",
+        "Signature Guide"
+      ],
+      "related_questions": [
+        "o que são falsas assinaturas",
+        "quais erros não devo reportar",
+        "como evitar erro na análise",
+        "o que não é um asteroide",
+        "tipos de erros nas imagens"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-15",
+      "chunk_index": 15,
+      "importance": "high",
+      "title": "Geração do Relatório MPC no Astrometrica",
+      "category": "relatorio_mpc",
+      "source": "quickstartguide",
+      "content": "Após medir todos os objetos em um image set: (1) No Astrometrica, acesse File > View MPC Report File. O relatório completo é exibido em formato texto. (2) Selecione todo o conteúdo (Ctrl+A) e copie (Ctrl+C). O relatório inclui: código do observatório (COD), nomes dos observadores (OBS), equipamento (TEL), data de atualização (ACK), rede de catálogo (NET) e as linhas de medição com data/hora, RA, Dec e magnitude de cada objeto. (3) UM relatório por image set — se múltiplos integrantes analisaram o mesmo set, liste todos no mesmo relatório. (4) Após enviar, acesse File > Reset Files para limpar e preparar o software para o próximo image set.",
+      "keywords": [
+        "MPC Report",
+        "View MPC Report File",
+        "copiar relatório",
+        "COD",
+        "OBS",
+        "TEL",
+        "Ctrl+A",
+        "Ctrl+C",
+        "Reset Files",
+        "um relatório por image set",
+        "File"
+      ],
+      "related_questions": [
+        "como gerar o relatório mpc",
+        "onde ver o mpc report",
+        "como copiar o relatório do astrometrica",
+        "como criar o relatório da análise",
+        "como preparar o relatório para envio"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-16",
+      "chunk_index": 16,
+      "importance": "high",
+      "title": "Relatório MPC sem Objetos Detectados",
+      "category": "relatorio_mpc",
+      "source": "quickstartguide",
+      "content": "Mesmo quando nenhum objeto em movimento é encontrado, um relatório MPC DEVE ser enviado para cada image set analisado. Procedimento: (1) Clique em qualquer estrela na imagem e faça uma medição. Atribua a designação genérica 'xxx0000'. Isso gera o cabeçalho completo do relatório (COD, OBS, TEL, ACK, NET). (2) Acesse File > View MPC Report e copie o relatório. (3) No site do IASC, ao colar o relatório no campo de envio, delete a linha de medição da estrela (xxx0000) e adicione: 'No moving objects detected'. (4) O relatório deve terminar com: ----- end -----. Este procedimento é obrigatório — dados negativos também são cientificamente valiosos.",
+      "keywords": [
+        "sem objetos",
+        "No moving objects detected",
+        "xxx0000",
+        "relatório vazio",
+        "cabeçalho",
+        "obrigatório",
+        "dados negativos",
+        "end",
+        "COD",
+        "OBS"
+      ],
+      "related_questions": [
+        "o que fazer se não encontrar nada",
+        "preciso enviar relatório sem detecção",
+        "como fazer relatório vazio",
+        "o que é no moving objects detected",
+        "posso não enviar relatório"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-17",
+      "chunk_index": 17,
+      "importance": "high",
+      "title": "Envio do Relatório pela Team Page do IASC – Passo a Passo",
+      "category": "envio_relatorio",
+      "source": "quickstartguide",
+      "content": "Para enviar o relatório MPC pelo site do IASC: (1) Acesse https://iasc.cosmosearch.org/ e faça login na sua conta. Navegue até a Team Page. (2) Na seção 'Submit an MPC Report', use o dropdown 'Select an Image Set' para escolher o image set correto. (3) Adicione os cientistas cidadãos: clique em 'Add Citizen Scientist' para cada integrante que analisou o image set. (4) No campo 'MPC Report', cole (Ctrl+V) o relatório copiado do Astrometrica. NÃO altere a linha MEA. NÃO adicione a linha Image Set. NÃO modifique as linhas de medição. (5) Clique em 'Submit Report'. REGRA CRÍTICA: os relatórios MPC devem ser enviados SOMENTE pela Team Page do IASC. Nunca por e-mail ou outro canal.",
+      "keywords": [
+        "Submit Report",
+        "Team Page",
+        "IASC",
+        "MPC Report",
+        "Add Citizen Scientist",
+        "Select Image Set",
+        "colar relatório",
+        "NÃO altere",
+        "somente Team Page",
+        "Ctrl+V"
+      ],
+      "related_questions": [
+        "como enviar o relatório no iasc",
+        "onde envio o mpc report",
+        "posso enviar relatório por email",
+        "como usar a team page para envio",
+        "como funciona submit report"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-18",
+      "chunk_index": 18,
+      "importance": "high",
+      "title": "Erros Comuns e Como Resolver",
+      "category": "resolucao_problemas",
+      "source": "quickstartguide",
+      "content": "Erros mais frequentes e soluções: (1) Reference Star Match Error no Data Reduction: selecione Option 2 (Automatic Reference Star Match) e clique OK. (2) Arquivo de configuração errado: verifique o canto inferior direito — deve ser PS1.cfg ou PS2.cfg. Mude em Settings > Open. (3) Relatório MPC sobrescrito acidentalmente: sempre responda 'No' quando não tiver certeza de que o relatório anterior foi enviado. (4) Nome de objeto inválido: use exatamente 3 letras + 4 números, sem espaços ou caracteres especiais. (5) Envio de falsa assinatura: revise sempre o Signature Guide antes de confirmar uma medição. (6) Esqueceu de medir o objeto nos 4 frames: a medição só é válida com os 4 frames — refaça. (7) Problemas gerais: acesse https://iasc.cosmosearch.org/Home/FAQ ou contate os Trainers do IASC.",
+      "keywords": [
+        "erros",
+        "Reference Star Match",
+        "Option 2",
+        "PS1.cfg",
+        "nome inválido",
+        "falsa assinatura",
+        "4 frames",
+        "FAQ",
+        "Trainers",
+        "resolver problemas"
+      ],
+      "related_questions": [
+        "quais são os erros mais comuns",
+        "como resolver problemas no astrometrica",
+        "deu erro no programa o que faço",
+        "como corrigir erros na análise",
+        "problemas comuns e soluções"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-19",
+      "chunk_index": 19,
+      "importance": "high",
+      "title": "Preparação do Líder – O Que Dominar Antes da Campanha",
+      "category": "preparacao_lider",
+      "source": "quickstartguide",
+      "content": "O sucesso da equipe depende diretamente da preparação do líder. Antes de receber os image sets da campanha, o líder DEVE dominar duas habilidades fundamentais: (1) BUSCA MANUAL no Astrometrica: carregar imagens, executar Data Reduction e Known Object Overlay, usar Blink Images, detectar objetos em movimento, medir nas 4 imagens, gerar e enviar o relatório MPC. (2) DISTINGUIR ASSINATURAS VERDADEIRAS DE FALSAS: conhecer os 9 tipos de falsas assinaturas e as 3 características obrigatórias de uma assinatura verdadeira (linha reta + velocidade constante + magnitude constante). Materiais obrigatórios: 'Instructions for Using Astrometrica' e 'Revised Signature Guide'. Tempo estimado para dominar: algumas horas de prática. Após dominar, o líder deve treinar os demais integrantes da equipe.",
+      "keywords": [
+        "líder",
+        "preparação",
+        "habilidades",
+        "busca manual",
+        "assinaturas verdadeiras",
+        "assinaturas falsas",
+        "treinamento",
+        "antes da campanha",
+        "Instructions",
+        "Signature Guide"
+      ],
+      "related_questions": [
+        "o que o líder precisa saber antes da campanha",
+        "como se preparar para liderar a equipe",
+        "o que estudar antes de começar",
+        "como treinar a equipe",
+        "qual o papel do líder na análise"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-20",
+      "chunk_index": 20,
+      "importance": "high",
+      "title": "Fluxo Completo de Trabalho de uma Campanha IASC",
+      "category": "fluxo_completo",
+      "source": "quickstartguide",
+      "content": "Fluxo completo de trabalho de uma campanha de busca de asteroides: PASSO 1 — Instalar e registrar o Astrometrica (site: iasc.cosmosearch.org, License e Key por e-mail). PASSO 2 — Verificar o arquivo de configuração (PS1.cfg ou PS2.cfg). PASSO 3 — Fazer login no IASC e acessar a Team Page. PASSO 4 — Baixar o image set (4 imagens .fits), descompactar. PASSO 5 — No Astrometrica: Load Images, Data Reduction, Known Object Overlay, Blink Images com zoom 2x. PASSO 6 — Varredura visual sistemática (Grid Search) em busca de objetos em movimento. PASSO 7 — Para cada objeto detectado: Stop Blinker > Imagem 1 > clicar no objeto > verificar Object Designation > Accept (4 vezes, uma por imagem). PASSO 8 — File > View MPC Report > Copiar (Ctrl+A, Ctrl+C). PASSO 9 — No site IASC, Team Page: selecionar image set > adicionar scientists > colar MPC report > Submit Report. PASSO 10 — File > Reset Files para próximo image set.",
+      "keywords": [
+        "fluxo completo",
+        "workflow",
+        "passo a passo",
+        "campanha",
+        "instalar",
+        "download",
+        "análise",
+        "medir",
+        "relatório",
+        "enviar",
+        "Reset Files",
+        "processo completo"
+      ],
+      "related_questions": [
+        "qual o passo a passo completo da análise",
+        "como funciona o fluxo da campanha",
+        "o que fazer depois de baixar as imagens",
+        "como é o processo completo",
+        "passo a passo do início ao envio"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-21",
+      "chunk_index": 21,
+      "importance": "high",
+      "title": "Astrometrica",
+      "category": "glossario",
+      "source": "quickstartguide",
+      "content": "Astrometrica é um software científico gratuito para Windows usado para medir posições de asteroides em imagens astronômicas.",
+      "keywords": [
+        "astrometrica",
+        "software",
+        "asteroides"
+      ],
+      "related_questions": [
+        "o que é astrometrica",
+        "para que serve o astrometrica",
+        "como funciona o astrometrica"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-22",
+      "chunk_index": 22,
+      "importance": "high",
+      "title": "Image Set",
+      "category": "glossario",
+      "source": "quickstartguide",
+      "content": "Image Set é um conjunto de 4 imagens .fits do mesmo campo estelar capturadas em intervalos de minutos para análise.",
+      "keywords": [
+        "image set",
+        "imagens",
+        "fits"
+      ],
+      "related_questions": [
+        "o que é image set",
+        "quantas imagens tem um image set",
+        "o que são os conjuntos de imagens"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-23",
+      "chunk_index": 23,
+      "importance": "high",
+      "title": "Blink Images (Blinking)",
+      "category": "glossario",
+      "source": "quickstartguide",
+      "content": "Blink Images é a técnica de alternar rapidamente entre imagens para identificar objetos em movimento, como asteroides.",
+      "keywords": [
+        "blink images",
+        "blink",
+        "movimento"
+      ],
+      "related_questions": [
+        "o que é blink images",
+        "o que é blink comparison",
+        "como funciona o blink images"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-24",
+      "chunk_index": 24,
+      "importance": "medium",
+      "title": "True Signature",
+      "category": "glossario",
+      "source": "quickstartguide",
+      "content": "True Signature é um objeto real que apresenta movimento em linha reta, velocidade constante e magnitude constante.",
+      "keywords": [
+        "true signature",
+        "asteroide"
+      ],
+      "related_questions": [
+        "o que é true signature",
+        "como identificar um asteroide real"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-25",
+      "chunk_index": 25,
+      "importance": "medium",
+      "title": "False Signature",
+      "category": "glossario",
+      "source": "quickstartguide",
+      "content": "False Signature é um artefato que parece um asteroide mas não deve ser reportado.",
+      "keywords": [
+        "false signature",
+        "erro"
+      ],
+      "related_questions": [
+        "o que é false signature",
+        "o que é falsa assinatura",
+        "como identificar erro nas imagens"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-26",
+      "chunk_index": 26,
+      "importance": "medium",
+      "title": "Data Reduction",
+      "category": "glossario",
+      "source": "quickstartguide",
+      "content": "Data Reduction é o processo de calibração das imagens usando estrelas de referência.",
+      "keywords": [
+        "data reduction",
+        "calibração"
+      ],
+      "related_questions": [
+        "o que é data reduction",
+        "como funciona data reduction"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-27",
+      "chunk_index": 27,
+      "importance": "medium",
+      "title": "Known Object Overlay",
+      "category": "glossario",
+      "source": "quickstartguide",
+      "content": "Known Object Overlay é a funcionalidade que marca asteroides já conhecidos com uma caixa vermelha.",
+      "keywords": [
+        "known object",
+        "overlay"
+      ],
+      "related_questions": [
+        "o que é known object overlay",
+        "o que significa caixa vermelha no astrometrica"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-28",
+      "chunk_index": 28,
+      "importance": "high",
+      "title": "MPC Report",
+      "category": "glossario",
+      "source": "quickstartguide",
+      "content": "MPC Report é o relatório gerado pelo Astrometrica para envio ao Minor Planet Center.",
+      "keywords": [
+        "mpc report",
+        "relatório"
+      ],
+      "related_questions": [
+        "o que é mpc report",
+        "o que é relatório mpc",
+        "como funciona o relatório mpc"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-29",
+      "chunk_index": 29,
+      "importance": "high",
+      "title": "Team Page",
+      "category": "glossario",
+      "source": "quickstartguide",
+      "content": "Team Page é a página da equipe no IASC usada para baixar image sets e enviar relatórios.",
+      "keywords": [
+        "team page",
+        "iasc"
+      ],
+      "related_questions": [
+        "o que é team page",
+        "para que serve team page",
+        "onde enviar relatório no iasc"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-30",
+      "chunk_index": 30,
+      "importance": "high",
+      "title": "Reset Files",
+      "category": "glossario",
+      "source": "quickstartguide",
+      "content": "Reset Files limpa o relatório atual no Astrometrica para iniciar uma nova sessão de análise.",
+      "keywords": [
+        "reset files"
+      ],
+      "related_questions": [
+        "o que é reset files",
+        "para que serve reset files",
+        "quando usar reset files"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-31",
+      "chunk_index": 31,
+      "importance": "medium",
+      "title": "Object Designation",
+      "category": "glossario",
+      "source": "quickstartguide",
+      "content": "Object Designation é o campo usado para identificar um objeto medido, podendo ser automático ou manual.",
+      "keywords": [
+        "object designation"
+      ],
+      "related_questions": [
+        "o que é object designation",
+        "como identificar objeto no astrometrica"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-32",
+      "chunk_index": 32,
+      "importance": "medium",
+      "title": "Pan-STARRS",
+      "category": "glossario",
+      "source": "quickstartguide",
+      "content": "Pan-STARRS é o telescópio responsável por capturar as imagens utilizadas nas campanhas.",
+      "keywords": [
+        "pan-starrs"
+      ],
+      "related_questions": [
+        "o que é pan starrs",
+        "de onde vêm as imagens"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-33",
+      "chunk_index": 33,
+      "importance": "low",
+      "title": "PSF",
+      "category": "glossario",
+      "source": "quickstartguide",
+      "content": "PSF é o perfil de brilho de um objeto; asteroides reais apresentam um padrão específico.",
+      "keywords": [
+        "psf"
+      ],
+      "related_questions": [
+        "o que é psf",
+        "como identificar psf"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-34",
+      "chunk_index": 34,
+      "importance": "low",
+      "title": "FITS",
+      "category": "glossario",
+      "source": "quickstartguide",
+      "content": "FITS é o formato padrão de imagem astronômica utilizado nas campanhas.",
+      "keywords": [
+        "fits"
+      ],
+      "related_questions": [
+        "o que é fits",
+        "formato das imagens"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-35",
+      "chunk_index": 35,
+      "importance": "low",
+      "title": "Grid Search",
+      "category": "glossario",
+      "source": "quickstartguide",
+      "content": "Grid Search é um método de análise que divide a imagem em uma grade para facilitar a varredura.",
+      "keywords": [
+        "grid search"
+      ],
+      "related_questions": [
+        "o que é grid search",
+        "como analisar imagens em grade"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-36",
+      "chunk_index": 36,
+      "importance": "low",
+      "title": "Centroid",
+      "category": "glossario",
+      "source": "quickstartguide",
+      "content": "Centroid é a função que centraliza automaticamente o cursor no objeto detectado.",
+      "keywords": [
+        "centroid"
+      ],
+      "related_questions": [
+        "o que é centroid",
+        "como centralizar objeto automaticamente"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-37",
+      "chunk_index": 37,
+      "importance": "high",
+      "title": "Erro Reference Star Match Error",
+      "category": "faq",
+      "source": "quickstartguide",
+      "content": "Se aparecer o erro Reference Star Match Error no Astrometrica, selecione a Option 2 (Automatic Reference Star Match) e clique em OK para corrigir automaticamente.",
+      "keywords": [
+        "erro",
+        "reference star match error",
+        "astrometrica",
+        "problema",
+        "correção"
+      ],
+      "related_questions": [
+        "o que fazer se der reference star match error",
+        "reference star match error como resolver",
+        "erro no astrometrica reference star match",
+        "como corrigir erro no astrometrica",
+        "erro de estrela de referência o que fazer"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-38",
+      "chunk_index": 38,
+      "importance": "high",
+      "title": "Envio de Relatório MPC",
+      "category": "faq",
+      "source": "quickstartguide",
+      "content": "Os relatórios MPC NÃO devem ser enviados por e-mail. Eles devem ser enviados exclusivamente pela Team Page do IASC.",
+      "keywords": [
+        "relatório MPC",
+        "envio",
+        "email",
+        "team page"
+      ],
+      "related_questions": [
+        "posso enviar relatório por email",
+        "como enviar o relatório mpc",
+        "onde enviar o relatório",
+        "relatório mpc email pode",
+        "como submeter relatório no iasc"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-39",
+      "chunk_index": 39,
+      "importance": "high",
+      "title": "Reset Files no Astrometrica",
+      "category": "faq",
+      "source": "quickstartguide",
+      "content": "Reset Files no Astrometrica limpa o relatório atual. Deve ser usado após enviar um relatório, antes de iniciar a análise de um novo image set.",
+      "keywords": [
+        "reset files",
+        "limpar relatório",
+        "astrometrica"
+      ],
+      "related_questions": [
+        "o que é reset files",
+        "para que serve reset files",
+        "quando usar reset files",
+        "reset files astrometrica o que é",
+        "reset files limpa o que",
+        "preciso usar reset files depois do relatório"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-40",
+      "chunk_index": 40,
+      "importance": "high",
+      "title": "Falsas Assinaturas de Asteroides",
+      "category": "faq",
+      "source": "quickstartguide",
+      "content": "Falsas assinaturas são objetos que parecem asteroides mas não são, como pixels quentes, saturação, variações de brilho, spikes de difração ou rastros de satélites. Um asteroide real sempre apresenta movimento em linha reta, velocidade constante e magnitude constante.",
+      "keywords": [
+        "falsas assinaturas",
+        "erro",
+        "asteroide",
+        "imagem"
+      ],
+      "related_questions": [
+        "o que são falsas assinaturas",
+        "como identificar falso asteroide",
+        "o que não é um asteroide",
+        "como diferenciar asteroide de erro",
+        "tipos de erro nas imagens"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-41",
+      "chunk_index": 41,
+      "importance": "medium",
+      "title": "Medição nas 4 Imagens",
+      "category": "faq",
+      "source": "quickstartguide",
+      "content": "Cada objeto deve ser medido nas 4 imagens do image set, sempre na mesma ordem, para garantir consistência na análise.",
+      "keywords": [
+        "medição",
+        "4 imagens",
+        "astrometrica"
+      ],
+      "related_questions": [
+        "preciso medir nas 4 imagens",
+        "quantas imagens medir",
+        "como medir objeto no astrometrica",
+        "é obrigatório medir nas 4 imagens"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-42",
+      "chunk_index": 42,
+      "importance": "medium",
+      "title": "Objetos Conhecidos no Relatório",
+      "category": "faq",
+      "source": "quickstartguide",
+      "content": "Objetos conhecidos também podem ser incluídos no relatório. Eles ajudam no monitoramento de asteroides próximos da Terra.",
+      "keywords": [
+        "objetos conhecidos",
+        "relatório",
+        "NEO"
+      ],
+      "related_questions": [
+        "posso incluir objetos conhecidos",
+        "preciso reportar asteroides conhecidos",
+        "objetos conhecidos entram no relatório",
+        "posso enviar objeto já conhecido"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-43",
+      "chunk_index": 43,
+      "importance": "medium",
+      "title": "Pan-STARRS e Origem das Imagens",
+      "category": "faq",
+      "source": "quickstartguide",
+      "content": "O Pan-STARRS é o telescópio localizado no Havaí responsável por capturar as imagens utilizadas nas campanhas. Por isso, os arquivos de configuração são PS1.cfg ou PS2.cfg.",
+      "keywords": [
+        "pan-starrs",
+        "telescópio",
+        "imagens"
+      ],
+      "related_questions": [
+        "o que é pan starrs",
+        "de onde vêm as imagens",
+        "qual telescópio gera as imagens",
+        "por que ps1 cfg"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-44",
+      "chunk_index": 44,
+      "importance": "medium",
+      "title": "Onde Encontrar Ajuda Técnica",
+      "category": "faq",
+      "source": "quickstartguide",
+      "content": "Dúvidas técnicas podem ser resolvidas no FAQ oficial do IASC disponível em https://iasc.cosmosearch.org/Home/FAQ.",
+      "keywords": [
+        "ajuda",
+        "faq",
+        "suporte técnico"
+      ],
+      "related_questions": [
+        "onde tirar dúvidas técnicas",
+        "onde pedir ajuda técnica durante a campanha",
+        "como resolver dúvidas no astrometrica",
+        "onde encontrar ajuda no iasc"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-45",
+      "chunk_index": 45,
+      "importance": "high",
+      "title": "Configuração Detalhada – Catálogo de Estrelas, Banda de Cor e Select Markings",
+      "category": "configuracao",
+      "source": "quickstartguide",
+      "content": "Além de selecionar o arquivo PS1.cfg ou PS2.cfg, na primeira vez que abrir o Astrometrica configure também: clique no primeiro ícone da barra (Edit Program Settings) e, na aba 'Program', selecione em 'Star Catalog' a opção 'Gaia DR1'; na aba 'CCD', em 'Color Band', selecione 'Gaia Broadband (G)'. Em seguida, clique no oitavo ícone da barra ('Select Markings') e ajuste as opções de marcação conforme recomendado, clicando OK ao final. Esses ajustes garantem que a calibração e as medições funcionem corretamente. Há um vídeo oficial passo a passo da instalação e configuração no YouTube: https://www.youtube.com/watch?v=NFQ8b3Fnf0Y. Guia visual escrito: https://caioruas24010.github.io/DocsCacaAsteroides/comecando/configuracoes.",
+      "keywords": [
+        "star catalog",
+        "Gaia DR1",
+        "color band",
+        "Gaia Broadband",
+        "select markings",
+        "configuração",
+        "aba Program",
+        "aba CCD",
+        "edit program settings",
+        "vídeo de instalação"
+      ],
+      "related_questions": [
+        "qual catálogo de estrelas selecionar no astrometrica",
+        "o que colocar em star catalog",
+        "qual color band usar no astrometrica",
+        "como configurar o select markings",
+        "tem vídeo de como configurar o astrometrica"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-46",
+      "chunk_index": 46,
+      "importance": "high",
+      "title": "Atenção ao Copiar o Relatório – Nunca Clique em Send",
+      "category": "envio_relatorio",
+      "source": "quickstartguide",
+      "content": "Ao gerar o relatório no Astrometrica (ícone Report ou File > View MPC Report), NUNCA clique no botão 'Send' dentro do software — apenas copie todo o texto do relatório e cole no campo de envio da Team Page do IASC. O envio é sempre feito pelo site, nunca pelo botão Send do Astrometrica. Ao preencher os participantes que colaboraram na análise, escreva o nome completo de cada um com as iniciais maiúsculas (por exemplo, 'Fulano da Silva Sauro'). Guia visual: https://caioruas24010.github.io/DocsCacaAsteroides/tutorial-pratico/enviar-relatorio.",
+      "keywords": [
+        "não clique em send",
+        "botão send",
+        "copiar relatório",
+        "colar relatório",
+        "team page",
+        "nome completo participante",
+        "iniciais maiúsculas",
+        "envio do relatório"
+      ],
+      "related_questions": [
+        "posso clicar em send no astrometrica",
+        "como copio o relatório para o site",
+        "preciso clicar em send para enviar",
+        "como escrevo o nome dos participantes",
+        "qual o jeito certo de enviar o relatório"
+      ]
+    },
+    {
+      "id": "DOC06-QSG-47",
+      "chunk_index": 47,
+      "importance": "medium",
+      "title": "Disponibilização das Imagens em Lotes ao Longo da Campanha",
+      "category": "download_imagens",
+      "source": "quickstartguide",
+      "content": "As imagens não são liberadas todas de uma vez. No início da campanha, apenas o image set de prática fica disponível na Team Page. Os image sets reais são liberados em lotes ao longo do mês, conforme o cronograma e a depender da velocidade com que a equipe envia o relatório do image set de prática. Dica: crie pastas organizadas por campanha e por etapa para não misturar os pacotes de imagens. Guia visual: https://caioruas24010.github.io/DocsCacaAsteroides/tutorial-pratico/abrir-imagens.",
+      "keywords": [
+        "imagens em lotes",
+        "image set de prática",
+        "liberação das imagens",
+        "quando saem as imagens",
+        "cronograma",
+        "relatório de prática",
+        "organizar pastas"
+      ],
+      "related_questions": [
+        "por que só tem a imagem de prática disponível",
+        "quando as imagens reais ficam disponíveis",
+        "as imagens saem todas de uma vez",
+        "preciso enviar a prática para liberar as imagens",
+        "como são liberados os pacotes de imagens"
+      ]
+    }
+  ]
+}

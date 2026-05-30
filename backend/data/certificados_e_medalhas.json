@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "document_id": "DOC-03",
+    "title": "Certificados e Medalhas — Caça Asteroides MCTI 2026",
+    "description": "Explica de forma completa como funcionam os certificados digitais e as medalhas do programa, incluindo critérios, como solicitar, diferenças entre os dois reconhecimentos e cuidados importantes.",
+    "source": "certificados_e_medalhas",
+    "version": "1.0",
+    "created_at": "2026-03-17",
+    "tags": ["certificado", "medalha", "reconhecimento", "cerimônia", "detecção", "relatório", "premiação"]
+  },
+
+  "chunks": [
+
+    {
+      "id": "DOC03-CMD-01",
+      "chunk_index": 1,
+      "importance": "high",
+      "title": "Visão Geral — Certificado e Medalha: Qual a Diferença?",
+      "category": "visao_geral",
+      "source": "certificados_e_medalhas",
+      "content": "O Caça Asteroides MCTI oferece dois tipos de reconhecimento aos participantes: o certificado digital e a medalha física. São reconhecimentos distintos, com critérios e processos diferentes. O certificado digital é para todos os participantes que enviarem os relatórios corretamente ao IASC ao fim da campanha — independentemente de terem feito ou não uma detecção. Já a medalha física é um reconhecimento especial, entregue em cerimônia presencial organizada pela Comissão Organizadora do Caça Asteroides MCTI, destinada às equipes que tiveram ao menos uma detecção confirmada E enviaram os relatórios corretamente.",
+      "keywords": ["certificado", "medalha", "diferença", "digital", "física", "reconhecimento", "critérios", "detecção", "relatório", "visão geral"],
+      "related_questions": [
+        "qual a diferença entre certificado e medalha",
+        "certificado e medalha são a mesma coisa",
+        "todo mundo ganha medalha ou só certificado",
+        "o que ganha quem participa do caça asteroides",
+        "qual a diferença entre certificado digital e medalha física"
+      ]
+    },
+
+    {
+      "id": "DOC03-CMD-02",
+      "chunk_index": 2,
+      "importance": "high",
+      "title": "Certificado Digital — O que é e Quem Tem Direito",
+      "category": "certificado",
+      "source": "certificados_e_medalhas",
+      "content": "O certificado digital é o reconhecimento oficial de participação no Caça Asteroides MCTI. Têm direito ao certificado todos os participantes que enviaram corretamente os relatórios MPC ao IASC ao final da campanha em que participaram. Não é necessário ter feito uma detecção de asteroide para receber o certificado — basta ter participado ativamente da análise dos image sets e ter os relatórios enviados corretamente. O certificado é emitido em formato digital e é válido como comprovante de participação em um programa oficial do governo federal brasileiro (MCTI) em parceria com a NASA (via IASC).",
+      "keywords": ["certificado digital", "quem tem direito", "participação", "relatórios corretos", "IASC", "MCTI", "NASA", "todos participantes", "comprovante", "governo federal"],
+      "related_questions": [
+        "todo mundo ganha certificado",
+        "quem pode receber o certificado",
+        "precisa detectar asteroide para ganhar certificado",
+        "o certificado é para todos os participantes",
+        "quem tem direito ao certificado do caça asteroides"
+      ]
+    },
+
+    {
+      "id": "DOC03-CMD-03",
+      "chunk_index": 3,
+      "importance": "high",
+      "title": "Certificado Digital — Como Solicitar",
+      "category": "certificado",
+      "source": "certificados_e_medalhas",
+      "content": "O certificado digital é disponibilizado ao final de cada edição da campanha. A solicitação é feita diretamente na plataforma do IASC (https://iasc.cosmosearch.org/). Cabe ao líder da equipe identificar, ao término da campanha, quais integrantes efetivamente participaram das análises, para que apenas esses tenham direito de solicitar o certificado. O líder deve ter feito essa identificação corretamente durante a campanha para garantir que os participantes ativos sejam reconhecidos.",
+      "keywords": ["como solicitar certificado", "plataforma IASC", "iasc.cosmosearch.org", "fim da campanha", "líder identifica", "integrantes ativos", "solicitar", "processo"],
+      "related_questions": [
+        "como faço para pegar o certificado",
+        "onde solicito o certificado",
+        "como baixar o certificado do caça asteroides",
+        "onde pego o certificado no iasc",
+        "como funciona a solicitação do certificado"
+      ]
+    },
+
+    {
+      "id": "DOC03-CMD-04",
+      "chunk_index": 4,
+      "importance": "high",
+      "title": "Certificado Digital — Atenção ao Nome Cadastrado",
+      "category": "certificado",
+      "source": "certificados_e_medalhas",
+      "content": "O nome que aparece no certificado é exatamente o nome cadastrado pelo líder no formulário de inscrição. Por isso, é fundamental que todos os nomes sejam preenchidos de forma completa e correta, sem abreviações, no momento da inscrição. A Comissão Organizadora do Caça Asteroides MCTI não emite novos certificados em caso de erros ou abreviações nos nomes fornecidos no ato da inscrição. O IASC também não se responsabiliza por certificados com nomes preenchidos incorretamente. Atenção redobrada nesse ponto: uma vez inscrito com nome errado, não há como corrigir.",
+      "keywords": ["nome no certificado", "nome completo", "sem abreviações", "erro de nome", "não corrige", "inscrição", "cuidado", "atenção", "preenchimento correto"],
+      "related_questions": [
+        "posso corrigir meu nome no certificado",
+        "errei meu nome na inscrição o que acontece",
+        "tem como alterar o nome no certificado",
+        "o nome do certificado pode ser corrigido",
+        "o que acontece se eu colocar o nome errado"
+      ]
+    },
+
+    {
+      "id": "DOC03-CMD-05",
+      "chunk_index": 5,
+      "importance": "medium",
+      "title": "Medalha — O que é e o que Representa",
+      "category": "medalha",
+      "source": "certificados_e_medalhas",
+      "content": "A medalha é o reconhecimento mais especial do programa Caça Asteroides MCTI. Ela é uma medalha física, entregue pessoalmente em uma cerimônia presencial organizada pela Comissão Organizadora do Caça Asteroides MCTI. Receber uma medalha significa que a equipe foi além da participação: ela contribuiu com dados científicos reais e relevantes, detectando e reportando corretamente pelo menos um asteroide durante a campanha. É um reconhecimento que celebra a contribuição efetiva da equipe para a ciência cidadã e para o banco de dados astronômico internacional.",
+      "keywords": ["medalha", "o que é", "reconhecimento especial", "física", "cerimônia", "contribuição científica", "asteroide detectado", "celebração", "ciência cidadã"],
+      "related_questions": [
+        "o que é a medalha do caça asteroides",
+        "o que significa ganhar a medalha",
+        "pra que serve a medalha",
+        "o que representa a medalha do programa",
+        "qual o significado da medalha"
+      ]
+    },
+
+    {
+      "id": "DOC03-CMD-06",
+      "chunk_index": 6,
+      "importance": "high",
+      "title": "Medalha — Critério para Receber",
+      "category": "medalha",
+      "source": "certificados_e_medalhas",
+      "content": "Para ter direito à medalha, a equipe precisa cumprir obrigatoriamente dois critérios: (1) Ter realizado ao menos uma detecção confirmada de asteroide durante a campanha — ou seja, identificar um objeto em movimento real nos image sets e reportá-lo corretamente; (2) Ter enviado os relatórios MPC corretamente ao IASC. Não basta apenas ter feito uma detecção — os relatórios precisam estar corretos e ter sido enviados dentro do prazo pela Team Page do IASC. Equipes que não cumprirem ambos os critérios não receberão a medalha, mas ainda podem receber o certificado digital se tiverem enviado os relatórios.",
+      "keywords": ["critério medalha", "ao menos uma detecção", "relatórios corretos", "dois critérios", "detecção confirmada", "prazo", "Team Page", "IASC", "condição"],
+      "related_questions": [
+        "o que precisa para ganhar a medalha",
+        "quais são os critérios para receber a medalha",
+        "precisa detectar asteroide para ganhar medalha",
+        "o que é necessário para ganhar medalha",
+        "como faço para ganhar a medalha"
+      ]
+    },
+
+    {
+      "id": "DOC03-CMD-07",
+      "chunk_index": 7,
+      "importance": "medium",
+      "title": "Medalha — A Cerimônia de Entrega",
+      "category": "medalha",
+      "source": "certificados_e_medalhas",
+      "content": "A entrega das medalhas é realizada em uma cerimônia presencial organizada pela Comissão Organizadora do Caça Asteroides MCTI. A cerimônia celebra as equipes que alcançaram o critério mínimo de pelo menos uma detecção e envio correto dos relatórios. As datas e local da cerimônia são definidos e comunicados pela Comissão Organizadora. Para ficar por dentro dos anúncios sobre a cerimônia, acompanhe o Instagram oficial @cacaasteroidemcti e o canal do YouTube https://www.youtube.com/@cacaasteroidesmcti3770, onde informações e novidades do programa são divulgadas regularmente.",
+      "keywords": ["cerimônia", "entrega medalha", "presencial", "Comissão Organizadora", "data cerimônia", "local", "anúncio", "Instagram", "YouTube", "celebração"],
+      "related_questions": [
+        "como é a entrega da medalha",
+        "a medalha é enviada pelo correio",
+        "onde acontece a cerimônia da medalha",
+        "quando é a cerimônia da medalha",
+        "como recebo a medalha do programa"
+      ]
+    },
+
+    {
+      "id": "DOC03-CMD-08",
+      "chunk_index": 8,
+      "importance": "high",
+      "title": "Resumo Comparativo — Certificado vs Medalha",
+      "category": "comparativo",
+      "source": "certificados_e_medalhas",
+      "content": "Resumo das diferenças entre certificado e medalha: CERTIFICADO DIGITAL — Quem recebe: todos os participantes que enviaram os relatórios corretamente. Formato: digital. Como obter: solicitação na plataforma do IASC ao fim da campanha. Exige detecção: NÃO. MEDALHA FÍSICA — Quem recebe: equipes que tiveram ao menos 1 detecção confirmada E enviaram os relatórios corretamente. Formato: física (objeto material). Como obter: entregue em cerimônia presencial organizada pela Comissão Organizadora do Caça Asteroides MCTI. Exige detecção: SIM. Em resumo: todo mundo que participar corretamente pode ganhar o certificado; a medalha é para quem detectou um asteroide.",
+      "keywords": ["comparativo", "certificado vs medalha", "diferença", "resumo", "digital", "físico", "detecção", "todos", "equipes especiais", "critério"],
+      "related_questions": [
+        "resumo da diferença entre certificado e medalha",
+        "quem ganha certificado e quem ganha medalha",
+        "qual a diferença entre medalha e certificado",
+        "certificado precisa de detecção",
+        "medalha precisa detectar asteroide"
+      ]
+    }
+  ]
+}

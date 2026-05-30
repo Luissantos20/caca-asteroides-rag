@@ -1,0 +1,568 @@
+{
+  "metadata": {
+    "document_id": "DOC-05",
+    "title": "Edital Caça Asteroides MCTI 2026 — Nº 01, Março de 2026",
+    "description": "Conteúdo completo do edital oficial do Programa Caça Asteroides MCTI 2026, cobrindo elegibilidade, inscrição, cronograma, equipes, metodologia, certificados, regras e disposições finais.",
+    "source": "edital",
+    "version": "1.0",
+    "created_at": "2026-03-14",
+    "tags": ["edital", "regras", "inscrição", "elegibilidade", "cronograma", "certificado", "IASC", "MCTI", "2026"]
+  },
+
+  "chunks": [
+
+    {
+      "id": "DOC05-CHUNK-01",
+      "chunk_index": 1,
+      "importance": "high",
+      "title": "Descrição Geral do Programa Caça Asteroides MCTI",
+      "category": "visao_geral",
+      "source": "edital",
+      "content": "O Caça Asteroides MCTI é um programa de ciência cidadã criado em parceria entre o Ministério da Ciência, Tecnologia e Inovação (MCTI) do Brasil e o International Astronomical Search Collaboration (IASC), parceiro oficial da NASA. Coordenado pelo Observatório Nacional (ON-MCTI), UNILA e UFMS, o programa convida voluntários a participarem de campanhas reais de busca e análise de asteroides. Os participantes recebem pacotes de imagens astronômicas fornecidos pelo IASC, analisam-nas com o software Astrometrica e enviam relatórios científicos que são validados pelo Minor Planet Center (MPC) da União Astronômica Internacional (IAU). O programa é gratuito, de abrangência nacional e internacional, e aberto a qualquer pessoa a partir de 6 anos de idade. O objetivo é popularizar a ciência entre cidadãos voluntários e permitir que façam descobertas astronômicas reais. Para 2026, são previstas 8 campanhas com 6.000 vagas no total.",
+      "keywords": ["caça asteroides", "MCTI", "IASC", "NASA", "ciência cidadã", "astronomia", "asteroides", "programa 2026", "o que é", "descrição", "Observatório Nacional", "UNILA", "UFMS", "Minor Planet Center", "IAU"],
+      "related_questions": ["O que é o Caça Asteroides MCTI?", "Como funciona o programa?", "Quem criou o programa?", "O programa é parceiro da NASA?", "Quantas campanhas tem em 2026?"]
+    },
+
+    {
+      "id": "DOC05-CHUNK-02",
+      "chunk_index": 2,
+      "importance": "high",
+      "title": "Quem Pode Participar – Elegibilidade e Público-Alvo",
+      "category": "elegibilidade",
+      "source": "edital",
+      "content": "Podem participar do Programa Caça Asteroides MCTI-2026: professores da educação básica (rede pública ou privada), professores universitários, estudantes do ensino fundamental I e II (2º ao 9º ano), ensino médio, EJA (Educação de Jovens e Adultos), acadêmicos, astrônomos profissionais, astrônomos amadores, escolas privadas, escolas públicas, clubes de ciências, clubes de astronomia, e cidadãos de qualquer nacionalidade. A única restrição etária é: o LÍDER da equipe deve ter no mínimo 18 anos, e os demais integrantes devem ter no mínimo 6 anos de idade. A participação é totalmente gratuita. Qualquer cobrança de taxa de inscrição, treinamento ou participação é expressamente proibida pelo edital.",
+      "keywords": ["quem pode participar", "elegibilidade", "idade mínima", "estudantes", "professores", "astrônomos amadores", "gratuito", "público-alvo", "ensino fundamental", "ensino médio", "EJA", "acadêmicos", "clubes de astronomia", "qualquer nacionalidade", "6 anos", "18 anos"],
+      "related_questions": ["Quem pode participar do programa?", "Qual a idade mínima para participar?", "Estudantes do ensino fundamental podem participar?", "Preciso ser brasileiro para participar?", "Professor pode participar?", "Criança de 8 anos pode participar?"]
+    },
+
+    {
+      "id": "DOC05-CHUNK-03",
+      "chunk_index": 3,
+      "importance": "high",
+      "title": "Formação e Composição das Equipes",
+      "category": "equipes",
+      "source": "edital",
+      "content": "As equipes do Caça Asteroides MCTI devem ser formadas da seguinte forma: Equipe Mínima: 1 líder (18+ anos) + 2 integrantes (6+ anos) = 3 pessoas total. Equipe Intermediária: 1 líder (18+ anos) + 3 integrantes (6+ anos) = 4 pessoas total. Equipe Máxima: 1 líder (18+ anos) + 4 integrantes (6+ anos) = 5 pessoas total. Regras importantes: (1) Não é permitido adicionar ou trocar integrantes durante a campanha. (2) Em caso de desistência, o membro não pode ser substituído. (3) Com exceção do líder, um integrante não pode participar de outra equipe na mesma campanha. (4) Ao menos 1 integrante deve possuir computador ou notebook com sistema operacional Windows. (5) A inscrição é feita exclusivamente pelo líder pelo formulário online.",
+      "keywords": ["equipe", "composição", "líder", "integrantes", "formação de equipe", "tamanho da equipe", "mínimo", "máximo", "3 pessoas", "5 pessoas", "trocar integrantes", "substituir", "Windows", "computador"],
+      "related_questions": ["Quantas pessoas pode ter uma equipe?", "Posso trocar integrantes durante a campanha?", "Qual o tamanho mínimo da equipe?", "Qual o tamanho máximo da equipe?", "Preciso de computador para participar?", "Um integrante pode participar de duas equipes?"]
+    },
+
+    {
+      "id": "DOC05-CHUNK-04",
+      "chunk_index": 4,
+      "importance": "high",
+      "title": "Processo de Inscrição – Passo a Passo",
+      "category": "inscricao",
+      "source": "edital",
+      "content": "O processo de inscrição no Caça Asteroides MCTI-2026 segue estas etapas: (1) Apenas o LÍDER da equipe realiza a inscrição, acessando o link Google Forms da campanha desejada. (2) As inscrições são gratuitas e abertas a partir de 06/03/2026 às 13h (Horário de Brasília). (3) O formulário deve ser preenchido corretamente com todos os dados solicitados, incluindo o nome COMPLETO e SEM ABREVIAÇÕES de todos os integrantes — este nome aparecerá no certificado e não será corrigido posteriormente. (4) Após a inscrição, o líder tem 15 dias (a partir do início da campanha) para enviar por e-mail (cacaasteroidesbrasil@gmail.com) os termos de autorização de uso de imagem de cada participante em PDF: Anexo I (assinado pelo responsável) para menores de idade; Anexo II (assinado pelo próprio participante) para maiores de idade. (5) Equipes sem documentação são eliminadas. (6) As vagas são preenchidas por ordem de inscrição.",
+      "keywords": ["inscrição", "como se inscrever", "Google Forms", "formulário", "prazo", "documentos", "termos de imagem", "link inscrição", "vagas", "06/03/2026", "13h", "Horário de Brasília", "nome completo", "sem abreviações"],
+      "related_questions": ["Como me inscrevo no programa?", "Quando abrem as inscrições?", "Quem preenche o formulário de inscrição?", "O nome pode ser abreviado na inscrição?", "Qual o prazo para enviar os documentos?", "As vagas são limitadas?"]
+    },
+
+    {
+      "id": "DOC05-CHUNK-05",
+      "chunk_index": 5,
+      "importance": "high",
+      "title": "Cronograma das Campanhas 2026 – Datas e Vagas",
+      "category": "cronograma",
+      "source": "edital",
+      "content": "O Programa Caça Asteroides MCTI-2026 prevê 8 campanhas ao longo do ano. Campanha 1 (IASC-34): 13/03 a 07/04/2026 — 800 vagas. Campanha 2 (IASC-35): 10/04 a 06/05/2026 — 800 vagas. Campanha 3 (IASC-36): 11/05 a 05/06/2026 — 600 vagas. Campanha 4 (IASC-37): 10/06 a 06/07/2026 — 800 vagas. Campanha 5 (IASC-38): 09/07 a 03/08/2026 — 500 vagas. Campanha 6 (IASC-39): 07/08 a 01/09/2026 — 900 vagas. Campanha 7 (IASC-40): 23/09 a 19/10/2026 — 800 vagas (sujeito a alteração). Campanha 8 (IASC-41): outubro/2026, data a definir — 800 vagas. Total geral: 6.000 vagas. As equipes são alocadas nas campanhas conforme ordem de inscrição. As datas podem ser alteradas e serão comunicadas previamente via e-mail (cacaasteroidesbrasil@gmail.com).",
+      "keywords": ["cronograma", "datas", "campanha 2026", "vagas", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "quando começa", "IASC-34", "IASC-35", "IASC-36", "IASC-37", "IASC-38", "IASC-39", "IASC-40", "IASC-41", "6000 vagas"],
+      "related_questions": ["Quando começa a campanha de março?", "Quantas vagas tem cada campanha?", "Qual campanha está aberta agora?", "Existe campanha em julho?", "Quantas campanhas tem em 2026?", "Quais são as datas das campanhas?"]
+    },
+
+    {
+      "id": "DOC05-CHUNK-06",
+      "chunk_index": 6,
+      "importance": "high",
+      "title": "Software Astrometrica – Análise de Imagens Astronômicas",
+      "category": "software_metodologia",
+      "source": "edital",
+      "content": "O Astrometrica é o software científico utilizado no programa para análise de imagens astronômicas. Desenvolvido por Herbert Raab, é amplamente usado por astrônomos profissionais e amadores. Funciona apenas no sistema operacional Windows. Com ele, a equipe: (1) abre os pacotes de imagens FITS (Flexible Image Transport System) fornecidos pelo IASC; (2) realiza alinhamento automático com catálogos estelares; (3) compara os frames para identificar objetos em movimento (asteroides se movem em relação às estrelas fixas de fundo — técnica chamada blink comparison); (4) mede com precisão as coordenadas celestes (ascensão reta e declinação) e a magnitude (brilho) dos objetos detectados; (5) gera automaticamente o relatório no formato MPC para envio ao IASC. O Astrometrica é o elo entre a observação humana e o banco de dados científico internacional. Por isso, ao menos 1 integrante da equipe precisa ter um computador com Windows.",
+      "keywords": ["Astrometrica", "software", "Windows", "imagens FITS", "análise de imagens", "coordenadas", "astrometria", "formato MPC", "como usar", "blink comparison", "asteroides", "magnitude", "ascensão reta", "declinação", "frames"],
+      "related_questions": ["Qual software devo usar para analisar as imagens?", "O Astrometrica funciona no Mac?", "Como funciona a análise de imagens?", "O que é o formato FITS?", "Como os asteroides são identificados?", "Preciso instalar algum programa?"]
+    },
+
+    {
+      "id": "DOC05-CHUNK-07",
+      "chunk_index": 7,
+      "importance": "high",
+      "title": "Certificados Digitais – Como Obter e Regras",
+      "category": "certificados",
+      "source": "edital",
+      "content": "Ao final de cada campanha do Caça Asteroides MCTI, são disponibilizados certificados digitais para todos os participantes que enviaram corretamente os relatórios ao IASC. Regras importantes: (1) O nome no certificado será exatamente o nome preenchido no formulário de inscrição — deve ser o nome COMPLETO e SEM ABREVIAÇÕES. (2) A Comissão não emitirá novos certificados em caso de nomes incorretos. (3) Cabe ao líder identificar ao final quais participantes efetivamente atuaram na campanha — apenas esses receberão o certificado. (4) A condição para receber o certificado é o envio correto dos relatórios ao IASC, não apenas a inscrição. (5) Participantes que se inscreveram mas não enviaram relatórios não recebem certificado.",
+      "keywords": ["certificado", "certificado digital", "como obter", "nome correto", "relatório IASC", "participação válida", "nome completo", "sem abreviações", "emissão", "quem recebe certificado"],
+      "related_questions": ["Como recebo o certificado?", "Quando o certificado é emitido?", "Posso corrigir o nome no certificado depois?", "Quem tem direito ao certificado?", "Recebi o certificado em PDF?", "O certificado é digital ou impresso?"]
+    },
+
+    {
+      "id": "DOC05-CHUNK-08",
+      "chunk_index": 8,
+      "importance": "high",
+      "title": "Responsabilidades do Líder da Equipe",
+      "category": "lider",
+      "source": "edital",
+      "content": "O líder é o responsável oficial da equipe no Programa Caça Asteroides MCTI. Suas obrigações incluem: (1) Inscrever a equipe pelo Google Forms da campanha escolhida. (2) Enviar os termos de autorização de uso de imagem de todos os participantes para cacaasteroidesbrasil@gmail.com em até 15 dias após o início da campanha (Anexo I para menores de idade; Anexo II para maiores de idade). (3) Participar do treinamento oficial para aprender a usar o Astrometrica. (4) Treinar e motivar os integrantes da equipe. (5) Enviar os relatórios dos pacotes de imagens ao IASC dentro do prazo. (6) Solicitar autorização da Comissão antes de dar reportagens ou divulgar resultados. (7) Ao final, identificar quais participantes efetivamente contribuíram para que recebam certificado. (8) Garantir que a equipe não use imagens com promoção pessoal, publicidade política ou conotação ofensiva. (9) Não cobrar qualquer valor dos integrantes pelas atividades do programa.",
+      "keywords": ["líder", "responsabilidades", "obrigações do líder", "o que o líder faz", "inscrição", "relatório", "certificado", "treinamento", "18 anos", "termos de imagem", "autorização", "cacaasteroidesbrasil@gmail.com"],
+      "related_questions": ["O que o líder precisa fazer?", "Quais são as responsabilidades do líder?", "O líder precisa participar do treinamento?", "Quem envia o relatório ao IASC?", "O líder pode cobrar dos integrantes?", "Qual a idade mínima do líder?"]
+    },
+
+    {
+      "id": "DOC05-CHUNK-09",
+      "chunk_index": 9,
+      "importance": "high",
+      "title": "Gratuidade do Programa e Proibições",
+      "category": "regras_proibicoes",
+      "source": "edital",
+      "content": "O Programa Caça Asteroides MCTI é 100% gratuito. Conforme o edital, é expressamente proibido: (1) Cobrar qualquer valor dos participantes, incluindo taxas de inscrição, participação, mentoria, treinamento, capacitação ou serviços correlatos. (2) Usar logomarcas das instituições parceiras (MCTI, IASC, ON, UNILA, UFMS, AEB, NASA) para fins particulares sem autorização formal prévia. (3) Alocar ou trocar integrantes da equipe após o início da campanha. (4) Usar imagens que estimulem promoção pessoal, publicidade política ou marcas comerciais. (5) Realizar reportagens ou divulgar resultados sem autorização prévia da Comissão. É permitido usar a logomarca do Programa Caça Asteroides MCTI em publicações diretamente relacionadas às atividades do edital, respeitando as diretrizes de identidade visual. Se alguém estiver cobrando por treinamentos relacionados ao programa, isso viola o edital e deve ser reportado.",
+      "keywords": ["gratuito", "proibições", "cobrar", "taxa", "logomarca", "autorização", "regras", "o que não pode fazer", "publicidade", "treinamento pago", "proibido cobrar", "gratuidade"],
+      "related_questions": ["O programa é pago?", "Posso cobrar dos alunos para participar?", "Alguém está cobrando por treinamento — isso é correto?", "Posso usar a logo do MCTI nos meus materiais?", "Posso divulgar os resultados no Instagram?", "O que acontece se alguém cobrar pelo programa?"]
+    },
+
+    {
+      "id": "DOC05-CHUNK-10",
+      "chunk_index": 10,
+      "importance": "high",
+      "title": "Documentos Obrigatórios – Termos de Autorização de Uso de Imagem",
+      "category": "documentos",
+      "source": "edital",
+      "content": "Após a inscrição, o líder deve enviar obrigatoriamente os Termos de Autorização de Uso de Imagem de todos os participantes. Prazo: 15 dias a partir do início da campanha vigente. Formato: arquivos PDF enviados para cacaasteroidesbrasil@gmail.com. Existem dois tipos de termo: ANEXO I — Termo para Menor de Idade: deve ser assinado pelo responsável legal (pai, mãe ou tutor). Contém dados do responsável (nome, RG, CPF, endereço) e autoriza uso de fotos/filmagens para fins pedagógicos, publicação em site/blog/Instagram e divulgação em redes sociais. ANEXO II — Termo para Maior de Idade: assinado pelo próprio participante. Mesmos fins de autorização. Para assinatura eletrônica, o edital sugere o portal GOV.BR: https://www.gov.br/governodigital/pt-br/identidade/assinatura-eletronica. Documentos enviados após o prazo não são aceitos e a equipe pode ser eliminada do programa.",
+      "keywords": ["termos de imagem", "Anexo I", "Anexo II", "autorização", "documentos", "envio", "prazo 15 dias", "menor de idade", "assinatura eletrônica", "GOV.BR", "PDF", "cacaasteroidesbrasil@gmail.com", "responsável legal"],
+      "related_questions": ["Que documentos preciso enviar após a inscrição?", "Qual o prazo para enviar os termos de imagem?", "O que é o Anexo I?", "O que é o Anexo II?", "Como assinar o termo eletronicamente?", "Para onde envio os documentos?", "O que acontece se não enviar os documentos no prazo?"]
+    },
+
+    {
+      "id": "DOC05-CHUNK-11",
+      "chunk_index": 11,
+      "importance": "medium",
+      "title": "Metodologia Científica – Como os Asteroides são Detectados",
+      "category": "metodologia_cientifica",
+      "source": "edital",
+      "content": "A detecção de asteroides no programa baseia-se na técnica de astrometria diferencial — comparação de imagens do mesmo trecho do céu tiradas em momentos diferentes. Asteroides são identificados como pontos luminosos que se movem em relação às estrelas de fundo (que permanecem fixas). Cada pacote de imagens contém geralmente 4 frames (fotografias) do mesmo campo estelar, tiradas com intervalos de minutos. O participante identifica objetos que se deslocam entre os frames (técnica chamada blink comparison). O software Astrometrica calcula automaticamente as coordenadas celestes (ascensão reta/RA e declinação/Dec) e a magnitude (brilho) do objeto. Os dados são comparados com catálogos estelares para eliminar estrelas e confirmar asteroides. Após a análise, o software gera um relatório no formato MPC (Minor Planet Center) que é enviado ao IASC, o qual o encaminha à IAU para validação científica internacional.",
+      "keywords": ["como detectar asteroides", "astrometria diferencial", "blink comparison", "frames", "imagens FITS", "RA", "Dec", "magnitude", "catálogo estelar", "método científico", "detecção", "movimento", "estrelas de fundo"],
+      "related_questions": ["Como os asteroides são encontrados nas imagens?", "O que é blink comparison?", "Como sei se encontrei um asteroide?", "O que são as coordenadas RA e Dec?", "Quantas imagens vêm em cada pacote?", "Como funciona a análise das imagens?"]
+    },
+
+    {
+      "id": "DOC05-CHUNK-12",
+      "chunk_index": 12,
+      "importance": "medium",
+      "title": "Relatório MPC – Envio e Validação Científica",
+      "category": "relatorio_validacao",
+      "source": "edital",
+      "content": "O relatório MPC (Minor Planet Center) é um arquivo texto padronizado pela União Astronômica Internacional (IAU) para reportar observações de asteroides e outros pequenos corpos do Sistema Solar. Ele contém: identificação do objeto, data e hora precisas da observação, coordenadas celestes (RA/Dec), magnitude, código do observatório e nome do observador. O Astrometrica gera este relatório automaticamente após a análise das imagens. Fluxo de envio e validação: (1) O líder consolida os relatórios de todos os integrantes. (2) O líder envia ao IASC dentro do prazo da campanha. (3) O IASC valida a qualidade técnica dos dados. (4) O IASC encaminha ao Minor Planet Center (MPC) da IAU. (5) O MPC verifica se o objeto já é catalogado ou se é uma nova descoberta. (6) Descobertas confirmadas recebem designação provisória e podem obter nome permanente.",
+      "keywords": ["relatório MPC", "Minor Planet Center", "envio de relatório", "IASC", "IAU", "validação", "descoberta", "designação provisória", "formato MPC", "coordenadas", "como enviar relatório", "prazo relatório"],
+      "related_questions": ["O que é o relatório MPC?", "Como envio o relatório?", "Para onde vai o relatório?", "Quem valida os dados?", "O que acontece depois que envio o relatório?", "Como sei se encontrei um asteroide novo?"]
+    },
+
+    {
+      "id": "DOC05-CHUNK-13",
+      "chunk_index": 13,
+      "importance": "medium",
+      "title": "Resultados Possíveis da Participação",
+      "category": "resultados",
+      "source": "edital",
+      "content": "As equipes que participam do programa podem obter os seguintes resultados: (1) Observação de asteroide conhecido — a equipe mede e confirma a posição de um asteroide já catalogado no banco de dados do MPC. Contribuição valiosa para o monitoramento contínuo de objetos próximos à Terra (NEOs). (2) Possível nova descoberta — a equipe detecta um objeto em movimento não identificado nos catálogos. O objeto recebe designação provisória (ex: P10xxxX) e é reportado ao IASC/MPC para confirmação. (3) Confirmação científica — após múltiplas observações por diferentes equipes ou campanhas, o MPC confirma o novo asteroide. A descoberta pode receber designação oficial e eventualmente um nome permanente. (4) Certificado de participação — todos os participantes cujos líderes enviarem corretamente os relatórios ao IASC recebem certificado digital. (5) Dados negativos — mesmo sem detectar novos objetos, a equipe contribui com dados que são igualmente importantes para a ciência.",
+      "keywords": ["resultados", "descoberta", "novo asteroide", "designação provisória", "MPC confirmação", "NEO", "certificado", "dados negativos", "asteroide confirmado", "nome do asteroide", "o que posso descobrir"],
+      "related_questions": ["O que posso descobrir participando?", "Posso encontrar um asteroide novo?", "O que acontece se encontrar um asteroide novo?", "Meu asteroide pode ganhar um nome?", "Qual a diferença entre asteroide conhecido e novo?", "E se não encontrar nada?"]
+    },
+
+    {
+      "id": "DOC05-CHUNK-14",
+      "chunk_index": 14,
+      "importance": "low",
+      "title": "Instituições Envolvidas no Programa",
+      "category": "instituicoes",
+      "source": "edital",
+      "content": "O Programa Caça Asteroides MCTI conta com a participação das seguintes instituições: MCTI (Ministério da Ciência, Tecnologia e Inovação) — patrocinador e coordenador geral do programa no Brasil. IASC (International Astronomical Search Collaboration) — parceiro oficial da NASA que fornece as imagens astronômicas e valida os relatórios científicos enviados pelas equipes. ON-MCTI (Observatório Nacional) — coordenação científica do programa. UNILA (Universidade Federal da Integração Latino-Americana) — coordenação acadêmica. UFMS (Universidade Federal de Mato Grosso do Sul) — coordenação acadêmica. AEB (Agência Espacial Brasileira) — colaboração institucional. Comissão Organizadora — composta por: 01 Diretor Geral, 02 Diretores, 03 Coordenadores, 04 Treinadores Oficiais do IASC e 05 Professores Voluntários.",
+      "keywords": ["instituições", "MCTI", "IASC", "NASA", "Observatório Nacional", "UNILA", "UFMS", "AEB", "Comissão Organizadora", "parceiros", "quem organiza", "responsáveis pelo programa"],
+      "related_questions": ["Quem organiza o programa?", "O programa é do governo federal?", "Qual a relação com a NASA?", "A UNILA participa do programa?", "Quem compõe a comissão organizadora?"]
+    },
+
+    {
+      "id": "DOC05-CHUNK-15",
+      "chunk_index": 15,
+      "importance": "high",
+      "title": "Links de Inscrição por Campanha 2026",
+      "category": "links_inscricao",
+      "source": "edital",
+      "content": "Links oficiais para inscrição em cada campanha do Caça Asteroides MCTI-2026: Campanha 1 (março — IASC-34): https://forms.gle/VkEsQPV1Pnqfauuo8 — período: 13/03 a 07/04/2026. Campanha 2 (abril — IASC-35): https://forms.gle/7n519bTmsP1wfymr5 — período: 10/04 a 06/05/2026. Campanha 3 (maio — IASC-36): https://forms.gle/KQM3UewJ18qqncjz8 — período: 11/05 a 05/06/2026. Campanha 4 (junho — IASC-37): https://forms.gle/3d7mcUKxmi4JYB9KA — período: 10/06 a 06/07/2026. Campanha 5 (julho — IASC-38): https://forms.gle/S43R6dBWuqW8qCbz8 — período: 09/07 a 03/08/2026. Campanha 6 (agosto — IASC-39): https://forms.gle/d2TAptuSuE15Msnd9 — período: 07/08 a 01/09/2026. Campanha 7 (setembro — IASC-40): https://forms.gle/XuhmiwykxKg74WaS7 — período: 23/09 a 19/10/2026. Campanha 8 (outubro — IASC-41): https://forms.gle/fiRjvpJ3zPErqHPn7 — data a definir.",
+      "keywords": ["link inscrição", "Google Forms", "onde se inscrever", "formulário", "campanha 1", "campanha 2", "campanha 3", "campanha 4", "campanha 5", "campanha 6", "campanha 7", "campanha 8", "forms.gle", "inscrição online"],
+      "related_questions": ["Qual o link para me inscrever?", "Onde faço a inscrição da campanha de março?", "Como acesso o formulário de inscrição?", "Qual o link da campanha de abril?", "Onde está o formulário da campanha atual?"]
+    },
+
+    {
+      "id": "DOC05-CHUNK-16",
+      "chunk_index": 16,
+      "importance": "high",
+      "title": "Treinamento Oficial – Quando e Como Participar",
+      "category": "treinamento",
+      "source": "edital",
+      "content": "O treinamento oficial do Programa Caça Asteroides MCTI é obrigatório para o líder da equipe. O objetivo é capacitar os participantes no uso do software Astrometrica e na metodologia de análise de imagens astronômicas. Informações sobre o treinamento: (1) A data e horário do treinamento são divulgados posteriormente pela Comissão Organizadora via e-mail (cacaasteroidesbrasil@gmail.com). (2) O líder tem a obrigação de participar do treinamento oficial. (3) Após o treinamento, o líder é responsável por treinar e motivar os demais integrantes de sua equipe. (4) Os treinadores oficiais são credenciados pelo IASC. (5) É expressamente proibido cobrar pelos treinamentos ou por quaisquer atividades relacionadas ao programa — toda capacitação deve ser gratuita.",
+      "keywords": ["treinamento", "capacitação", "quando é o treinamento", "obrigatório", "líder treinamento", "Astrometrica treinamento", "IASC treinadores", "data treinamento", "e-mail comunicação"],
+      "related_questions": ["O treinamento é obrigatório?", "Quando acontece o treinamento?", "Quem ministra o treinamento?", "O treinamento é pago?", "Como fico sabendo da data do treinamento?", "Os integrantes também participam do treinamento?"]
+    },
+
+    {
+      "id": "DOC05-CHUNK-17",
+      "chunk_index": 17,
+      "importance": "medium",
+      "title": "Disposições Finais – Regras Gerais e Cancelamento",
+      "category": "disposicoes_finais",
+      "source": "edital",
+      "content": "O Programa Caça Asteroides MCTI pode cancelar o edital a qualquer momento por caso fortuito, força maior ou ausência de inscrições, sem implicar direito indenizatório. Ao se inscrever, o candidato automaticamente aceita todas as regras do edital. Não são cabíveis recursos ou manifestações legais contra decisões da Comissão Organizadora em qualquer fase. A participação só é considerada válida se a documentação exigida (item 4.5 — termos de autorização de imagem) for enviada. Casos omissos são resolvidos pela Comissão Organizadora. A coordenação não se responsabiliza por problemas técnicos no correio eletrônico ou dados corrompidos. A Comissão tem o direito de usar imagens e vídeos coletados para pesquisas científicas pelo prazo mínimo de 5 anos, respeitando direitos de propriedade intelectual.",
+      "keywords": ["disposições finais", "cancelamento", "regras gerais", "recurso", "validade participação", "força maior", "casos omissos", "propriedade intelectual", "imagens 5 anos", "aceite edital"],
+      "related_questions": ["O programa pode ser cancelado?", "Posso entrar com recurso contra uma decisão da comissão?", "O que acontece se eu não enviar os documentos?", "Minha inscrição me obriga a aceitar as regras?", "Por quanto tempo as imagens podem ser usadas?"]
+    },
+
+    {
+      "id": "DOC05-CHUNK-18",
+      "chunk_index": 18,
+      "importance": "medium",
+      "title": "Uso de Logomarca e Identidade Visual",
+      "category": "logomarca_comunicacao",
+      "source": "edital",
+      "content": "Regras sobre o uso de logomarcas no âmbito do Programa Caça Asteroides MCTI: É PROIBIDO usar as logomarcas das instituições parceiras (MCTI, IASC, NASA, ON, UNILA, UFMS, AEB) para fins particulares em quaisquer materiais, publicações, divulgações ou peças de comunicação, sem autorização prévia e formal das respectivas instituições. É PERMITIDO usar a logomarca do Programa Caça Asteroides MCTI (apenas esta) em publicações relacionadas às atividades desenvolvidas no âmbito deste edital, desde que: respeitadas as diretrizes de identidade visual do programa; o uso esteja diretamente vinculado à divulgação institucional ou científica das ações realizadas. Para reportagens, entrevistas ou mídias sobre resultados do programa, é OBRIGATÓRIO solicitar autorização prévia da Comissão Organizadora via e-mail cacaasteroidesbrasil@gmail.com.",
+      "keywords": ["logomarca", "logo", "identidade visual", "usar logo", "comunicação", "autorização", "proibido logomarca", "divulgação", "reportagem", "redes sociais", "publicação"],
+      "related_questions": ["Posso usar o logo do programa nos meus materiais?", "Posso usar o logo da NASA?", "Preciso de autorização para fazer uma postagem sobre o programa?", "Como solicito autorização para uma reportagem?", "Posso divulgar os resultados no YouTube?"]
+    },
+
+    {
+      "id": "DOC05-CHUNK-19",
+      "chunk_index": 19,
+      "importance": "high",
+      "title": "Assinatura Eletrônica dos Termos – Portal GOV.BR",
+      "category": "documentos_assinatura",
+      "source": "edital",
+      "content": "Para assinar os termos de autorização de uso de imagem exigidos pelo programa (Anexo I e Anexo II), o edital sugere o uso do Portal de Assinatura Eletrônica do Governo Federal: https://www.gov.br/governodigital/pt-br/identidade/assinatura-eletronica. Este portal (SOU GOV) permite assinar documentos eletronicamente com validade jurídica usando a conta GOV.BR. O prazo para enviar os termos assinados é de 15 dias a partir do início da campanha vigente. Os arquivos devem ser enviados em formato PDF para o e-mail cacaasteroidesbrasil@gmail.com. O Anexo I é para participantes menores de idade (assinado pelo responsável legal). O Anexo II é para participantes maiores de idade (assinado pelo próprio participante). Não serão aceitos documentos enviados fora do prazo.",
+      "keywords": ["assinatura eletrônica", "GOV.BR", "SOU GOV", "assinar documento", "portal governo", "validade jurídica", "como assinar", "Anexo I", "Anexo II", "assinatura digital", "prazo documentos"],
+      "related_questions": ["Como assino o termo eletronicamente?", "Qual site usar para assinar o documento?", "Preciso imprimir o termo para assinar?", "A assinatura pelo GOV.BR tem validade?", "Posso assinar à mão e enviar foto?"]
+    },
+
+    {
+      "id": "DOC05-CHUNK-20",
+      "chunk_index": 20,
+      "importance": "high",
+      "title": "Contato Oficial e Comunicações do Programa",
+      "category": "contato_comunicacao",
+      "source": "edital",
+      "content": "Todas as comunicações oficiais do Programa Caça Asteroides MCTI são realizadas pelo e-mail oficial: cacaasteroidesbrasil@gmail.com. Este e-mail é usado para: (1) Envio dos termos de autorização de uso de imagem (Anexo I e Anexo II em PDF, prazo de 15 dias após o início da campanha). (2) Recebimento de informações sobre treinamentos (datas e horários serão comunicados por este canal). (3) Solicitação de autorização para reportagens, entrevistas e divulgações de resultados. (4) Comunicação de alterações no cronograma de campanhas. A coordenação não se responsabiliza por problemas técnicos no correio eletrônico ou dados corrompidos. Para dúvidas sobre o programa, os participantes devem usar este canal oficial.",
+      "keywords": ["contato", "e-mail oficial", "cacaasteroidesbrasil@gmail.com", "comunicação", "dúvidas", "como entrar em contato", "informações", "suporte", "canal oficial"],
+      "related_questions": ["Qual o e-mail do programa?", "Como entro em contato com a organização?", "Para onde envio os documentos?", "Como recebo informações sobre o treinamento?", "Tenho uma dúvida — com quem falo?"]
+    },
+
+    {
+      "id": "DOC05-CHUNK-21",
+      "chunk_index": 21,
+      "importance": "high",
+      "title": "Requisitos Técnicos e de Equipamento",
+      "category": "requisitos_tecnicos",
+      "source": "edital",
+      "content": "Para participar do Programa Caça Asteroides MCTI-2026, são necessários os seguintes requisitos técnicos: (1) OBRIGATÓRIO: ao menos 1 integrante da equipe deve possuir computador ou notebook com sistema operacional Windows. Isso é necessário porque o software Astrometrica, utilizado para análise das imagens astronômicas, funciona exclusivamente em Windows. (2) Acesso à internet para realizar a inscrição, receber os pacotes de imagens do IASC e enviar os relatórios. (3) Capacidade de abrir e enviar arquivos PDF por e-mail (para os termos de autorização de imagem). (4) O programa não exige telescópio — as imagens astronômicas são fornecidas gratuitamente pelo IASC. (5) Não é necessário equipamento astronômico próprio.",
+      "keywords": ["requisitos técnicos", "computador", "Windows", "equipamento", "telescópio", "internet", "Astrometrica Windows", "o que preciso ter", "notebook", "sistema operacional"],
+      "related_questions": ["Preciso de telescópio para participar?", "O programa funciona no Linux?", "O Mac é compatível com o programa?", "O que preciso ter de equipamento?", "Posso usar tablet para analisar as imagens?", "Preciso de computador potente?"]
+    },
+
+    {
+      "id": "DOC05-CHUNK-22",
+      "chunk_index": 22,
+      "importance": "high",
+      "title": "Validade da Participação e Eliminação de Equipes",
+      "category": "validade_eliminacao",
+      "source": "edital",
+      "content": "A participação no Programa Caça Asteroides MCTI só é considerada válida quando todas as seguintes condições são atendidas: (1) Inscrição realizada corretamente pelo líder via formulário online. (2) Envio dos termos de autorização de uso de imagem de todos os participantes dentro do prazo de 15 dias após o início da campanha. (3) Envio correto dos relatórios ao IASC ao final da campanha. Motivos para eliminação da equipe: inscrição com dados incompletos ou incorretos; envio de documentação fora do prazo ou de forma incorreta; não cumprimento dos requisitos do edital; constatação de informações inverídicas a qualquer tempo. Em caso de irregularidade, a Comissão Organizadora tem o direito de excluir a equipe do programa.",
+      "keywords": ["validade participação", "eliminação", "desclassificação", "requisitos", "participação válida", "quando é inválido", "exclusão", "irregularidade", "documentação incompleta", "prazo"],
+      "related_questions": ["Quando minha participação é considerada válida?", "Posso ser eliminado do programa?", "O que acontece se não enviar os documentos?", "Quais são os motivos para desclassificação?", "Posso perder o direito ao certificado?"]
+    },
+
+    
+    {
+      "id": "DOC05-CHUNK-23",
+      "chunk_index": 23,
+      "importance": "medium",
+      "title": "MPC (Minor Planet Center)",
+      "category": "glossario",
+      "source": "edital",
+      "content": "O MPC (Minor Planet Center) é o centro da IAU responsável por catalogar todos os asteroides conhecidos e receber os relatórios das observações feitas pelas equipes.",
+      "keywords": ["MPC", "Minor Planet Center", "asteroides", "catalogação", "relatórios"],
+      "related_questions": [
+        "o que é o MPC",
+        "o que significa MPC",
+        "o que é minor planet center",
+        "para que serve o MPC",
+        "quem recebe os relatórios de asteroides"
+      ]
+    },
+
+    {
+      "id": "DOC05-CHUNK-24",
+      "chunk_index": 24,
+      "importance": "medium",
+      "title": "NEO (Near-Earth Object)",
+      "category": "glossario",
+      "source": "edital",
+      "content": "NEO (Near-Earth Object) é um asteroide cuja órbita passa próxima da Terra, sendo monitorado por representar potencial interesse científico e de segurança.",
+      "keywords": ["NEO", "Near Earth Object", "asteroide", "órbita", "Terra"],
+      "related_questions": [
+        "o que é NEO",
+        "o que significa NEO",
+        "o que é um asteroide próximo da terra"
+      ]
+    },
+    {
+      "id": "DOC05-CHUNK-25",
+      "chunk_index": 25,
+      "importance": "medium",
+      "title": "Blink Comparison",
+      "category": "glossario",
+      "source": "edital",
+      "content": "Blink Comparison é a técnica de alternar rapidamente entre imagens (frames) para identificar objetos em movimento, como asteroides.",
+      "keywords": ["blink comparison", "blink images", "movimento", "asteroides"],
+      "related_questions": [
+        "o que é blink comparison",
+        "o que é blink images",
+        "como funciona o blink comparison",
+        "como identificar movimento nas imagens"
+      ]
+    },
+    {
+      "id": "DOC05-CHUNK-26",
+      "chunk_index": 26,
+      "importance": "low",
+      "title": "FITS (Formato de Imagem)",
+      "category": "glossario",
+      "source": "edital",
+      "content": "FITS (Flexible Image Transport System) é o formato padrão de arquivo astronômico usado para armazenar as imagens enviadas pelo IASC.",
+      "keywords": ["FITS", "formato", "imagem", "arquivo astronômico"],
+      "related_questions": [
+        "o que é fits",
+        "o que é arquivo fits",
+        "qual formato das imagens da campanha"
+      ]
+    },
+    {
+      "id": "DOC05-CHUNK-27",
+      "chunk_index": 27,
+      "importance": "low",
+      "title": "Astrometria",
+      "category": "glossario",
+      "source": "edital",
+      "content": "Astrometria é a ciência que mede com precisão as posições e movimentos de objetos celestes.",
+      "keywords": ["astrometria", "posição", "movimento", "objetos celestes"],
+      "related_questions": [
+        "o que é astrometria",
+        "o que significa astrometria"
+      ]
+    },
+    {
+      "id": "DOC05-CHUNK-28",
+      "chunk_index": 28,
+      "importance": "low",
+      "title": "Ascensão Reta (RA) e Declinação (Dec)",
+      "category": "glossario",
+      "source": "edital",
+      "content": "Ascensão Reta (RA) e Declinação (Dec) são coordenadas celestes usadas para localizar objetos no céu, equivalentes à longitude e latitude.",
+      "keywords": ["RA", "Dec", "coordenadas", "céu"],
+      "related_questions": [
+        "o que é ascensão reta",
+        "o que é declinação",
+        "o que é RA e Dec"
+      ]
+    },
+    {
+      "id": "DOC05-CHUNK-29",
+      "chunk_index": 29,
+      "importance": "low",
+      "title": "Magnitude",
+      "category": "glossario",
+      "source": "edital",
+      "content": "Magnitude é a medida do brilho de um objeto celeste. Quanto menor o número, mais brilhante é o objeto.",
+      "keywords": ["magnitude", "brilho", "objeto celeste"],
+      "related_questions": [
+        "o que é magnitude",
+        "como funciona magnitude"
+      ]
+    },
+    {
+      "id": "DOC05-CHUNK-30",
+      "chunk_index": 30,
+      "importance": "medium",
+      "title": "IASC (International Astronomical Search Collaboration)",
+      "category": "glossario",
+      "source": "edital",
+      "content": "O IASC (International Astronomical Search Collaboration) é a organização parceira da NASA que fornece as imagens para análise nas campanhas.",
+      "keywords": ["IASC", "NASA", "imagens", "campanha"],
+      "related_questions": [
+        "o que é IASC",
+        "o que significa IASC",
+        "quem fornece as imagens da campanha"
+      ]
+    },
+
+    {
+      "id": "DOC05-CHUNK-31",
+      "chunk_index": 31,
+      "importance": "low",
+      "title": "Designação Provisória",
+      "category": "glossario",
+      "source": "edital",
+      "content": "Designação provisória é o código temporário atribuído a um possível novo asteroide antes de receber um nome oficial.",
+      "keywords": ["designação provisória", "código", "asteroide"],
+      "related_questions": [
+        "o que é designação provisória",
+        "como nomear um asteroide"
+      ]
+    },
+    
+    {
+      "id": "DOC05-CHUNK-32",
+      "chunk_index": 32,
+      "importance": "low",
+      "title": "Frame e Pacote de Imagens",
+      "category": "glossario",
+      "source": "edital",
+      "content": "Frame é uma imagem individual dentro de um conjunto. Um pacote de imagens é um conjunto de frames do mesmo campo estelar usado para análise.",
+      "keywords": ["frame", "pacote de imagens", "image set"],
+      "related_questions": [
+        "o que é um frame",
+        "o que é pacote de imagens",
+        "o que é image set"
+      ]
+    },
+
+    {
+      "id": "DOC05-CHUNK-33",
+      "chunk_index": 33,
+      "importance": "high",
+      "title": "Preciso de conhecimento prévio em astronomia?",
+      "category": "faq",
+      "source": "edital",
+      "content": "Não é necessário ter conhecimento prévio em astronomia para participar. O treinamento oficial do programa ensina tudo o que é necessário.",
+      "keywords": ["astronomia", "conhecimento prévio", "iniciante"],
+      "related_questions": [
+        "preciso saber astronomia para participar",
+        "precisa ter conhecimento prévio",
+        "iniciante pode participar",
+        "preciso estudar antes de participar"
+      ]
+    },
+    {
+      "id": "DOC05-CHUNK-34",
+      "chunk_index": 34,
+      "importance": "high",
+      "title": "Participar de mais de uma campanha",
+      "category": "faq",
+      "source": "edital",
+      "content": "É possível participar de mais de uma campanha, desde que seja feita uma nova inscrição para cada uma delas.",
+      "keywords": ["campanha", "participação", "inscrição"],
+      "related_questions": [
+        "posso participar de mais de uma campanha",
+        "posso participar várias vezes",
+        "posso me inscrever novamente",
+        "quantas campanhas posso participar"
+      ]
+    },
+
+    {
+      "id": "DOC05-CHUNK-35",
+      "chunk_index": 35,
+      "importance": "medium",
+      "title": "Participar em mais de uma equipe",
+      "category": "faq",
+      "source": "edital",
+      "content": "Um integrante não pode participar de duas equipes ao mesmo tempo, com exceção do líder da equipe.",
+      "keywords": ["equipes", "participação", "regras"],
+      "related_questions": [
+        "posso participar de duas equipes",
+        "posso estar em mais de um grupo",
+        "participar de duas equipes ao mesmo tempo pode",
+        "líder pode estar em mais de uma equipe"
+      ]
+    },
+
+    {
+      "id": "DOC05-CHUNK-36",
+      "chunk_index": 36,
+      "importance": "medium",
+      "title": "Validade do certificado",
+      "category": "faq",
+      "source": "edital",
+      "content": "O certificado é digital e possui validade nacional, sendo emitido como participação em programa oficial do MCTI em parceria com a NASA/IASC.",
+      "keywords": ["certificado", "validade", "oficial"],
+      "related_questions": [
+        "o certificado é válido",
+        "certificado tem validade nacional",
+        "certificado é reconhecido",
+        "o certificado é oficial"
+      ]
+    },
+
+    {
+      "id": "DOC05-CHUNK-37",
+      "chunk_index": 37,
+      "importance": "medium",
+      "title": "Participação de outros estados ou países",
+      "category": "faq",
+      "source": "edital",
+      "content": "O programa permite participação de pessoas de qualquer estado do Brasil ou de outros países.",
+      "keywords": ["participação", "estado", "país"],
+      "related_questions": [
+        "posso participar de outro estado",
+        "posso participar de outro país",
+        "programa é internacional",
+        "quem pode participar do programa"
+      ]
+    },
+
+    {
+      "id": "DOC05-CHUNK-38",
+      "chunk_index": 38,
+      "importance": "medium",
+      "title": "Problemas ao abrir imagens",
+      "category": "faq",
+      "source": "edital",
+      "content": "Caso o computador não consiga abrir as imagens, é recomendado entrar em contato com a organização pelo e-mail cacaasteroidesbrasil@gmail.com.",
+      "keywords": ["erro", "imagem", "problema técnico"],
+      "related_questions": [
+        "não consigo abrir as imagens",
+        "erro ao abrir arquivos",
+        "imagens não abrem o que fazer",
+        "problema técnico com imagens"
+      ]
+    },
+
+    {
+      "id": "DOC05-CHUNK-39",
+      "chunk_index": 39,
+      "importance": "high",
+      "title": "Participação individual",
+      "category": "faq",
+      "source": "edital",
+      "content": "Não é possível participar sozinho. Cada equipe deve ter no mínimo 3 pessoas: 1 líder e 2 integrantes.",
+      "keywords": ["sozinho", "equipe", "mínimo"],
+      "related_questions": [
+        "posso participar sozinho",
+        "precisa de equipe",
+        "quantas pessoas por equipe",
+        "participar sozinho pode"
+      ]
+    },
+
+    {
+      "id": "DOC05-CHUNK-40",
+      "chunk_index": 40,
+      "importance": "medium",
+      "title": "Distribuição de vagas",
+      "category": "faq",
+      "source": "edital",
+      "content": "As vagas são distribuídas igualmente entre as inscrições, respeitando a ordem de chegada em cada campanha.",
+      "keywords": ["vagas", "ordem de inscrição", "distribuição"],
+      "related_questions": [
+        "como funcionam as vagas",
+        "ordem de inscrição importa",
+        "como são distribuídas as vagas",
+        "tem limite de vagas"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "metadata": {
+    "document_id": "DOC-02",
+    "title": "Fluxo Completo do Participante — Caça Asteroides MCTI 2026",
+    "description": "Descreve todo o caminho do participante, desde a inscrição até o recebimento do certificado, incluindo o fluxo humano/experiencial e o fluxo técnico de análise das imagens.",
+    "source": "fluxo_completo_participante",
+    "version": "1.0",
+    "created_at": "2026-03-17",
+    "tags": ["fluxo", "inscrição", "equipe", "login", "plataforma", "análise", "relatório", "certificado", "passo a passo"]
+  },
+
+  "chunks": [
+
+    {
+      "id": "DOC02-FCP-01",
+      "chunk_index": 1,
+      "importance": "high",
+      "title": "Visão Geral do Fluxo — Do Início ao Fim",
+      "category": "visao_geral_fluxo",
+      "source": "fluxo_completo_participante",
+      "content": "A participação no Caça Asteroides MCTI segue um fluxo bem definido com etapas sequenciais: (1) Inscrição da equipe pelo líder via formulário Google; (2) Envio dos termos de autorização de uso de imagem; (3) Recebimento dos e-mails de boas-vindas do Caça Asteroides MCTI e do IASC com as orientações de acesso; (4) Instalação e prática com o software Astrometrica antes do início da campanha; (5) No início oficial da campanha: login na plataforma do IASC, envio do relatório do image set de prática e liberação dos image sets reais; (6) Download e análise dos image sets com o Astrometrica; (7) Envio dos relatórios MPC pela Team Page do IASC; (8) Ao fim da campanha: solicitação do certificado digital na plataforma do IASC.",
+      "keywords": ["fluxo geral", "etapas", "início ao fim", "visão geral", "passo a passo", "inscrição", "análise", "certificado", "campanha"],
+      "related_questions": [
+        "qual é o passo a passo do caça asteroides",
+        "como funciona o programa do início ao fim",
+        "quais são as etapas para participar",
+        "o que preciso fazer depois que me inscrevo",
+        "como é o processo completo do participante"
+      ]
+    },
+
+    {
+      "id": "DOC02-FCP-02",
+      "chunk_index": 2,
+      "importance": "high",
+      "title": "Etapa 1 — Inscrição da Equipe",
+      "category": "inscricao",
+      "source": "fluxo_completo_participante",
+      "content": "O primeiro passo é a inscrição da equipe, que deve ser feita exclusivamente pelo líder (maior de 18 anos) por meio do formulário Google disponível no edital, na campanha de sua preferência. As inscrições são gratuitas. Ao preencher o formulário, o líder cadastra seu próprio nome e o nome completo de todos os integrantes da equipe — sem abreviações, pois esses nomes aparecerão nos certificados. Não é possível alterar ou substituir integrantes após a inscrição. A equipe deve ter no mínimo 3 pessoas (1 líder + 2 integrantes) e no máximo 5 (1 líder + 4 integrantes). A idade mínima do líder é 18 anos e dos demais integrantes é 6 anos.",
+      "keywords": ["inscrição", "formulário", "líder", "nome completo", "sem abreviações", "equipe", "mínimo 3", "máximo 5", "18 anos", "6 anos", "gratuita"],
+      "related_questions": [
+        "como faço a inscrição",
+        "qual o primeiro passo para participar",
+        "como montar uma equipe para participar",
+        "quantas pessoas precisa na equipe",
+        "quem pode se inscrever no programa"
+      ]
+    },
+
+    {
+      "id": "DOC02-FCP-03",
+      "chunk_index": 3,
+      "importance": "high",
+      "title": "Etapa 2 — Envio dos Termos de Autorização de Imagem",
+      "category": "documentacao",
+      "source": "fluxo_completo_participante",
+      "content": "Após a inscrição, o líder deve enviar os termos de autorização de uso de imagem de todos os participantes para o e-mail cacasteroidesdocumentos@gmail.com, em formato PDF, dentro do prazo de 15 dias a partir do início da campanha. Para participantes maiores de idade, usa-se o Anexo II (assinado pelo próprio). Para menores de idade, usa-se o Anexo I (assinado pelo responsável legal). Os documentos podem ser assinados eletronicamente pelo site do GOV.BR: https://www.gov.br/governodigital/pt-br/identidade/assinatura-eletronica. Equipes que não enviarem a documentação dentro do prazo podem ser eliminadas do programa.",
+      "keywords": ["termos", "autorização de imagem", "Anexo I", "Anexo II", "menor de idade", "responsável", "PDF", "15 dias", "prazo", "documentação", "eliminação", "GOV.BR", "assinatura eletrônica", "cacasteroidesdocumentos"],
+      "related_questions": [
+        "onde envio os documentos de inscrição",
+        "para qual email mando os termos",
+        "quanto tempo tenho para enviar os termos",
+        "como assinar o termo de autorização",
+        "preciso enviar algum documento depois da inscrição"
+      ]
+    },
+
+    {
+      "id": "DOC02-FCP-04",
+      "chunk_index": 4,
+      "importance": "high",
+      "title": "Etapa 3 — Recebimento dos E-mails de Boas-Vindas",
+      "category": "pos_inscricao",
+      "source": "fluxo_completo_participante",
+      "content": "Após a inscrição confirmada, o líder receberá e-mails tanto do Caça Asteroides MCTI quanto do IASC (iascsearch@cisco.edu). Esses e-mails contêm informações importantes: orientações de acesso à plataforma do IASC, instruções para instalação do Astrometrica, dados de registro do software e orientações gerais sobre a campanha. É fundamental que o líder leia atentamente esses e-mails, pois eles contêm as credenciais necessárias para acessar o sistema. Atenção: a campanha e o login na plataforma do IASC só ficam disponíveis a partir da data oficial de início — antes disso, não é possível acessar.",
+      "keywords": ["e-mail boas-vindas", "IASC", "iascsearch@cisco.edu", "credenciais", "acesso", "login", "após inscrição", "data de início", "orientações", "Astrometrica"],
+      "related_questions": [
+        "vou receber algum email depois da inscrição",
+        "o que vem no email do iasc",
+        "não recebi email do iasc o que faço",
+        "como recebo as credenciais de acesso",
+        "quando posso acessar a plataforma"
+      ]
+    },
+
+    {
+      "id": "DOC02-FCP-05",
+      "chunk_index": 5,
+      "importance": "high",
+      "title": "Etapa 4 — Instalação e Prática com o Astrometrica",
+      "category": "preparacao",
+      "source": "fluxo_completo_participante",
+      "content": "Antes do início oficial da campanha, o líder deve instalar o Astrometrica no computador Windows da equipe e praticar com os materiais disponíveis no site do IASC. O líder deve dominar duas habilidades fundamentais antes de receber os image sets reais: (1) Conduzir uma busca manual no Astrometrica — carregar imagens, executar o Data Reduction, usar o Blink Images e medir objetos em movimento; (2) Distinguir assinaturas verdadeiras de falsas — conhecer os critérios de uma detecção real (linha reta + velocidade constante + magnitude constante) e os 9 tipos de falsas assinaturas que não devem ser reportados. Todos os materiais de instalação e prática estão disponíveis em: https://iasc.cosmosearch.org/Home/Astrometrica",
+      "keywords": ["instalação", "Astrometrica", "prática", "antes da campanha", "Windows", "busca manual", "assinaturas verdadeiras", "falsas assinaturas", "habilidades fundamentais", "Data Reduction", "Blink Images"],
+      "related_questions": [
+        "preciso instalar alguma coisa antes da campanha",
+        "o que preciso fazer antes de começar",
+        "como instalar o astrometrica",
+        "preciso treinar antes da campanha",
+        "o que o líder precisa saber antes de começar"
+      ]
+    },
+
+    {
+      "id": "DOC02-FCP-06",
+      "chunk_index": 6,
+      "importance": "high",
+      "title": "Etapa 5 — Login na Plataforma do IASC",
+      "category": "acesso_plataforma",
+      "source": "fluxo_completo_participante",
+      "content": "No início oficial da campanha, as equipes podem fazer login na plataforma do IASC pelo site https://iasc.cosmosearch.org/ — o botão de login fica no canto superior direito da página. As credenciais de acesso são enviadas por e-mail após a inscrição confirmada. Todos os membros da equipe utilizam o login do líder para acessar a campanha e os image sets. Após fazer login, o líder acessa a campanha pelo menu 'Campaigns' no topo da página e localiza o nome da sua equipe. Apenas a equipe tem acesso à sua própria página (Team Page) — nenhuma outra equipe pode ver seus image sets ou relatórios.",
+      "keywords": ["login", "plataforma IASC", "iasc.cosmosearch.org", "Team Page", "Campaigns", "acesso", "credenciais", "membros", "login do líder", "início da campanha"],
+      "related_questions": [
+        "como faço login na plataforma",
+        "onde entro na plataforma do iasc",
+        "qual login usar no iasc",
+        "como acessar minha equipe na plataforma",
+        "onde fica a team page"
+      ]
+    },
+
+    {
+      "id": "DOC02-FCP-07",
+      "chunk_index": 7,
+      "importance": "high",
+      "title": "Etapa 6 — Image Set de Prática (Obrigatório)",
+      "category": "pratica",
+      "source": "fluxo_completo_participante",
+      "content": "Antes de receber os image sets reais da campanha, cada equipe deve obrigatoriamente analisar o image set de prática disponível na plataforma do IASC e enviar o relatório correspondente. O IASC verifica esse relatório de prática antes de liberar os image sets reais para a equipe. Esse passo é obrigatório e serve para garantir que a equipe sabe usar o Astrometrica corretamente e preparar relatórios MPC limpos e precisos. O image set de prática usa a configuração PS1.cfg no Astrometrica.",
+      "keywords": ["image set de prática", "prática obrigatória", "PS1.cfg", "verificação IASC", "liberação", "relatório de prática", "obrigatório", "antes dos sets reais"],
+      "related_questions": [
+        "preciso fazer o image set de prática",
+        "é obrigatório fazer o treino antes dos dados reais",
+        "quando recebo os image sets reais",
+        "como funciona o set de prática",
+        "preciso enviar relatório do treino"
+      ]
+    },
+
+    {
+      "id": "DOC02-FCP-08",
+      "chunk_index": 8,
+      "importance": "high",
+      "title": "Etapa 7 — Download e Análise dos Image Sets Reais",
+      "category": "analise",
+      "source": "fluxo_completo_participante",
+      "content": "Após a aprovação do relatório de prática, a equipe recebe acesso aos image sets reais da campanha. Cada image set contém 4 imagens astronômicas no formato .fits, capturadas pelo telescópio Pan-STARRS no Havaí. O processo de análise no Astrometrica segue estes passos: (1) Baixar o image set pela Team Page e descompactar; (2) No Astrometrica: Load Images → Data Reduction → Known Object Overlay → Blink Images com zoom 2x; (3) Realizar a varredura visual sistemática (Grid Search) em busca de objetos em movimento entre os 4 frames; (4) Para cada objeto detectado: parar o blinker, clicar no objeto na imagem 1, verificar a Object Designation e clicar Accept — repetir nas 4 imagens; (5) Acessar File → View MPC Report → selecionar tudo (Ctrl+A) e copiar (Ctrl+C).",
+      "keywords": ["image set", "download", "fits", "análise", "Astrometrica", "Load Images", "Data Reduction", "Known Object Overlay", "Blink Images", "Grid Search", "Object Designation", "MPC Report", "4 frames"],
+      "related_questions": [
+        "como faço a análise das imagens",
+        "como analisar os image sets",
+        "como usar o astrometrica na prática",
+        "como encontrar asteroides nas imagens",
+        "qual o passo a passo da análise"
+      ]
+    },
+
+    {
+      "id": "DOC02-FCP-09",
+      "chunk_index": 9,
+      "importance": "high",
+      "title": "Etapa 8 — Envio do Relatório MPC pela Team Page",
+      "category": "envio_relatorio",
+      "source": "fluxo_completo_participante",
+      "content": "Após analisar cada image set, o líder deve enviar o relatório MPC pela Team Page do IASC. O processo é: (1) Acessar https://iasc.cosmosearch.org/ e fazer login; (2) Na Team Page, localizar a seção 'Submit an MPC Report'; (3) Selecionar o image set correto no menu dropdown; (4) Adicionar os membros da equipe que participaram da análise clicando em 'Add Citizen Scientist'; (5) Colar o relatório copiado do Astrometrica no campo 'MPC Report' (Ctrl+V); (6) Clicar em 'Submit Report'. Regra importante: os relatórios devem ser enviados SOMENTE pela Team Page — nunca por e-mail ou outro canal. Após o envio, executar File → Reset Files no Astrometrica para preparar o software para o próximo image set.",
+      "keywords": ["envio relatório", "Submit Report", "Team Page", "MPC Report", "Add Citizen Scientist", "dropdown", "colar relatório", "somente Team Page", "Reset Files", "passo a passo envio"],
+      "related_questions": [
+        "como envio o relatório mpc",
+        "onde envio o relatório",
+        "posso mandar o relatório por email",
+        "como usar a team page para enviar",
+        "como funciona o envio do relatório"
+      ]
+    },
+
+    {
+      "id": "DOC02-FCP-10",
+      "chunk_index": 10,
+      "importance": "high",
+      "title": "E se Nenhum Objeto for Detectado?",
+      "category": "envio_relatorio",
+      "source": "fluxo_completo_participante",
+      "content": "Mesmo quando nenhum objeto em movimento é encontrado no image set, o líder ainda assim deve enviar um relatório MPC para aquele set. Dados negativos também têm valor científico. O procedimento é: (1) Clicar em qualquer estrela na imagem e medir — atribuir a designação 'xxx0000'; (2) Acessar File → View MPC Report e copiar o relatório; (3) Na Team Page do IASC, ao colar o relatório, deletar a linha de medição da estrela (xxx0000) e adicionar no lugar: 'No moving objects detected'; (4) O relatório deve terminar com: ----- end -----. Enviar normalmente pela Team Page.",
+      "keywords": ["nenhum objeto", "No moving objects detected", "xxx0000", "relatório vazio", "dados negativos", "obrigatório enviar", "end", "valor científico"],
+      "related_questions": [
+        "se eu não encontrar nada preciso enviar relatório",
+        "não achei nenhum asteroide o que faço",
+        "preciso enviar mesmo sem detecção",
+        "o que colocar no relatório vazio",
+        "posso deixar de enviar se não achar nada"
+      ]
+    },
+
+    {
+      "id": "DOC02-FCP-11",
+      "chunk_index": 11,
+      "importance": "high",
+      "title": "Responsabilidades do Líder",
+      "category": "responsabilidades_lider",
+      "source": "fluxo_completo_participante",
+      "content": "O líder é o principal responsável pela equipe perante o programa. São suas atribuições: participar do treinamento oficial nas datas divulgadas; treinar e motivar os integrantes da equipe; enviar todos os relatórios dos image sets ao IASC dentro do prazo; identificar ao final da campanha quais integrantes efetivamente participaram (para fins de certificado); solicitar autorização do Caça Asteroides MCTI (cacaasteroidesbrasil@gmail.com) antes de dar entrevistas, reportagens ou divulgar resultados em mídia. É expressamente proibido ao líder cobrar qualquer valor dos participantes ou vender treinamentos relacionados ao programa.",
+      "keywords": ["responsabilidades", "líder", "treinamento", "relatórios", "identificar participantes", "certificado", "autorização", "mídia", "proibições", "cobrar"],
+      "related_questions": [
+        "quais são as responsabilidades do líder",
+        "o que o líder precisa fazer na campanha",
+        "o líder pode cobrar dos participantes",
+        "o que o líder é responsável",
+        "o líder precisa participar do treinamento"
+      ]
+    },
+
+    {
+      "id": "DOC02-FCP-12",
+      "chunk_index": 12,
+      "importance": "medium",
+      "title": "Suporte Durante a Campanha — WhatsApp e Canais Oficiais",
+      "category": "suporte",
+      "source": "fluxo_completo_participante",
+      "content": "Os líderes inscritos na campanha recebem acesso a um grupo de WhatsApp oficial do Caça Asteroides MCTI, onde podem tirar dúvidas durante a campanha e receber comunicados durante o andamento da campanha. Para dúvidas gerais sobre o programa, o canal oficial é o e-mail cacaasteroidesbrasil@gmail.com. Para dúvidas técnicas sobre o Astrometrica, os Trainers voluntários do IASC estão disponíveis pelo FAQ da plataforma: https://iasc.cosmosearch.org/Home/FAQ. O IASC também pode ser contatado pelo e-mail iascsearch@cisco.edu.",
+      "keywords": ["suporte", "WhatsApp", "grupo WhatsApp", "dúvidas", "cacaasteroidesbrasil", "Trainers", "FAQ", "iascsearch", "ajuda", "durante campanha"],
+      "related_questions": [
+        "onde tiro dúvida durante a campanha",
+        "onde posso tirar dúvidas sobre o programa",
+        "como falar com alguém do caça asteroides",
+        "com quem falo se tiver dúvida",
+        "quem pode me ajudar durante a campanha",
+        "tem suporte durante a campanha",
+        "como pedir ajuda durante a campanha",
+        "onde pedir ajuda no caça asteroides",
+        "tem grupo de whatsapp do programa",
+        "como entrar no grupo de suporte",
+        "como falar com o suporte do programa",
+        "qual email para tirar dúvidas",
+        "onde posso mandar dúvidas",
+        "como entrar em contato com a organização"
+      ]
+    },
+
+    {
+      "id": "DOC02-FCP-13",
+      "chunk_index": 13,
+      "importance": "high",
+      "title": "Etapa Final — Certificado Digital ao Fim da Campanha",
+      "category": "certificado",
+      "source": "fluxo_completo_participante",
+      "content": "Ao final de cada campanha, os participantes que enviaram os relatórios corretamente ao IASC têm direito ao certificado digital de participação. O certificado é solicitado na plataforma do IASC. O nome que aparece no certificado é exatamente o nome cadastrado pelo líder no momento da inscrição — por isso é fundamental que os nomes sejam preenchidos corretamente e sem abreviações no formulário de inscrição. A Comissão Organizadora do Caça Asteroides MCTI não emite novos certificados em caso de erros de nome fornecidos no ato da inscrição. Cabe ao líder identificar ao final da campanha quais integrantes efetivamente participaram para que tenham direito ao certificado.",
+      "keywords": ["certificado", "certificado digital", "fim da campanha", "plataforma IASC", "nome completo", "sem abreviações", "direito ao certificado", "líder identifica participantes", "erro de nome"],
+      "related_questions": [
+        "como pego o certificado",
+        "quando recebo o certificado",
+        "quem tem direito ao certificado",
+        "como solicitar o certificado no iasc",
+        "o que preciso para ganhar certificado"
+      ]
+    },
+
+    {
+      "id": "DOC02-FCP-14",
+      "chunk_index": 14,
+      "importance": "high",
+      "title": "Requisito Técnico: Windows Obrigatório",
+      "category": "requisitos",
+      "source": "fluxo_completo_participante",
+      "content": "Para participar do Caça Asteroides MCTI, é obrigatório que ao menos um integrante da equipe possua um computador ou notebook com sistema operacional Windows. O software Astrometrica, utilizado para analisar as imagens astronômicas, é compatível exclusivamente com Windows — não funciona em macOS ou Linux. Esse requisito está previsto no edital e é verificado no momento da inscrição.",
+      "keywords": ["Windows", "requisito", "computador", "notebook", "Astrometrica", "macOS", "Linux", "não compatível", "obrigatório", "sistema operacional"],
+      "related_questions": [
+        "o programa funciona no linux",
+        "o astrometrica funciona no mac",
+        "precisa ter windows para participar",
+        "qual sistema operacional preciso",
+        "posso usar mac ou linux"
+      ]
+    },
+
+    {
+      "id": "DOC02-FCP-15",
+      "chunk_index": 15,
+      "importance": "medium",
+      "title": "Cronograma Resumido das 8 Campanhas de 2026",
+      "category": "cronograma",
+      "source": "fluxo_completo_participante",
+      "content": "O Caça Asteroides MCTI 2026 possui 8 campanhas ao longo do ano, numeradas de 34 a 41 no sistema do IASC. O cronograma previsto é: Campanha 1 (IASC-34): 13/03 a 07/04/2026 — 800 vagas; Campanha 2 (IASC-35): 10/04 a 06/05/2026 — 800 vagas; Campanha 3 (IASC-36): 11/05 a 05/06/2026 — 600 vagas; Campanha 4 (IASC-37): 10/06 a 06/07/2026 — 800 vagas; Campanha 5 (IASC-38): 09/07 a 03/08/2026 — 500 vagas; Campanha 6 (IASC-39): 07/08 a 01/09/2026 — 900 vagas; Campanha 7 (IASC-40): 23/09 a 19/10/2026 — 800 vagas (sujeito a alteração); Campanha 8 (IASC-41): outubro — 800 vagas (data a definir). Total: 6.000 vagas no ano. As datas podem sofrer alterações e serão comunicadas por e-mail pelo cacaasteroidesbrasil@gmail.com.",
+      "keywords": ["cronograma", "campanhas 2026", "vagas", "datas", "IASC-34", "IASC-35", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "8 campanhas", "6000 vagas"],
+      "related_questions": [
+        "quais são as datas das campanhas",
+        "quando acontecem as campanhas de 2026",
+        "quantas campanhas tem no ano",
+        "quando começa cada campanha",
+        "qual o cronograma do programa"
+      ]
+    }
+  ]
+}

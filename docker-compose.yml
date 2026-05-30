@@ -1,0 +1,30 @@
+services:  # Aqui definimos os "serviços" (containers) da aplicação
+  rag:  # Nome do serviço (pode ser qualquer nome, representa seu sistema RAG)
+    
+    build: ./backend  
+    # Diz para o Docker construir a imagem usando o Dockerfile que está em ./backend
+
+    ports:
+      - "8010:8010"
+
+    volumes:
+      - ./backend:/app  
+      # Sincroniza sua pasta local com o container
+      # Tudo que você muda no código local reflete dentro do container
+
+      - ./backend/chroma_db:/app/chroma_db  
+      # Garante que o banco vetorial (ChromaDB) NÃO seja perdido
+      # Persiste os dados fora do container
+
+    env_file:
+      - .env  
+      # Carrega as variáveis de ambiente (API KEY, configs, etc)
+      # Substitui o uso manual de --env-file
+
+    stdin_open: true  
+    # Mantém a entrada padrão aberta (equivalente ao -i no docker run)
+    # Necessário para usar input()
+
+    tty: true  
+    # Cria um terminal interativo (equivalente ao -t)
+    # Permite interação no console (ex: digitar perguntas)

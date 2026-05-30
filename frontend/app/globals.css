@@ -1,0 +1,640 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&family=Russo+One&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --scrollbar-bg: #07091a;
+  --scrollbar-thumb: #1a2754;
+  --scrollbar-thumb-hover: #f97316;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-bg);
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--scrollbar-bg);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb);
+  border-radius: 3px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar-thumb-hover);
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden; /* [1] trava scroll horizontal no mobile */
+  background-color: #03050d;
+}
+
+.noise-bg {
+  position: relative;
+}
+
+.noise-bg::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.4;
+}
+
+.stars-bg {
+  position: relative;
+}
+
+/* CAMADA DISTANTE — nebulosa + estrelas pequenas, cintilação lenta */
+.stars-bg::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    /* Nebulosas mais densas */
+    radial-gradient(ellipse 900px 600px at 15% 20%, rgba(249, 115, 22, 0.18) 0%, transparent 65%),
+    radial-gradient(ellipse 800px 550px at 85% 80%, rgba(56, 70, 130, 0.55) 0%, transparent 65%),
+    radial-gradient(ellipse 700px 450px at 50% 110%, rgba(180, 70, 30, 0.18) 0%, transparent 60%),
+    radial-gradient(ellipse 600px 400px at 90% 10%, rgba(80, 40, 120, 0.20) 0%, transparent 65%),
+    /* Estrelas distantes — agora 40, mais brilhantes */
+    radial-gradient(1px 1px at 3% 8%, rgba(255, 255, 255, 0.9) 0%, transparent 100%),
+    radial-gradient(1px 1px at 7% 22%, rgba(255, 255, 255, 0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 11% 38%, rgba(200, 220, 255, 0.8) 0%, transparent 100%),
+    radial-gradient(1px 1px at 14% 55%, rgba(255, 255, 255, 0.85) 0%, transparent 100%),
+    radial-gradient(1px 1px at 17% 70%, rgba(255, 255, 255, 0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 21% 14%, rgba(255, 255, 255, 0.8) 0%, transparent 100%),
+    radial-gradient(1px 1px at 24% 88%, rgba(255, 220, 180, 0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 28% 30%, rgba(255, 255, 255, 0.9) 0%, transparent 100%),
+    radial-gradient(1px 1px at 31% 47%, rgba(255, 255, 255, 0.6) 0%, transparent 100%),
+    radial-gradient(1px 1px at 34% 5%, rgba(255, 255, 255, 0.85) 0%, transparent 100%),
+    radial-gradient(1px 1px at 38% 62%, rgba(200, 220, 255, 0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 41% 80%, rgba(255, 255, 255, 0.9) 0%, transparent 100%),
+    radial-gradient(1px 1px at 44% 25%, rgba(255, 255, 255, 0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 48% 50%, rgba(255, 255, 255, 0.85) 0%, transparent 100%),
+    radial-gradient(1px 1px at 51% 15%, rgba(255, 255, 255, 0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 54% 70%, rgba(255, 220, 180, 0.8) 0%, transparent 100%),
+    radial-gradient(1px 1px at 57% 38%, rgba(255, 255, 255, 0.9) 0%, transparent 100%),
+    radial-gradient(1px 1px at 60% 90%, rgba(255, 255, 255, 0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 63% 8%, rgba(255, 255, 255, 0.85) 0%, transparent 100%),
+    radial-gradient(1px 1px at 66% 55%, rgba(200, 220, 255, 0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 69% 28%, rgba(255, 255, 255, 0.9) 0%, transparent 100%),
+    radial-gradient(1px 1px at 72% 78%, rgba(255, 255, 255, 0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 75% 42%, rgba(255, 255, 255, 0.85) 0%, transparent 100%),
+    radial-gradient(1px 1px at 78% 18%, rgba(255, 220, 180, 0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 81% 65%, rgba(255, 255, 255, 0.9) 0%, transparent 100%),
+    radial-gradient(1px 1px at 84% 33%, rgba(255, 255, 255, 0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 87% 88%, rgba(255, 255, 255, 0.85) 0%, transparent 100%),
+    radial-gradient(1px 1px at 90% 48%, rgba(200, 220, 255, 0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 93% 20%, rgba(255, 255, 255, 0.9) 0%, transparent 100%),
+    radial-gradient(1px 1px at 96% 73%, rgba(255, 255, 255, 0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 98% 40%, rgba(255, 255, 255, 0.85) 0%, transparent 100%),
+    radial-gradient(1px 1px at 5% 95%, rgba(255, 255, 255, 0.7) 0%, transparent 100%);
+  animation: twinkle-slow 8s ease-in-out infinite;
+}
+
+/* CAMADA PRÓXIMA — estrelas maiores e mais brilhantes */
+.stars-bg::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    radial-gradient(2px 2px at 10% 18%, rgba(255, 255, 255, 1) 0%, transparent 100%),
+    radial-gradient(2.5px 2.5px at 22% 40%, rgba(249, 115, 22, 0.9) 0%, transparent 100%),
+    radial-gradient(2px 2px at 35% 12%, rgba(255, 240, 220, 1) 0%, transparent 100%),
+    radial-gradient(2px 2px at 42% 65%, rgba(255, 255, 255, 1) 0%, transparent 100%),
+    radial-gradient(2.5px 2.5px at 55% 28%, rgba(255, 255, 255, 1) 0%, transparent 100%),
+    radial-gradient(2px 2px at 62% 82%, rgba(200, 220, 255, 1) 0%, transparent 100%),
+    radial-gradient(2.5px 2.5px at 75% 18%, rgba(249, 115, 22, 0.85) 0%, transparent 100%),
+    radial-gradient(2px 2px at 82% 55%, rgba(255, 255, 255, 1) 0%, transparent 100%),
+    radial-gradient(2px 2px at 90% 30%, rgba(255, 240, 220, 1) 0%, transparent 100%),
+    radial-gradient(2px 2px at 95% 75%, rgba(255, 255, 255, 1) 0%, transparent 100%),
+    radial-gradient(2px 2px at 8% 75%, rgba(255, 255, 255, 1) 0%, transparent 100%),
+    radial-gradient(2px 2px at 48% 92%, rgba(200, 220, 255, 0.95) 0%, transparent 100%);
+  animation: twinkle-fast 3.5s ease-in-out infinite;
+}
+
+.glow-orange {
+  box-shadow: 0 0 20px rgba(249, 115, 22, 0.15),
+    0 0 40px rgba(249, 115, 22, 0.05);
+}
+
+.glow-text {
+  text-shadow:
+    0 0 10px rgba(249, 115, 22, 0.7),
+    0 0 22px rgba(249, 115, 22, 0.45),
+    0 0 40px rgba(249, 115, 22, 0.2);
+}
+
+@keyframes glow-pulse {
+  0%, 100% {
+    text-shadow:
+      0 0 10px rgba(249, 115, 22, 0.7),
+      0 0 22px rgba(249, 115, 22, 0.45),
+      0 0 40px rgba(249, 115, 22, 0.2);
+  }
+  50% {
+    text-shadow:
+      0 0 14px rgba(249, 115, 22, 0.95),
+      0 0 30px rgba(249, 115, 22, 0.65),
+      0 0 55px rgba(249, 115, 22, 0.35);
+  }
+}
+
+.message-enter {
+  animation: slideUp 0.25s ease-out forwards;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.typing-dot {
+  animation: typingBounce 1.2s ease-in-out infinite;
+}
+
+.typing-dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.typing-dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes typingBounce {
+  0%,
+  60%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.4;
+  }
+  30% {
+    transform: translateY(-4px);
+    opacity: 1;
+  }
+}
+
+textarea:focus {
+  outline: none;
+}
+
+/* Cometas / estrelas cadentes */
+.comets-bg::before,
+.comets-bg::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: -200px;
+  width: 140px;
+  height: 1.5px;
+  pointer-events: none;
+  z-index: 0;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(249, 115, 22, 0.4) 60%,
+    rgba(255, 255, 255, 0.95) 95%,
+    transparent 100%
+  );
+  border-radius: 50%;
+  filter: blur(0.5px);
+}
+
+.comets-bg::before {
+  top: 12%;
+  transform: rotate(18deg);
+  animation: comet-1 9s linear infinite;
+}
+
+.comets-bg::after {
+  top: 55%;
+  width: 110px;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(200, 220, 255, 0.4) 60%,
+    rgba(255, 255, 255, 0.95) 95%,
+    transparent 100%
+  );
+  transform: rotate(22deg);
+  animation: comet-2 13s linear infinite;
+  animation-delay: 4s;
+}
+
+@keyframes comet-1 {
+  0%   { transform: rotate(18deg) translateX(0);     opacity: 0; }
+  3%   { opacity: 1; }
+  18%  { opacity: 1; }
+  22%  { transform: rotate(18deg) translateX(120vw); opacity: 0; }
+  100% { transform: rotate(18deg) translateX(120vw); opacity: 0; }
+}
+
+@keyframes comet-2 {
+  0%   { transform: rotate(22deg) translateX(0);     opacity: 0; }
+  3%   { opacity: 1; }
+  16%  { opacity: 1; }
+  20%  { transform: rotate(22deg) translateX(130vw); opacity: 0; }
+  100% { transform: rotate(22deg) translateX(130vw); opacity: 0; }
+}
+
+.header-telemetry {
+  /* isola o header numa camada própria de composição → não repinta
+     junto com o conteúdo no scroll (acaba com o "tremor") */
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform;
+  backface-visibility: hidden;
+  contain: layout paint;
+}
+
+.header-telemetry::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(249, 115, 22, 0.4) 20%,
+    rgba(249, 115, 22, 0.85) 50%,
+    rgba(249, 115, 22, 0.4) 80%,
+    transparent 100%
+  );
+  box-shadow:
+    0 0 6px rgba(249, 115, 22, 0.5),
+    0 0 14px rgba(249, 115, 22, 0.25);
+  pointer-events: none;
+}
+
+
+/* ============================================================
+   REDESIGN — Navbar (visor do robô) + Welcome (logo + cards)
+   ============================================================ */
+
+/* ---------- NAVBAR: visor do robô (sem anel girando) ---------- */
+.bot-viewport {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background:
+    radial-gradient(circle at 50% 38%, rgba(249, 115, 22, 0.18) 0%, transparent 70%),
+    linear-gradient(160deg, #0d1530, #03050d);
+  border: 1px solid rgba(249, 115, 22, 0.22);
+  box-shadow: inset 0 0 12px rgba(249, 115, 22, 0.1), 0 2px 8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bot-viewport img {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+  object-position: bottom;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4));
+  transition: transform 0.3s ease;
+}
+.bot-viewport:hover img {
+  transform: translateY(-1px) scale(1.04);
+}
+/* colchetes HUD nos cantos (espelham o visor do robô) */
+.bot-viewport .corner {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border: 1.5px solid rgba(249, 115, 22, 0.65);
+  pointer-events: none;
+}
+.bot-viewport .corner.tl { top: 4px; left: 4px; border-right: 0; border-bottom: 0; border-top-left-radius: 3px; }
+.bot-viewport .corner.tr { top: 4px; right: 4px; border-left: 0; border-bottom: 0; border-top-right-radius: 3px; }
+.bot-viewport .corner.bl { bottom: 4px; left: 4px; border-right: 0; border-top: 0; border-bottom-left-radius: 3px; }
+.bot-viewport .corner.br { bottom: 4px; right: 4px; border-left: 0; border-top: 0; border-bottom-right-radius: 3px; }
+
+/* avatar menor (usado nas mensagens, se quiser) */
+.bot-viewport.sm { width: 30px; height: 30px; border-radius: 9px; }
+.bot-viewport.sm img { width: 26px; height: 26px; }
+
+.status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #34d399;
+  box-shadow: 0 0 0 2px rgba(52, 211, 153, 0.18), 0 0 8px rgba(52, 211, 153, 0.8);
+  animation: pulse-online 2.4s ease-in-out infinite;
+}
+@keyframes pulse-online {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.45; }
+}
+
+.nav-link {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: clamp(11px, 3vw, 12px); /* [6b] fonte fluida */
+  color: #64748b;
+  text-decoration: none;
+  white-space: nowrap; /* [6b] não quebra o link */
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px clamp(7px, 2vw, 9px); /* [6b] padding fluido */
+  border-radius: 8px;
+  border: 1px solid transparent;
+  transition: all 0.18s ease;
+}
+.nav-link:hover {
+  color: #f97316;
+  border-color: rgba(249, 115, 22, 0.25);
+  background: rgba(249, 115, 22, 0.06);
+}
+
+/* ---------- MARCA do header (nome único + responsivo) ---------- */
+.brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 11px;
+  min-width: 0;
+}
+/* logo do header — solta, sem moldura */
+.brand-logo {
+  height: 46px;            /* cabe no header de 64px; suba até ~48 se quiser maior */
+  width: auto;             /* mantém a proporção */
+  object-fit: contain;
+  flex-shrink: 0;          /* não encolhe quando faltar espaço */
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.4));
+}
+.brand-title {
+  font-family: "Russo One", sans-serif;
+  font-size: clamp(13px, 4vw, 17px);
+  line-height: 1.05;
+  color: #f97316;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+}
+.brand-title .sub {
+  font-size: 0.74em;
+  letter-spacing: 0.1em;
+  color: #94a3b8; /* tom suave — lê como parte do nome */
+  font-weight: 400;
+}
+
+/* celular: MCTI desce pra baixo do nome, sem encostar nos links */
+@media (max-width: 480px) {
+  .brand-title {
+    display: none;   /* sem espaço: esconde o nome, sobra só a logo */
+  }
+}
+/* ---------- WELCOME: herói com logo + órbita ---------- */
+.welcome-wrap {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: clamp(28px, 6vw, 64px) 16px 24px; /* [6a] padding fluido */
+  min-height: 100%;
+  width: 100%; /* [6a] */
+}
+
+.logo-stage {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.logo-stage::before {
+  content: "";
+  position: absolute;
+  inset: -40px;
+  background: radial-gradient(circle at 50% 45%, rgba(249, 115, 22, 0.22) 0%, rgba(245, 197, 49, 0.1) 35%, transparent 70%);
+  filter: blur(6px);
+  z-index: 0;
+}
+.orbit-ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  z-index: 0;
+  pointer-events: none;
+}
+/* [2] anéis fluidos — não estouram mais a largura no mobile */
+.orbit-ring.r1 { width: clamp(210px, 62vw, 300px); height: clamp(210px, 62vw, 300px); border-color: rgba(249, 115, 22, 0.12); }
+.orbit-ring.r2 { width: clamp(280px, 82vw, 400px); height: clamp(280px, 82vw, 400px); border-style: dashed; border-color: rgba(148, 163, 184, 0.08); animation: spin-slow 60s linear infinite; }
+.orbit-ring.r3 { width: clamp(165px, 48vw, 230px); height: clamp(165px, 48vw, 230px); border-color: rgba(245, 197, 49, 0.1); }
+@keyframes spin-slow { to { transform: rotate(360deg); } }
+.orbit-dot {
+  position: absolute;
+  width: clamp(280px, 82vw, 400px);  /* [3] igual ao .r2 p/ o ponto seguir o anel */
+  height: clamp(280px, 82vw, 400px);
+  z-index: 0;
+  pointer-events: none;
+  animation: spin-slow 24s linear infinite;
+}
+.orbit-dot span {
+  position: absolute;
+  top: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #f97316;
+  box-shadow: 0 0 8px rgba(249, 115, 22, 0.9);
+}
+.logo-img {
+  position: relative;
+  z-index: 1;
+  width: clamp(170px, 50vw, 240px); /* [4] logo fluida */
+  height: auto;
+  filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.5));
+  animation: logo-float 6s ease-in-out infinite;
+}
+@keyframes logo-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.welcome-kicker {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 0.28em;
+  color: #f97316;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  opacity: 0.9;
+}
+.welcome-kicker::before, .welcome-kicker::after {
+  content: "";
+  height: 1px;
+  width: 28px;
+  background: linear-gradient(to right, transparent, rgba(249, 115, 22, 0.6));
+}
+.welcome-kicker::after { background: linear-gradient(to left, transparent, rgba(249, 115, 22, 0.6)); }
+
+.welcome-title {
+  font-family: "Russo One", sans-serif;
+  font-size: clamp(22px, 6vw, 30px); /* [5] título fluido */
+  line-height: 1.15;
+  color: #e2e8f0;
+  margin: 0 0 12px;
+}
+.welcome-title .accent { color: #f97316; }
+.welcome-sub {
+  font-size: 14px;
+  line-height: 1.65;
+  color: #94a3b8;
+  max-width: 440px;
+  margin: 0 auto 40px;
+  text-wrap: pretty;
+}
+
+.section-label {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: #64748b;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.section-label .blink {
+  width: 7px;
+  height: 7px;
+  border-radius: 2px;
+  background: #f97316;
+  box-shadow: 0 0 8px rgba(249, 115, 22, 0.8);
+  animation: pulse-online 1.8s ease-in-out infinite;
+}
+
+/* ---------- CARDS DE PERGUNTAS ---------- */
+.q-grid {
+  width: 100%;
+  max-width: 620px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+@media (max-width: 560px) { .q-grid { grid-template-columns: 1fr; } }
+
+.q-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-align: left;
+  width: 100%;
+  padding: 16px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(13, 21, 48, 0.75), rgba(7, 12, 26, 0.6));
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease, box-shadow 0.18s ease;
+}
+.q-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: #f97316;
+  transform: scaleY(0);
+  transition: transform 0.2s ease;
+}
+.q-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(249, 115, 22, 0.4);
+  background: linear-gradient(180deg, rgba(20, 29, 66, 0.85), rgba(13, 21, 48, 0.7));
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(249, 115, 22, 0.1);
+}
+.q-card:hover::before { transform: scaleY(1); }
+.q-card:focus-visible { outline: 2px solid #f97316; outline-offset: 2px; }
+
+.q-icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at 50% 35%, rgba(249, 115, 22, 0.16), rgba(13, 21, 48, 0.4));
+  border: 1px solid rgba(249, 115, 22, 0.22);
+  color: #fb923c;
+  transition: all 0.18s ease;
+}
+.q-card:hover .q-icon {
+  border-color: rgba(249, 115, 22, 0.5);
+  box-shadow: 0 0 14px rgba(249, 115, 22, 0.25);
+  color: #f97316;
+}
+.q-body { flex: 1; min-width: 0; }
+.q-tag {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  color: #64748b;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 3px;
+}
+.q-text {
+  font-size: 13.5px;
+  line-height: 1.35;
+  color: #94a3b8;
+  transition: color 0.18s ease;
+}
+.q-card:hover .q-text { color: #e2e8f0; }
+.q-arrow {
+  flex-shrink: 0;
+  color: #64748b;
+  opacity: 0;
+  transform: translateX(-4px);
+  transition: all 0.2s ease;
+}
+.q-card:hover .q-arrow { opacity: 1; transform: translateX(0); color: #f97316; }
+
+.welcome-foot {
+  margin-top: 28px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  color: #64748b;
+  opacity: 0.7;
+}
