@@ -109,15 +109,6 @@ Contexto recuperado:
     # Pergunta atual (já reescrita pelo pipeline) no final
     messages.append({"role": "user", "content": query})
 
-    # Adiciona o histórico (já vem na ordem cronológica)
-    for msg in history:
-        messages.append({
-            "role": msg["role"],
-            "content": msg["content"]
-        })
-
-    # Pergunta atual no final
-    messages.append({"role": "user", "content": query})
 
     logger.info(f"[{request_id}] [GENERATION] Aguardando slot do openai_semaphore")
 
