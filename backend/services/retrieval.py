@@ -23,7 +23,7 @@ chroma_client = chromadb.Client(
 
 collection = chroma_client.get_collection(name="caca_asteroides")
 
-retrieval_semaphore = asyncio.Semaphore(2)
+retrieval_semaphore = asyncio.Semaphore(1)
 
 
 # ===== EMBEDDING =====
