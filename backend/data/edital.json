@@ -402,15 +402,31 @@
     {
       "id": "DOC05-CHUNK-31",
       "chunk_index": 31,
-      "importance": "low",
-      "title": "Designação Provisória",
+      "importance": "medium",
+      "title": "Designação Provisória de Asteroides",
       "category": "glossario",
       "source": "edital",
-      "content": "Designação provisória é o código temporário atribuído a um possível novo asteroide antes de receber um nome oficial.",
-      "keywords": ["designação provisória", "código", "asteroide"],
+      "content": "A designação provisória é o código atribuído pelo Minor Planet Center (MPC) a uma detecção de asteroide que, até o momento, NÃO foi vinculada a nenhum objeto já conhecido. Ela vem DEPOIS da designação preliminar: ao ser reportado, o objeto recebe primeiro um código preliminar e, se for verificado que não corresponde a um objeto já catalogado, passa a ter uma designação provisória. O código segue o padrão: ano da descoberta + letra da quinzena em que foi descoberto + letra/número da ordem em que foi visto naquela quinzena. A primeira letra indica a quinzena da descoberta (A = 1ª quinzena de janeiro, B = 2ª quinzena de janeiro, e assim por diante, até X = 1ª quinzena de dezembro e Y = 2ª quinzena de dezembro); as letras I e Z não são usadas nessa posição. A segunda letra (acompanhada de um número quando há muitas detecções na mesma quinzena) indica a ordem da descoberta, omitindo a letra I. Exemplo: o asteroide 2024 YR4 foi detectado na 2ª quinzena de dezembro de 2024, por isso seu código começa com 'Y', a última letra de quinzena do ano.",
+      "keywords": [
+        "designação provisória",
+        "provisória",
+        "código do asteroide",
+        "como nomear um asteroide",
+        "minor planet center",
+        "mpc",
+        "quinzena da descoberta",
+        "2024 YR4",
+        "ano da descoberta",
+        "designação"
+      ],
       "related_questions": [
         "o que é designação provisória",
-        "como nomear um asteroide"
+        "qual a diferença entre designação preliminar e provisória",
+        "como funciona a designação de asteroides do MPC",
+        "como é formado o código de um asteroide",
+        "o que significa 2024 YR4",
+        "o que as letras da designação de um asteroide significam",
+        "como um asteroide é nomeado"
       ]
     },
     
@@ -562,6 +578,33 @@
         "ordem de inscrição importa",
         "como são distribuídas as vagas",
         "tem limite de vagas"
+      ]
+    },
+
+    {
+      "id": "DOC05-CHUNK-41",
+      "chunk_index": 41,
+      "importance": "medium",
+      "title": "Designação Preliminar de Asteroides",
+      "category": "glossario",
+      "source": "edital",
+      "content": "A designação preliminar é o código atribuído a uma detecção de asteroide no momento em que ela é reportada, antes de qualquer confirmação. Receber uma designação preliminar NÃO garante que o objeto seja um asteroide novo: a detecção preliminar pode, na verdade, corresponder a um objeto já conhecido e catalogado. A designação preliminar vem ANTES da designação provisória na cadeia de identificação de um asteroide. Só depois de verificar que a detecção não corresponde a um objeto já conhecido é que ela pode receber uma designação provisória atribuída pelo Minor Planet Center (MPC). Em resumo: preliminar é a detecção recém-reportada (que ainda pode ser um objeto conhecido); provisória é a detecção que já foi confirmada como não vinculada a nenhum objeto conhecido.",
+      "keywords": [
+        "designação preliminar",
+        "preliminar",
+        "asteroide preliminar",
+        "detecção preliminar",
+        "código preliminar",
+        "objeto preliminar",
+        "diferença preliminar provisória"
+      ],
+      "related_questions": [
+        "o que é designação preliminar",
+        "o que é um asteroide preliminar",
+        "o que é uma detecção preliminar",
+        "qual a diferença entre preliminar e provisória",
+        "o asteroide preliminar é um objeto novo",
+        "o que acontece depois da designação preliminar"
       ]
     }
   ]
