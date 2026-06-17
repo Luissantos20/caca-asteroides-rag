@@ -21,10 +21,13 @@ services:  # Aqui definimos os "serviços" (containers) da aplicação
       # Carrega as variáveis de ambiente (API KEY, configs, etc)
       # Substitui o uso manual de --env-file
 
+    environment:                      # ← adiciona esta seção
+      - RATE_LIMIT_ENABLED=false      # ← e esta linha
+
     stdin_open: true  
     # Mantém a entrada padrão aberta (equivalente ao -i no docker run)
     # Necessário para usar input()
 
     tty: true  
     # Cria um terminal interativo (equivalente ao -t)
-    # Permite interação no console (ex: digitar perguntas)
+    # Permite interação no console (ex: digitar perguntas

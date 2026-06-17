@@ -19,7 +19,7 @@ async def sse_format(pipeline_stream):
 
 
 @router.post("/chat")
-@limiter.limit("10/minute")
+@limiter.limit("120/minute")
 async def chat(request: Request, body: ChatRequest):
     request_id = request.state.request_id
 

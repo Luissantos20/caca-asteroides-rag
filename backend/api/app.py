@@ -36,6 +36,8 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "https://caca-asteroides-rag.vercel.app",
+        "https://xn--caaasteroides-jgb.app",
+        "https://www.xn--caaasteroides-jgb.app",
     ],
     allow_credentials=True,
     allow_methods=["*"], # mudar isso em produção
