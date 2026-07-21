@@ -65,15 +65,10 @@ async def get_embedding(text: str) -> list | None:
 
 # ===== NORMALIZAÇÃO =====
 def normalize_scores(distances: list) -> list:
-    if len(distances) == 1:
-        return [1.0]
-
-    d_min, d_max = min(distances), max(distances)
-
-    if d_max == d_min:
-        return [1.0] * len(distances)
-
-    return [1.0 - (d - d_min) / (d_max - d_min) for d in distances]
+    # Chroma com space="l2" -> distância L2 ao quadrado.
+    # Embeddings da OpenAI são normalizados (norma~1), então:
+    #   cos = 1 - distância/2  → sinal ABSOLUTO de relevância, comparável entre queries.
+    return [max(0.0, min(1.0, 1.0 - d / 2.0)) for d in distances]
 
 
 active_retrievals = 0

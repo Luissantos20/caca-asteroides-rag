@@ -174,7 +174,7 @@
       "title": "Instituições Envolvidas no Programa",
       "category": "instituicoes",
       "source": "edital",
-      "content": "O Programa Caça Asteroides MCTI conta com a participação das seguintes instituições: MCTI (Ministério da Ciência, Tecnologia e Inovação) — patrocinador e coordenador geral do programa no Brasil. IASC (International Astronomical Search Collaboration) — parceiro oficial da NASA que fornece as imagens astronômicas e valida os relatórios científicos enviados pelas equipes. ON-MCTI (Observatório Nacional) — coordenação científica do programa. UNILA (Universidade Federal da Integração Latino-Americana) — coordenação acadêmica. UFMS (Universidade Federal de Mato Grosso do Sul) — coordenação acadêmica. AEB (Agência Espacial Brasileira) — colaboração institucional. Comissão Organizadora — composta por: 01 Diretor Geral, 02 Diretores, 03 Coordenadores, 04 Treinadores Oficiais do IASC e 05 Professores Voluntários.",
+      "content": "O Programa Caça Asteroides MCTI conta com a participação das seguintes instituições: MCTI (Ministério da Ciência, Tecnologia e Inovação) — patrocinador e coordenador geral do programa no Brasil. IASC (International Astronomical Search Collaboration) — parceiro oficial da NASA que fornece as imagens astronômicas e valida os relatórios científicos enviados pelas equipes. ON-MCTI (Observatório Nacional) — coordenação científica do programa. UNILA (Universidade Federal da Integração Latino-Americana) — coordenação acadêmica. UFMS (Universidade Federal de Mato Grosso do Sul) — coordenação acadêmica. AEB (Agência Espacial Brasileira) — colaboração institucional. Comissão Organizadora — composta por: Diretor Geral, Diretores, Coordenadores, Treinadores Oficiais do IASC e Professores Voluntários.",
       "keywords": ["instituições", "MCTI", "IASC", "NASA", "Observatório Nacional", "UNILA", "UFMS", "AEB", "Comissão Organizadora", "parceiros", "quem organiza", "responsáveis pelo programa"],
       "related_questions": ["Quem organiza o programa?", "O programa é do governo federal?", "Qual a relação com a NASA?", "A UNILA participa do programa?", "Quem compõe a comissão organizadora?"]
     },
@@ -605,6 +605,94 @@
         "qual a diferença entre preliminar e provisória",
         "o asteroide preliminar é um objeto novo",
         "o que acontece depois da designação preliminar"
+      ]
+    },
+
+    {
+      "id": "DOC05-CHUNK-42",
+      "chunk_index": 42,
+      "importance": "medium",
+      "title": "Asteroide Fraco / Detecção Fraca",
+      "category": "glossario",
+      "source": "edital",
+      "content": "Uma detecção fraca (ou 'asteroide fraco') é a de um objeto que não foi visto no processo automático de varredura dos observatórios — é como se fosse uma detecção percebida primeiro por uma pessoa, antes da varredura automática. Segundo o IASC, essas detecções são importantes justamente porque podem passar despercebidas pelos sistemas automáticos. É importante não confundir: um asteroide fraco NÃO é sinônimo de raro, NÃO é necessariamente um NEO (objeto próximo à Terra) e NÃO significa que o objeto seja perigoso. Os asteroides considerados perigosos para a Terra têm uma classificação própria e separada, chamada PHA (Potentially Hazardous Asteroid).",
+      "keywords": [
+        "asteroide fraco",
+        "detecção fraca",
+        "objeto fraco",
+        "varredura automática",
+        "não visto pelo automático",
+        "raro",
+        "NEO",
+        "perigoso",
+        "PHA",
+        "IASC"
+      ],
+      "related_questions": [
+        "o que é um asteroide fraco",
+        "o que é uma detecção fraca",
+        "asteroide fraco é raro",
+        "asteroide fraco é perigoso",
+        "asteroide fraco é a mesma coisa que neo",
+        "por que as detecções fracas são importantes"
+      ]
+    },
+
+    {
+      "id": "DOC05-CHUNK-43",
+      "chunk_index": 43,
+      "importance": "medium",
+      "title": "PHA (Potentially Hazardous Asteroid)",
+      "category": "glossario",
+      "source": "edital",
+      "content": "PHA (Potentially Hazardous Asteroid, ou Asteroide Potencialmente Perigoso) é a classificação dada aos asteroides considerados potencialmente perigosos para a Terra. É uma categoria distinta e não deve ser confundida com outros termos: um asteroide fraco não é um PHA, e nem todo NEO (objeto próximo à Terra) é um PHA. Ser 'fraco' diz respeito a como o objeto foi detectado; ser NEO diz respeito à órbita se aproximar da Terra; e ser PHA é especificamente a classificação dos que representam risco potencial de impacto.",
+      "keywords": [
+        "PHA",
+        "potentially hazardous asteroid",
+        "asteroide potencialmente perigoso",
+        "asteroide perigoso",
+        "risco de impacto",
+        "perigo",
+        "NEO",
+        "asteroide fraco"
+      ],
+      "related_questions": [
+        "o que é PHA",
+        "o que é um asteroide potencialmente perigoso",
+        "qual asteroide é perigoso para a terra",
+        "qual a diferença entre PHA e NEO",
+        "asteroide fraco é perigoso",
+        "o que significa potentially hazardous asteroid"
+      ]
+    },
+
+    {
+      "id": "DOC05-CHUNK-44",
+      "chunk_index": 44,
+      "importance": "medium",
+      "title": "Designação Preliminar do IASC: P11, P22 e IU",
+      "category": "glossario",
+      "source": "edital",
+      "content": "No IASC, as detecções preliminares recebem um código conforme a origem da imagem: objetos do telescópio Pan-STARRS 1 recebem a designação P11, e objetos do Pan-STARRS 2 recebem P22. As detecções fracas seguem uma regra diferente: como os participantes não têm um observatório próprio credenciado, o Minor Planet Center (MPC) não pode atribuir a elas um código de objeto padrão, então o IASC as identifica com o prefixo IU (sigla de União Internacional), acompanhado de um número relacionado ao brilho do asteroide. Por conta desse tratamento diferente, as detecções fracas não aparecem na lista de preliminares do IASC junto com as P11/P22. Esta é a nomenclatura prática das detecções; o conceito de 'designação preliminar' em si (o que ela significa na cadeia preliminar → provisória) é tratado à parte.",
+      "keywords": [
+        "P11",
+        "P22",
+        "IU",
+        "união internacional",
+        "designação preliminar",
+        "Pan-STARRS 1",
+        "Pan-STARRS 2",
+        "detecção fraca",
+        "código IASC",
+        "brilho"
+      ],
+      "related_questions": [
+        "o que significa P11",
+        "o que significa P22",
+        "o que é a designação IU",
+        "por que a detecção fraca recebe IU",
+        "o que significa IU no iasc",
+        "por que as detecções fracas não aparecem na lista de preliminares"
       ]
     }
   ]

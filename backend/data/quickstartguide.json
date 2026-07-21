@@ -246,30 +246,32 @@
     {
       "id": "DOC06-QSG-09",
       "chunk_index": 9,
-      "importance": "high",
+      "importance": "medium",
       "title": "Known Object Overlay e Blink Images – Preparação para Varredura",
       "category": "analise_imagens",
       "source": "quickstartguide",
-      "content": "Após o Data Reduction, execute dois passos antes da varredura visual: (1) Clique em 'Known Object Overlay' na barra de ferramentas. Aguarde alguns minutos — o software consulta o banco de dados do MPC e marca todos os asteroides já conhecidos com um quadrado vermelho nas imagens. Seja paciente, este processo pode levar alguns minutos dependendo da conexão. Objetos com caixa vermelha JÁ são conhecidos. (2) Clique em 'Blink Images' para iniciar o modo de alternância entre as 4 imagens. Em seguida, use o zoom para ampliar a imagem — 2x de zoom é um bom ponto de partida. Agora as imagens alternam entre os 4 frames. Estrelas ficam fixas; asteroides aparecem como pontos que 'saltam' de posição.",
+      "content": "Após o Data Reduction, execute dois passos antes da varredura visual: (1) Clique em 'Known Object Overlay' na barra de ferramentas. Aguarde alguns minutos — o software consulta o banco de dados do MPC e marca todos os asteroides já conhecidos com um quadrado vermelho nas imagens. Seja paciente, este processo pode levar alguns minutos dependendo da conexão. Objetos com caixa vermelha JÁ são conhecidos. A caixa vermelha aparece para todos os objetos conhecidos, sejam eles NEOs ou não; a diferença é que, quando o objeto conhecido é um NEO, o nome (designação) dele aparece em vermelho negrito, enquanto os demais conhecidos aparecem em vermelho comum. (2) Clique em 'Blink Images' para iniciar o modo de alternância entre as 4 imagens. Em seguida, use o zoom para ampliar a imagem — 2x de zoom é um bom ponto de partida. Agora as imagens alternam entre os 4 frames. Estrelas ficam fixas; asteroides aparecem como pontos que 'saltam' de posição.",
       "keywords": [
-        "Known Object Overlay",
-        "Blink Images",
+        "known object overlay",
         "caixa vermelha",
-        "zoom",
-        "piscar",
-        "frames",
+        "quadrado vermelho",
+        "objeto conhecido",
+        "NEO",
+        "vermelho negrito",
+        "designação",
+        "blink images",
         "varredura",
-        "objetos conhecidos",
-        "MPC"
+        "zoom"
       ],
       "related_questions": [
-        "o que é blink images",
-        "como identificar asteroides nas imagens",
-        "o que é known object overlay",
-        "como ver objetos conhecidos",
-        "como preparar para análise das imagens"
+        "o que é a caixa vermelha no astrometrica",
+        "por que alguns objetos aparecem em negrito",
+        "como sei se um objeto conhecido é um neo",
+        "o que significa o nome em vermelho negrito",
+        "como funciona o known object overlay"
       ]
     },
+
     {
       "id": "DOC06-QSG-10",
       "chunk_index": 10,

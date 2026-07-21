@@ -169,14 +169,29 @@
       "title": "O que são TNOs e NEOs",
       "category": "conceitos_cientificos",
       "source": "visao_geral_e_parceiros",
-      "content": "Além dos asteroides do Cinturão Principal, o IASC também registra detecções de outros tipos de objetos. Os TNOs (Trans-Neptunian Objects — Objetos Trans-Netunianos) são corpos que orbitam o Sol além de Netuno, na região mais distante do sistema solar. Já os NEOs (Near-Earth Objects — Objetos Próximos à Terra) são asteroides ou cometas cujas órbitas se aproximam da Terra. Detecções de NEOs têm importância científica especial, pois contribuem para o monitoramento de objetos que poderiam, em teoria, representar risco de impacto com a Terra.",
-      "keywords": ["TNO", "trans-netuniano", "NEO", "próximos à Terra", "cometas", "impacto", "monitoramento", "sistema solar", "órbita"],
+      "content": "Além dos asteroides do Cinturão Principal, o IASC também registra detecções de outros tipos de objetos. Os TNOs (Trans-Neptunian Objects — Objetos Trans-Netunianos) são corpos que orbitam o Sol além de Netuno, na região mais distante do sistema solar. Já os NEOs (Near-Earth Objects — Objetos Próximos à Terra) são asteroides ou cometas cujas órbitas se aproximam da Terra. Detecções de NEOs têm importância científica especial, pois contribuem para o monitoramento de objetos que poderiam, em teoria, representar risco de impacto com a Terra. Por estarem próximos da Terra, os NEOs apresentam maior movimento aparente entre os frames: na varredura do Astrometrica eles tendem a 'saltar' mais e passam rapidamente pela tela, mesmo na velocidade 1.",
+      "keywords": [
+        "TNO",
+        "trans-netuniano",
+        "NEO",
+        "próximos à Terra",
+        "cometas",
+        "impacto",
+        "monitoramento",
+        "sistema solar",
+        "órbita",
+        "movimento aparente",
+        "velocidade na tela",
+        "varredura"
+      ],
       "related_questions": [
         "o que é neo",
         "o que é tno",
         "qual a diferença entre neo e tno",
         "o que são objetos próximos da terra",
-        "o que são objetos transnetunianos"
+        "o que são objetos transnetunianos",
+        "por que o neo passa rápido na tela",
+        "por que alguns objetos se movem mais rápido na varredura"
       ]
     },
 
@@ -250,6 +265,128 @@
         "o caça asteroides é gratuito",
         "tem alguma taxa para participar",
         "preciso pagar pelo astrometrica"
+      ]
+    },
+
+    {
+      "id": "DOC01-VGP-14",
+      "chunk_index": 14,
+      "importance": "low",
+      "title": "Prefixos de Cometas e Objetos Interestelares (C, P, D, I)",
+      "category": "conceitos_cientificos",
+      "source": "visao_geral_e_parceiros",
+      "content": "O Minor Planet Center (MPC) usa uma letra como prefixo para classificar cometas e objetos interestelares, separada da designação por uma barra (por exemplo, 1P/Halley). Os prefixos são: C — cometa não periódico, observado apenas uma vez ou sem período orbital confirmado; P — cometa periódico, com retornos confirmados e período orbital inferior a 200 anos (por isso o cometa Halley é 1P/Halley); D — cometa desaparecido, perdido ou que deixou de ser observado; I — objeto interestelar, seguido de numeração pela ordem de descoberta (por exemplo, 3I/ATLAS foi o terceiro objeto interestelar descoberto). Esses prefixos aparecem em observações do Astrometrica e nas fichas do MPC, ajudando a identificar de que tipo de objeto se trata.",
+      "keywords": [
+        "prefixo de cometa",
+        "cometa periódico",
+        "cometa não periódico",
+        "prefixo C",
+        "prefixo P",
+        "prefixo D",
+        "prefixo I",
+        "objeto interestelar",
+        "3I/ATLAS",
+        "cometa Halley",
+        "minor planet center",
+        "mpc",
+        "classificação de cometas"
+      ],
+      "related_questions": [
+        "o que significa o P no nome de um cometa",
+        "o que quer dizer o prefixo C de um cometa",
+        "qual a diferença entre cometa periódico e não periódico",
+        "o que é o prefixo D em cometas",
+        "o que significa o I de 3I/ATLAS",
+        "o que é um objeto interestelar",
+        "por que o cometa Halley tem P no nome",
+        "o que os prefixos de cometas significam"
+      ]
+    },
+
+    {
+      "id": "DOC01-VGP-15",
+      "chunk_index": 15,
+      "importance": "high",
+      "title": "O Caça Asteroides detecta só do Cinturão Principal?",
+      "category": "conceitos_cientificos",
+      "source": "visao_geral_e_parceiros",
+      "content": "Não. É comum as pessoas acharem que o Caça Asteroides trabalha apenas com asteroides do Cinturão Principal, mas isso não é verdade. Embora a maioria das detecções seja de asteroides do Cinturão Principal (a região entre Marte e Júpiter, onde se concentra a maior parte dos asteroides), o programa também registra detecções de objetos de outras órbitas, como os NEOs (objetos próximos à Terra), os TNOs (objetos trans-netunianos, além de Netuno) e os asteroides Troianos de Júpiter. Ou seja, as imagens analisadas podem conter objetos de regiões variadas do sistema solar, não apenas do Cinturão Principal.",
+      "keywords": [
+        "cinturão principal",
+        "outras órbitas",
+        "tipos de órbita",
+        "NEO",
+        "TNO",
+        "troianos",
+        "só cinturão principal",
+        "apenas cinturão principal",
+        "que asteroides o caça detecta"
+      ],
+      "related_questions": [
+        "o caça asteroide só recebe imagens do cinturão principal?",
+        "só tem detecções do cinturão principal?",
+        "o caça asteroides detecta só asteroides do cinturão principal",
+        "que tipos de asteroide o programa detecta",
+        "o programa detecta asteroides de outras órbitas",
+        "dá pra encontrar neo ou tno no caça asteroides"
+      ]
+    },
+
+    {
+      "id": "DOC01-VGP-16",
+      "chunk_index": 16,
+      "importance": "low",
+      "title": "Asteroides Troianos de Júpiter e a Missão Lucy",
+      "category": "conceitos_cientificos",
+      "source": "visao_geral_e_parceiros",
+      "content": "Os asteroides Troianos de Júpiter são objetos que compartilham a órbita de Júpiter ao redor do Sol. Eles têm grande interesse científico porque são considerados fontes primárias do sistema solar — em outras palavras, 'fósseis do sistema solar' que podem ajudar a entender como o universo e os planetas se formaram. Por isso são alvo de estudo da missão Lucy, da NASA, que está ativa. O nome Lucy é uma homenagem ao fóssil mais antigo já encontrado, reforçando a ideia de que esses asteroides guardam pistas sobre a origem do sistema solar.",
+      "keywords": [
+        "troianos",
+        "asteroides troianos",
+        "júpiter",
+        "missão lucy",
+        "nasa",
+        "fósseis do sistema solar",
+        "origem do sistema solar",
+        "fontes primárias"
+      ],
+      "related_questions": [
+        "o que são asteroides troianos",
+        "o que é a missão lucy",
+        "por que os troianos são chamados de fósseis do sistema solar",
+        "o que a missão lucy estuda",
+        "por que o nome lucy",
+        "asteroides que compartilham a órbita de júpiter"
+      ]
+    },
+
+    {
+      "id": "DOC01-VGP-17",
+      "chunk_index": 17,
+      "importance": "medium",
+      "title": "Como os Asteroides Recebem Nomes (e o caso do Saci)",
+      "category": "conceitos_cientificos",
+      "source": "visao_geral_e_parceiros",
+      "content": "As regras de nomeação de um asteroide dependem da sua órbita. Os asteroides do Cinturão Principal recebem nomes mais flexíveis. Já os asteroides próximos à Terra (NEOs) só podem receber nomes de origem mitológica ou folclórica. No Brasil, o primeiro NEO batizado se chama Saci, um nome do folclore brasileiro, descoberto por Cristóvão Jacques. A aprovação final dos nomes de asteroides é feita pela União Astronômica Internacional (IAU).",
+      "keywords": [
+        "nomeação de asteroides",
+        "nome de asteroide",
+        "como um asteroide recebe nome",
+        "Saci",
+        "primeiro NEO brasileiro",
+        "nome mitológico",
+        "nome folclórico",
+        "Cristóvão Jacques",
+        "união astronômica internacional",
+        "IAU"
+      ],
+      "related_questions": [
+        "como os asteroides recebem nomes",
+        "qual o primeiro neo brasileiro",
+        "o que é o asteroide saci",
+        "quem pode dar nome a um asteroide",
+        "por que alguns asteroides têm nomes mitológicos",
+        "como se dá nome a um asteroide próximo da terra"
       ]
     }
   ]
