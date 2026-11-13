@@ -27,7 +27,7 @@ export default function Header() {
             IASC ↗
           </a>
           <a className="nav-link" href="/edital.pdf" target="_blank" rel="noopener noreferrer">
-            Edital ↗
+            Edital 2026 ↗
           </a>
         <a
           className="nav-link"

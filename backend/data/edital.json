@@ -4,7 +4,7 @@
     "title": "Edital Caça Asteroides MCTI 2026 — Nº 01, Março de 2026",
     "description": "Conteúdo completo do edital oficial do Programa Caça Asteroides MCTI 2026, cobrindo elegibilidade, inscrição, cronograma, equipes, metodologia, certificados, regras e disposições finais.",
     "source": "edital",
-    "version": "1.0",
+    "version": "1.1",
     "created_at": "2026-03-14",
     "tags": ["edital", "regras", "inscrição", "elegibilidade", "cronograma", "certificado", "IASC", "MCTI", "2026"]
   },
@@ -18,9 +18,9 @@
       "title": "Descrição Geral do Programa Caça Asteroides MCTI",
       "category": "visao_geral",
       "source": "edital",
-      "content": "O Caça Asteroides MCTI é um programa de ciência cidadã criado em parceria entre o Ministério da Ciência, Tecnologia e Inovação (MCTI) do Brasil e o International Astronomical Search Collaboration (IASC), parceiro oficial da NASA. Coordenado pelo Observatório Nacional (ON-MCTI), UNILA e UFMS, o programa convida voluntários a participarem de campanhas reais de busca e análise de asteroides. Os participantes recebem pacotes de imagens astronômicas fornecidos pelo IASC, analisam-nas com o software Astrometrica e enviam relatórios científicos que são validados pelo Minor Planet Center (MPC) da União Astronômica Internacional (IAU). O programa é gratuito, de abrangência nacional e internacional, e aberto a qualquer pessoa a partir de 6 anos de idade. O objetivo é popularizar a ciência entre cidadãos voluntários e permitir que façam descobertas astronômicas reais. Para 2026, são previstas 8 campanhas com 6.000 vagas no total.",
+      "content": "O Caça Asteroides MCTI é um programa de ciência cidadã criado em parceria entre o Ministério da Ciência, Tecnologia e Inovação (MCTI) do Brasil e o International Astronomical Search Collaboration (IASC), parceiro oficial da NASA. Coordenado pelo Observatório Nacional (ON-MCTI), UNILA e UFMS, o programa convida voluntários a participarem de campanhas reais de busca de asteroides. Os participantes recebem pacotes de imagens astronômicas do IASC, analisam-nas com o software Astrometrica e enviam relatórios científicos validados pelo Minor Planet Center (MPC) da União Astronômica Internacional (IAU). O programa é gratuito, de abrangência nacional e internacional, e aberto a pessoas a partir de 6 anos. Em 2026 foram realizadas 8 campanhas com 6.000 vagas no total — todas já encerradas.",
       "keywords": ["caça asteroides", "MCTI", "IASC", "NASA", "ciência cidadã", "astronomia", "asteroides", "programa 2026", "o que é", "descrição", "Observatório Nacional", "UNILA", "UFMS", "Minor Planet Center", "IAU"],
-      "related_questions": ["O que é o Caça Asteroides MCTI?", "Como funciona o programa?", "Quem criou o programa?", "O programa é parceiro da NASA?", "Quantas campanhas tem em 2026?"]
+      "related_questions": ["O que é o Caça Asteroides MCTI?", "Como funciona o programa?", "Quem criou o programa?", "O programa é parceiro da NASA?", "Quantas campanhas teve em 2026?"]
     },
 
     {
@@ -54,21 +54,21 @@
       "title": "Processo de Inscrição – Passo a Passo",
       "category": "inscricao",
       "source": "edital",
-      "content": "O processo de inscrição no Caça Asteroides MCTI-2026 segue estas etapas: (1) Apenas o LÍDER da equipe realiza a inscrição, acessando o link Google Forms da campanha desejada. (2) As inscrições são gratuitas e abertas a partir de 06/03/2026 às 13h (Horário de Brasília). (3) O formulário deve ser preenchido corretamente com todos os dados solicitados, incluindo o nome COMPLETO e SEM ABREVIAÇÕES de todos os integrantes — este nome aparecerá no certificado e não será corrigido posteriormente. (4) Após a inscrição, o líder tem 15 dias (a partir do início da campanha) para enviar por e-mail (cacaasteroidesbrasil@gmail.com) os termos de autorização de uso de imagem de cada participante em PDF: Anexo I (assinado pelo responsável) para menores de idade; Anexo II (assinado pelo próprio participante) para maiores de idade. (5) Equipes sem documentação são eliminadas. (6) As vagas são preenchidas por ordem de inscrição.",
-      "keywords": ["inscrição", "como se inscrever", "Google Forms", "formulário", "prazo", "documentos", "termos de imagem", "link inscrição", "vagas", "06/03/2026", "13h", "Horário de Brasília", "nome completo", "sem abreviações"],
-      "related_questions": ["Como me inscrevo no programa?", "Quando abrem as inscrições?", "Quem preenche o formulário de inscrição?", "O nome pode ser abreviado na inscrição?", "Qual o prazo para enviar os documentos?", "As vagas são limitadas?"]
+      "content": "ATENÇÃO: as inscrições de 2026 estão ENCERRADAS — todas as campanhas do ano já terminaram e ainda não há informações sobre 2027. Funcionamento da inscrição em cada campanha: (1) Apenas o LÍDER da equipe faz a inscrição, pelo formulário Google Forms da campanha divulgado no edital. (2) A inscrição é gratuita. (3) O formulário deve trazer o nome COMPLETO e SEM ABREVIAÇÕES de todos os integrantes — ele aparecerá no certificado e não será corrigido depois. (4) O líder tem 15 dias, a partir do início da campanha, para enviar por e-mail (cacaasteroidesbrasil@gmail.com) os termos de uso de imagem em PDF: Anexo I (assinado pelo responsável) para menores; Anexo II (assinado pelo participante) para maiores. (5) Equipes sem documentação são eliminadas. (6) Vagas preenchidas por ordem de inscrição.",
+      "keywords": ["inscrição", "como se inscrever", "inscrições encerradas", "Google Forms", "formulário", "prazo", "documentos", "termos de imagem", "vagas", "nome completo", "sem abreviações"],
+      "related_questions": ["Como me inscrevo no programa?", "Quando abrem as inscrições?", "As inscrições estão abertas?", "Quem preenche o formulário de inscrição?", "O nome pode ser abreviado na inscrição?", "Qual o prazo para enviar os documentos?", "As vagas são limitadas?"]
     },
 
     {
       "id": "DOC05-CHUNK-05",
       "chunk_index": 5,
       "importance": "high",
-      "title": "Cronograma das Campanhas 2026 – Datas e Vagas",
+      "title": "Cronograma das Campanhas 2026 – Todas Encerradas",
       "category": "cronograma",
       "source": "edital",
-      "content": "O Programa Caça Asteroides MCTI-2026 prevê 8 campanhas ao longo do ano. Campanha 1 (IASC-34): 13/03 a 07/04/2026 — 800 vagas. Campanha 2 (IASC-35): 10/04 a 06/05/2026 — 800 vagas. Campanha 3 (IASC-36): 11/05 a 05/06/2026 — 600 vagas. Campanha 4 (IASC-37): 10/06 a 06/07/2026 — 800 vagas. Campanha 5 (IASC-38): 09/07 a 03/08/2026 — 500 vagas. Campanha 6 (IASC-39): 07/08 a 01/09/2026 — 900 vagas. Campanha 7 (IASC-40): 23/09 a 19/10/2026 — 800 vagas (sujeito a alteração). Campanha 8 (IASC-41): outubro/2026, data a definir — 800 vagas. Total geral: 6.000 vagas. As equipes são alocadas nas campanhas conforme ordem de inscrição. As datas podem ser alteradas e serão comunicadas previamente via e-mail (cacaasteroidesbrasil@gmail.com).",
-      "keywords": ["cronograma", "datas", "campanha 2026", "vagas", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "quando começa", "IASC-34", "IASC-35", "IASC-36", "IASC-37", "IASC-38", "IASC-39", "IASC-40", "IASC-41", "6000 vagas"],
-      "related_questions": ["Quando começa a campanha de março?", "Quantas vagas tem cada campanha?", "Qual campanha está aberta agora?", "Existe campanha em julho?", "Quantas campanhas tem em 2026?", "Quais são as datas das campanhas?"]
+      "content": "TODAS AS 8 CAMPANHAS DE 2026 JÁ FORAM ENCERRADAS — não há campanha em andamento nem inscrições abertas, e ainda não há informações sobre campanhas de 2027. Histórico das campanhas de 2026, conforme o edital: Campanha 1 (IASC-34): 13/03 a 07/04 — 800 vagas. Campanha 2 (IASC-35): 10/04 a 06/05 — 800 vagas. Campanha 3 (IASC-36): 11/05 a 05/06 — 600 vagas. Campanha 4 (IASC-37): 10/06 a 06/07 — 800 vagas. Campanha 5 (IASC-38): 09/07 a 03/08 — 500 vagas. Campanha 6 (IASC-39): 07/08 a 01/09 — 900 vagas. Campanha 7 (IASC-40): 23/09 a 19/10 — 800 vagas. Campanha 8 (IASC-41): outubro — 800 vagas. Total: 6.000 vagas. Novidades sobre próximas edições serão divulgadas no Instagram @cacaasteroidemcti e pelo e-mail cacaasteroidesbrasil@gmail.com.",
+      "keywords": ["cronograma", "campanhas 2026", "campanhas encerradas", "não há campanha aberta", "datas", "vagas", "IASC-34", "IASC-35", "IASC-36", "IASC-37", "IASC-38", "IASC-39", "IASC-40", "IASC-41", "8 campanhas", "6000 vagas", "2027"],
+      "related_questions": ["Quando começa a campanha de março?", "Quantas vagas tinha cada campanha?", "Qual campanha está aberta agora?", "Tem campanha aberta?", "Quantas campanhas teve em 2026?", "Quais foram as datas das campanhas?"]
     },
 
     {
@@ -177,18 +177,6 @@
       "content": "O Programa Caça Asteroides MCTI conta com a participação das seguintes instituições: MCTI (Ministério da Ciência, Tecnologia e Inovação) — patrocinador e coordenador geral do programa no Brasil. IASC (International Astronomical Search Collaboration) — parceiro oficial da NASA que fornece as imagens astronômicas e valida os relatórios científicos enviados pelas equipes. ON-MCTI (Observatório Nacional) — coordenação científica do programa. UNILA (Universidade Federal da Integração Latino-Americana) — coordenação acadêmica. UFMS (Universidade Federal de Mato Grosso do Sul) — coordenação acadêmica. AEB (Agência Espacial Brasileira) — colaboração institucional. Comissão Organizadora — composta por: Diretor Geral, Diretores, Coordenadores, Treinadores Oficiais do IASC e Professores Voluntários.",
       "keywords": ["instituições", "MCTI", "IASC", "NASA", "Observatório Nacional", "UNILA", "UFMS", "AEB", "Comissão Organizadora", "parceiros", "quem organiza", "responsáveis pelo programa"],
       "related_questions": ["Quem organiza o programa?", "O programa é do governo federal?", "Qual a relação com a NASA?", "A UNILA participa do programa?", "Quem compõe a comissão organizadora?"]
-    },
-
-    {
-      "id": "DOC05-CHUNK-15",
-      "chunk_index": 15,
-      "importance": "high",
-      "title": "Links de Inscrição por Campanha 2026",
-      "category": "links_inscricao",
-      "source": "edital",
-      "content": "Links oficiais para inscrição em cada campanha do Caça Asteroides MCTI-2026: Campanha 1 (março — IASC-34): https://forms.gle/VkEsQPV1Pnqfauuo8 — período: 13/03 a 07/04/2026. Campanha 2 (abril — IASC-35): https://forms.gle/7n519bTmsP1wfymr5 — período: 10/04 a 06/05/2026. Campanha 3 (maio — IASC-36): https://forms.gle/KQM3UewJ18qqncjz8 — período: 11/05 a 05/06/2026. Campanha 4 (junho — IASC-37): https://forms.gle/3d7mcUKxmi4JYB9KA — período: 10/06 a 06/07/2026. Campanha 5 (julho — IASC-38): https://forms.gle/S43R6dBWuqW8qCbz8 — período: 09/07 a 03/08/2026. Campanha 6 (agosto — IASC-39): https://forms.gle/d2TAptuSuE15Msnd9 — período: 07/08 a 01/09/2026. Campanha 7 (setembro — IASC-40): https://forms.gle/XuhmiwykxKg74WaS7 — período: 23/09 a 19/10/2026. Campanha 8 (outubro — IASC-41): https://forms.gle/fiRjvpJ3zPErqHPn7 — data a definir.",
-      "keywords": ["link inscrição", "Google Forms", "onde se inscrever", "formulário", "campanha 1", "campanha 2", "campanha 3", "campanha 4", "campanha 5", "campanha 6", "campanha 7", "campanha 8", "forms.gle", "inscrição online"],
-      "related_questions": ["Qual o link para me inscrever?", "Onde faço a inscrição da campanha de março?", "Como acesso o formulário de inscrição?", "Qual o link da campanha de abril?", "Onde está o formulário da campanha atual?"]
     },
 
     {
@@ -469,14 +457,9 @@
       "title": "Participar de mais de uma campanha",
       "category": "faq",
       "source": "edital",
-      "content": "É possível participar de mais de uma campanha, desde que seja feita uma nova inscrição para cada uma delas.",
+      "content": "É possível participar de mais de uma campanha, desde que seja feita uma nova inscrição para cada uma delas. As campanhas de 2026 já foram encerradas; novas edições serão divulgadas nos canais oficiais.",
       "keywords": ["campanha", "participação", "inscrição"],
-      "related_questions": [
-        "posso participar de mais de uma campanha",
-        "posso participar várias vezes",
-        "posso me inscrever novamente",
-        "quantas campanhas posso participar"
-      ]
+      "related_questions": ["posso participar de mais de uma campanha", "posso participar várias vezes", "posso me inscrever novamente", "quantas campanhas posso participar"]
     },
 
     {

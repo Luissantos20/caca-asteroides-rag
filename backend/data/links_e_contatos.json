@@ -4,7 +4,7 @@
     "title": "Links e Contatos Úteis — Caça Asteroides MCTI 2026",
     "description": "Centraliza todos os canais oficiais de comunicação, contatos, redes sociais e links úteis do programa Caça Asteroides MCTI e do IASC, orientando o participante sobre qual canal usar em cada situação.",
     "source": "links_e_contatos",
-    "version": "1.0",
+    "version": "1.1",
     "created_at": "2026-03-17",
     "tags": ["links", "contatos", "e-mail", "instagram", "youtube", "whatsapp", "IASC", "suporte", "canais oficiais"]
   },
@@ -54,15 +54,9 @@
       "title": "Instagram Oficial — @cacaasteroidemcti",
       "category": "redes_sociais",
       "source": "links_e_contatos",
-      "content": "O Instagram oficial do programa é @cacaasteroidemcti. Por lá são publicadas informações atualizadas sobre o programa, anúncios de novas campanhas, datas de treinamentos, resultados, fotos das equipes participantes, notícias sobre descobertas e muito mais. É um dos melhores canais para se manter atualizado sobre tudo que acontece no Caça Asteroides MCTI. Recomenda-se que todos os participantes e interessados sigam o perfil para não perder nenhuma novidade, inclusive anúncios sobre a cerimônia de medalhas.",
+      "content": "O Instagram oficial do programa é @cacaasteroidemcti. Por lá são publicadas informações atualizadas sobre o programa, anúncios de novas campanhas, datas de treinamentos, resultados, fotos das equipes participantes, notícias sobre descobertas e muito mais. É um dos melhores canais para se manter atualizado sobre tudo que acontece no Caça Asteroides MCTI. Recomenda-se que todos os participantes e interessados sigam o perfil para não perder nenhuma novidade — inclusive o local e o horário da entrega de medalhas de 2026 (27/11, durante a SNCT em Brasília), assim que forem definidos.",
       "keywords": ["Instagram", "@cacaasteroidemcti", "redes sociais", "novidades", "anúncios", "campanhas", "treinamentos", "resultados", "seguir", "atualizado"],
-      "related_questions": [
-        "qual é o instagram oficial do programa",
-        "onde ver novidades do caça asteroides",
-        "tem instagram do programa",
-        "onde acompanho notícias e resultados",
-        "qual rede social seguir"
-      ]
+      "related_questions": ["qual é o instagram oficial do programa", "onde ver novidades do caça asteroides", "tem instagram do programa", "onde acompanho notícias e resultados", "qual rede social seguir"]
     },
 
     {
@@ -177,24 +171,6 @@
         "como usar o gov.br para assinar documentos",
         "preciso assinar os termos digitalmente",
         "como assinar o anexo i e ii"
-      ]
-    },
-
-    {
-      "id": "DOC04-LCU-10",
-      "chunk_index": 10,
-      "importance": "high",
-      "title": "Links de Inscrição das Campanhas de 2026",
-      "category": "inscricao",
-      "source": "links_e_contatos",
-      "content": "Os links para inscrição em cada campanha do Caça Asteroides MCTI 2026 são: Campanha 1 (março/abril): https://forms.gle/VkEsQPV1Pnqfauuo8 | Campanha 2 (abril/maio): https://forms.gle/7n519bTmsP1wfymr5 | Campanha 3 (maio/junho): https://forms.gle/KQM3UewJ18qqncjz8 | Campanha 4 (junho/julho): https://forms.gle/3d7mcUKxmi4JYB9KA | Campanha 5 (julho/agosto): https://forms.gle/S43R6dBWuqW8qCbz8 | Campanha 6 (agosto/setembro): https://forms.gle/d2TAptuSuE15Msnd9 | Campanha 7 (setembro/outubro): https://forms.gle/XuhmiwykxKg74WaS7 | Campanha 8 (outubro): https://forms.gle/fiRjvpJ3zPErqHPn7. As inscrições são gratuitas e realizadas exclusivamente pelo líder da equipe.",
-      "keywords": ["links inscrição", "formulário", "campanhas 2026", "forms.gle", "inscrever", "como se inscrever", "link campanha", "gratuito", "formulário Google"],
-      "related_questions": [
-        "onde faço a inscrição",
-        "qual o link de inscrição",
-        "como se inscrever nas campanhas",
-        "onde encontrar o formulário de inscrição",
-        "qual link usar para se inscrever"
       ]
     },
 
