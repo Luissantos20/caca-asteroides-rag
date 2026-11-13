@@ -4,7 +4,7 @@
     "title": "Fluxo Completo do Participante — Caça Asteroides MCTI 2026",
     "description": "Descreve todo o caminho do participante, desde a inscrição até o recebimento do certificado, incluindo o fluxo humano/experiencial e o fluxo técnico de análise das imagens.",
     "source": "fluxo_completo_participante",
-    "version": "1.0",
+    "version": "1.1",
     "created_at": "2026-03-17",
     "tags": ["fluxo", "inscrição", "equipe", "login", "plataforma", "análise", "relatório", "certificado", "passo a passo"]
   },
@@ -18,15 +18,9 @@
       "title": "Visão Geral do Fluxo — Do Início ao Fim",
       "category": "visao_geral_fluxo",
       "source": "fluxo_completo_participante",
-      "content": "A participação no Caça Asteroides MCTI segue um fluxo bem definido com etapas sequenciais: (1) Inscrição da equipe pelo líder via formulário Google; (2) Envio dos termos de autorização de uso de imagem; (3) Recebimento dos e-mails de boas-vindas do Caça Asteroides MCTI e do IASC com as orientações de acesso; (4) Instalação e prática com o software Astrometrica antes do início da campanha; (5) No início oficial da campanha: login na plataforma do IASC, envio do relatório do image set de prática e liberação dos image sets reais; (6) Download e análise dos image sets com o Astrometrica; (7) Envio dos relatórios MPC pela Team Page do IASC; (8) Ao fim da campanha: solicitação do certificado digital na plataforma do IASC.",
+      "content": "Este é o fluxo de participação de cada campanha do Caça Asteroides MCTI (as campanhas de 2026 já foram encerradas). Etapas: (1) Inscrição da equipe pelo líder via formulário Google; (2) Envio dos termos de autorização de uso de imagem; (3) Recebimento dos e-mails de boas-vindas do Caça Asteroides MCTI e do IASC com as orientações de acesso; (4) Instalação e prática com o software Astrometrica antes do início da campanha; (5) No início oficial da campanha: login na plataforma do IASC, envio do relatório do image set de prática e liberação dos image sets reais; (6) Download e análise dos image sets com o Astrometrica; (7) Envio dos relatórios MPC pela Team Page do IASC; (8) Ao fim da campanha: solicitação do certificado digital na plataforma do IASC.",
       "keywords": ["fluxo geral", "etapas", "início ao fim", "visão geral", "passo a passo", "inscrição", "análise", "certificado", "campanha"],
-      "related_questions": [
-        "qual é o passo a passo do caça asteroides",
-        "como funciona o programa do início ao fim",
-        "quais são as etapas para participar",
-        "o que preciso fazer depois que me inscrevo",
-        "como é o processo completo do participante"
-      ]
+      "related_questions": ["qual é o passo a passo do caça asteroides", "como funciona o programa do início ao fim", "quais são as etapas para participar", "o que preciso fazer depois que me inscrevo", "como é o processo completo do participante"]
     },
 
     {
@@ -36,15 +30,9 @@
       "title": "Etapa 1 — Inscrição da Equipe",
       "category": "inscricao",
       "source": "fluxo_completo_participante",
-      "content": "O primeiro passo é a inscrição da equipe, que deve ser feita exclusivamente pelo líder (maior de 18 anos) por meio do formulário Google disponível no edital, na campanha de sua preferência. As inscrições são gratuitas. Ao preencher o formulário, o líder cadastra seu próprio nome e o nome completo de todos os integrantes da equipe — sem abreviações, pois esses nomes aparecerão nos certificados. Não é possível alterar ou substituir integrantes após a inscrição. A equipe deve ter no mínimo 3 pessoas (1 líder + 2 integrantes) e no máximo 5 (1 líder + 4 integrantes). A idade mínima do líder é 18 anos e dos demais integrantes é 6 anos.",
+      "content": "As inscrições de 2026 estão encerradas; veja como funciona a inscrição em cada campanha. O primeiro passo é a inscrição da equipe, feita exclusivamente pelo líder (maior de 18 anos) pelo formulário Google divulgado no edital, na campanha de sua preferência. As inscrições são gratuitas. No formulário, o líder cadastra seu nome e o nome completo de todos os integrantes — sem abreviações, pois esses nomes aparecerão nos certificados. Não é possível alterar ou substituir integrantes após a inscrição. A equipe deve ter no mínimo 3 pessoas (1 líder + 2 integrantes) e no máximo 5 (1 líder + 4 integrantes). A idade mínima do líder é 18 anos e dos demais integrantes é 6 anos.",
       "keywords": ["inscrição", "formulário", "líder", "nome completo", "sem abreviações", "equipe", "mínimo 3", "máximo 5", "18 anos", "6 anos", "gratuita"],
-      "related_questions": [
-        "como faço a inscrição",
-        "qual o primeiro passo para participar",
-        "como montar uma equipe para participar",
-        "quantas pessoas precisa na equipe",
-        "quem pode se inscrever no programa"
-      ]
+      "related_questions": ["como faço a inscrição", "qual o primeiro passo para participar", "como montar uma equipe para participar", "quantas pessoas precisa na equipe", "quem pode se inscrever no programa"]
     },
 
     {
@@ -276,18 +264,24 @@
       "id": "DOC02-FCP-15",
       "chunk_index": 15,
       "importance": "medium",
-      "title": "Cronograma Resumido das 8 Campanhas de 2026",
+      "title": "Cronograma Resumido das 8 Campanhas de 2026 (Encerradas)",
       "category": "cronograma",
       "source": "fluxo_completo_participante",
-      "content": "O Caça Asteroides MCTI 2026 possui 8 campanhas ao longo do ano, numeradas de 34 a 41 no sistema do IASC. O cronograma previsto é: Campanha 1 (IASC-34): 13/03 a 07/04/2026 — 800 vagas; Campanha 2 (IASC-35): 10/04 a 06/05/2026 — 800 vagas; Campanha 3 (IASC-36): 11/05 a 05/06/2026 — 600 vagas; Campanha 4 (IASC-37): 10/06 a 06/07/2026 — 800 vagas; Campanha 5 (IASC-38): 09/07 a 03/08/2026 — 500 vagas; Campanha 6 (IASC-39): 07/08 a 01/09/2026 — 900 vagas; Campanha 7 (IASC-40): 23/09 a 19/10/2026 — 800 vagas (sujeito a alteração); Campanha 8 (IASC-41): outubro — 800 vagas (data a definir). Total: 6.000 vagas no ano. As datas podem sofrer alterações e serão comunicadas por e-mail pelo cacaasteroidesbrasil@gmail.com.",
-      "keywords": ["cronograma", "campanhas 2026", "vagas", "datas", "IASC-34", "IASC-35", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "8 campanhas", "6000 vagas"],
-      "related_questions": [
-        "quais são as datas das campanhas",
-        "quando acontecem as campanhas de 2026",
-        "quantas campanhas tem no ano",
-        "quando começa cada campanha",
-        "qual o cronograma do programa"
-      ]
+      "content": "O Caça Asteroides MCTI 2026 teve 8 campanhas, numeradas de 34 a 41 no sistema do IASC, e TODAS JÁ FORAM ENCERRADAS. Não há campanha em andamento nem inscrições abertas, e ainda não há informações sobre 2027. Cronograma realizado conforme o edital: Campanha 1 (IASC-34): 13/03 a 07/04 — 800 vagas. Campanha 2 (IASC-35): 10/04 a 06/05 — 800 vagas. Campanha 3 (IASC-36): 11/05 a 05/06 — 600 vagas. Campanha 4 (IASC-37): 10/06 a 06/07 — 800 vagas. Campanha 5 (IASC-38): 09/07 a 03/08 — 500 vagas. Campanha 6 (IASC-39): 07/08 a 01/09 — 900 vagas. Campanha 7 (IASC-40): 23/09 a 19/10 — 800 vagas. Campanha 8 (IASC-41): outubro — 800 vagas. Total: 6.000 vagas. Novidades sobre próximas edições serão divulgadas no Instagram @cacaasteroidemcti e pelo e-mail cacaasteroidesbrasil@gmail.com.",
+      "keywords": ["cronograma", "campanhas 2026", "campanhas encerradas", "não há campanha aberta", "datas", "vagas", "IASC-34", "IASC-35", "IASC-36", "IASC-37", "IASC-38", "IASC-39", "IASC-40", "IASC-41", "8 campanhas", "6000 vagas", "2027"],
+      "related_questions": ["quais foram as datas das campanhas", "quando acontecem as campanhas", "quantas campanhas teve no ano", "quando começa a próxima campanha", "qual o cronograma do programa"]
+    },
+
+    {
+      "id": "DOC02-FCP-16",
+      "chunk_index": 16,
+      "importance": "high",
+      "title": "Situação Atual — Campanhas e Inscrições de 2026 Encerradas",
+      "category": "status_campanhas",
+      "source": "fluxo_completo_participante",
+      "content": "Todas as 8 campanhas do Caça Asteroides MCTI 2026 (IASC-34 a IASC-41) já foram ENCERRADAS. No momento NÃO há campanha em andamento e NÃO há inscrições abertas — os formulários de inscrição de 2026 não estão mais ativos. Ainda NÃO há informações sobre as campanhas de 2027. Novidades sobre próximas edições serão divulgadas no Instagram @cacaasteroidemcti, no YouTube @cacaasteroidesmcti3770 e pelo e-mail cacaasteroidesbrasil@gmail.com. O funcionamento do programa continua o mesmo e pode ser consultado: inscrição, formação de equipes, uso do Astrometrica, envio de relatórios, certificados e medalhas. Em novembro de 2026 o programa participa da Semana Nacional de Ciência e Tecnologia (SNCT), em Brasília, com estandes, painéis, oficinas e a entrega de medalhas.",
+      "keywords": ["campanhas encerradas", "inscrições encerradas", "não há campanha aberta", "link de inscrição", "formulário", "próxima campanha", "2027", "situação atual", "status"],
+      "related_questions": ["tem campanha aberta agora", "as inscrições estão abertas", "como me inscrevo agora", "qual o link de inscrição", "onde está o formulário de inscrição", "quando é a próxima campanha", "vai ter campanha em 2027", "ainda dá para participar este ano", "quando abrem as inscrições de 2027"]
     }
   ]
 }
