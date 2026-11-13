@@ -646,3 +646,142 @@ textarea:focus {
     min-height: 100dvh;
   }
 }
+/* ---------- CARD DE AVISO: SNCT 2026 ---------- */
+.snct-card {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  width: 100%;
+  max-width: 620px;
+  margin: -12px auto 36px;
+  padding: 18px 20px;
+  border-radius: 18px;
+  text-align: left;
+  text-decoration: none;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse 320px 140px at 0% 0%, rgba(249, 115, 22, 0.22), transparent 70%),
+    linear-gradient(180deg, rgba(20, 29, 66, 0.9), rgba(7, 12, 26, 0.85));
+  border: 1px solid rgba(249, 115, 22, 0.45);
+  box-shadow: 0 0 0 1px rgba(249, 115, 22, 0.08), 0 10px 30px rgba(0, 0, 0, 0.35);
+  animation: snct-in 0.5s ease-out both, snct-pulse 3.2s ease-in-out 0.6s infinite;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+.snct-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(249, 115, 22, 0.8);
+  box-shadow: 0 0 0 1px rgba(249, 115, 22, 0.2), 0 14px 36px rgba(0, 0, 0, 0.45), 0 0 28px rgba(249, 115, 22, 0.18);
+}
+.snct-card:focus-visible { outline: 2px solid #f97316; outline-offset: 3px; }
+
+/* brilho que atravessa o card */
+.snct-glow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(105deg, transparent 35%, rgba(251, 146, 60, 0.12) 50%, transparent 65%);
+  transform: translateX(-100%);
+  animation: snct-sweep 4.5s ease-in-out 1s infinite;
+}
+
+/* bloco de data */
+.snct-date {
+  flex-shrink: 0;
+  width: 72px;
+  height: 72px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at 50% 30%, rgba(249, 115, 22, 0.28), rgba(13, 21, 48, 0.6));
+  border: 1px solid rgba(249, 115, 22, 0.5);
+}
+.snct-date-day {
+  font-family: "Russo One", sans-serif;
+  font-size: 17px;
+  color: #fb923c;
+  line-height: 1;
+}
+.snct-date-month {
+  margin-top: 5px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: #e2e8f0;
+}
+
+.snct-body { position: relative; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+
+.snct-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #fb923c;
+}
+.snct-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #f97316;
+  box-shadow: 0 0 8px rgba(249, 115, 22, 0.9);
+  animation: pulse-online 1.8s ease-in-out infinite;
+}
+.snct-title {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.35;
+  color: #e2e8f0;
+  text-wrap: pretty;
+}
+.snct-title .accent { color: #f97316; }
+.snct-meta {
+  font-size: 12.5px;
+  line-height: 1.45;
+  color: #94a3b8;
+}
+.snct-cta {
+  margin-top: 4px;
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  font-weight: 500;
+  color: #03050d;
+  background: #f97316;
+  transition: background 0.18s ease, gap 0.18s ease;
+}
+.snct-card:hover .snct-cta { background: #fb923c; gap: 9px; }
+
+@media (max-width: 560px) {
+  .snct-card { flex-direction: column; align-items: flex-start; gap: 14px; padding: 16px; margin-top: -16px; }
+  .snct-date { flex-direction: row; gap: 8px; width: auto; height: auto; padding: 8px 12px; border-radius: 10px; }
+  .snct-date-month { margin-top: 0; }
+  .snct-title { font-size: 14.5px; }
+}
+
+@keyframes snct-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes snct-pulse {
+  0%, 100% { box-shadow: 0 0 0 1px rgba(249, 115, 22, 0.08), 0 10px 30px rgba(0, 0, 0, 0.35); }
+  50% { box-shadow: 0 0 0 1px rgba(249, 115, 22, 0.25), 0 10px 30px rgba(0, 0, 0, 0.35), 0 0 22px rgba(249, 115, 22, 0.2); }
+}
+@keyframes snct-sweep {
+  0%, 60% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .snct-card, .snct-glow, .snct-dot { animation: none; }
+}
