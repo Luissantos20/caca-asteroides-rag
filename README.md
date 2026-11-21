@@ -17,24 +17,30 @@ O participante pergunta em linguagem natural; o sistema faz **busca semântica**
 
 ## Como funciona
 
-O coração do sistema é um pipeline de RAG com uma **camada de decisão** que escolhe responder ou recusar, em vez de responder sempre.
+Antes de responder, o sistema decide se pode responder. Essa decisão passa por duas barreiras: um **limiar de relevância** sobre a busca e um **LLM juiz** que confere se os trechos encontrados respondem mesmo à pergunta. Se qualquer uma falhar, ele não arrisca: encaminha o participante para o e-mail da coordenação.
 
 ```mermaid
 flowchart LR
-    U[Pergunta do usuário] --> R[Rewrite da query<br/>resolve 'isso', 'e como?']
+    U[Pergunta] --> R[Rewrite<br/>resolve 'isso', 'e como?']
     R --> E[Embedding<br/>text-embedding-3-small]
-    E --> C[(ChromaDB<br/>busca top-5)]
-    C --> D{Decision layer<br/>distância · score · gap}
-    D -- confiança baixa --> F[Fallback<br/>não inventa]
-    D -- ok --> G[Geração em streaming<br/>gpt-4o-mini · só os chunks]
-    G -- contexto insuficiente --> F
-    G -- resposta --> S[SSE token a token]
+    E --> C[(ChromaDB<br/>top-5)]
+    C --> D{Piso de relevância<br/>cos do topo ≥ 0,40?}
+    D -- não --> F[Fallback<br/>e-mail da coordenação]
+    D -- sim --> J{LLM juiz<br/>o contexto responde?}
+    J -- não --> F
+    J -- sim --> G[Geração em streaming<br/>gpt-4o-mini · só os chunks]
+    G --> S[SSE token a token]
 ```
 
-1. **Rewrite da query** — reescreve a última pergunta para que ela faça sentido sozinha (resolve pronomes e perguntas vagas como *"e como?"*), usando as últimas mensagens da conversa. Sem histórico, devolve a própria query (custo zero). Qualquer falha cai de volta na query original — o sistema nunca fica pior do que sem reescrita.
-2. **Retrieval** — gera o embedding da query e busca os 5 chunks mais próximos no ChromaDB. As distâncias são **normalizadas em scores de 0 a 1** para facilitar a decisão.
-3. **Decision layer** — antes de gerar, decide se há contexto bom o suficiente, olhando **distância do topo, score, o *gap* entre o 1º e o 2º resultado e quantos chunks são relevantes**. Se a confiança for baixa, bloqueia e devolve o fallback.
-4. **Geração em streaming** — responde com `gpt-4o-mini`, **baseada apenas nos chunks recuperados**. Se mesmo com contexto o modelo concluir que não dá para responder, emite um marcador interno e o sistema entrega o fallback. A resposta volta **token a token via SSE**.
+1. **Rewrite da query.** Se há histórico, reescreve a última pergunta para que faça sentido sozinha (*"e como?"* vira *"como faço a inscrição?"*). Sem histórico, usa a pergunta original, sem custo. Se a reescrita falhar, segue com a original.
+2. **Retrieval.** Gera o embedding e busca os 5 trechos mais próximos no ChromaDB. A distância vira um **score absoluto de 0 a 1** (similaridade de cosseno, `cos = 1 − d/2`), comparável entre perguntas diferentes.
+3. **Piso de relevância** (`decision.py`). Se o melhor trecho tem score < 0,40, a pergunta está fora do escopo e o sistema encaminha para o e-mail. Esse piso barra bem o que não tem nada a ver com o programa.
+4. **LLM juiz** (`grader.py`). O piso não pega perguntas que usam as palavras do programa mas não têm resposta no material, como *"asteroide é a mesma coisa que cometa?"*: o score fica alto mesmo assim. O juiz (`gpt-4o-mini`, temperatura 0) lê a pergunta e os 3 melhores trechos, escreve um raciocínio curto e só então dá o veredito (`pode_responder: true/false`). Se for `false`, o sistema encaminha para o e-mail.
+5. **Geração em streaming.** Só chega aqui o que passou pelas duas barreiras. O `gpt-4o-mini` responde usando **somente** os trechos recuperados, e a resposta volta token a token via SSE.
+
+### Sistema especialista
+
+As decisões de responder ou encaminhar são **regras SE–ENTÃO** explícitas, e o motor (`pipeline.py`) as aplica por encadeamento para frente. Os modelos de linguagem só fornecem fatos (a relevância da busca e o veredito do juiz); quem decide são as regras. A descrição completa, com fatos, regras e as linhas do código, está em [`REGRAS.md`](REGRAS.md).
 
 ---
 
@@ -52,15 +58,17 @@ flowchart LR
 caca-asteroides-rag/
 ├── backend/                 # API FastAPI + pipeline RAG
 │   ├── api/                 # app, rotas (/chat, /health), middleware, rate limit, logging
-│   ├── services/            # pipeline · retrieval · decision · rewrite_query · generate_answer
+│   ├── services/            # pipeline · retrieval · decision · grader · rewrite_query · generate_answer
 │   ├── data/                # base de conhecimento (JSON estruturado em chunks)
 │   ├── scripts/             # index_documents.py — gera os embeddings no ChromaDB
-│   ├── tests/               # avaliação de retrieval, decision layer, geração e memória
+│   ├── tests/               # dataset rotulado + avaliação do piso, do juiz, do retrieval e da geração
 │   ├── chroma_db/           # banco vetorial persistido (versionado)
 │   └── Dockerfile
 ├── frontend/                # chat em Next.js 14 + Tailwind
 ├── benchmark/               # testes de carga (k6) + load_test.py (TTFT, percentis)
-└── docker-compose.yml
+├── docker-compose.yml
+├── REGRAS.md                # regras SE–ENTÃO e motor de inferência
+└── DECLARACAO_ETICA.md      # análise ética e declaração de uso de IA
 ```
 
 ---
@@ -140,11 +148,23 @@ npm run dev                             # http://localhost:3000
 
 ## Testes e avaliação
 
-Além de testes funcionais, o projeto tem **scripts de avaliação** do que mais importa num RAG — a qualidade da recuperação e o acerto da camada de decisão (`backend/tests/`):
+O limiar e o juiz foram calibrados com um **dataset rotulado** (`backend/tests/dataset.py`) de 89 perguntas:
 
-- avaliação do **retrieval** (os chunks certos sobem para o topo?)
-- avaliação da **decision layer** (ela responde quando deve e recusa quando deve?)
-- testes de **geração**, **streaming** e **memória/multi-turno**
+| Conjunto | Qtd. | O sistema deve |
+|---|---|---|
+| Dentro do escopo | 61 | responder |
+| Adversariais (vocabulário do programa, sem resposta na base) | 12 | encaminhar |
+| Fora do escopo | 10 | encaminhar |
+| Multi-turno (dependem do histórico) | 6 | responder |
+
+```bash
+cd backend
+python tests/eval_floor.py     # varre o piso de 0,30 a 0,55 e mostra o que passa e o que é barrado em cada valor
+python tests/eval_grader.py    # mede o juiz e diagnostica cada erro (prompt rígido demais ou trecho não recuperado)
+python tests/eval_gate.py      # piso + juiz juntos, como em produção
+```
+
+Também há testes de **retrieval**, **geração**, **streaming** e **memória/multi-turno**.
 
 **Carga** (`benchmark/`) — para responder *"aguenta dezenas a centenas de usuários simultâneos?"*:
 ```bash
@@ -164,8 +184,9 @@ O load test mede **TTFT (time to first token)** — o tempo até a resposta *com
 
 Mais do que "plugar um LLM", este projeto me ensinou que **um RAG bom se constrói observando dados, não chutando regras**:
 
-- **A informação está nas distâncias.** O ChromaDB devolve distâncias; o difícil não é buscar, é decidir *se a busca foi boa o suficiente para responder*. A `decision layer` nasceu de **observar os padrões de distância/score de perguntas reais** — onde o sistema acertava, onde alucinava — e só então definir limiares (distância do topo, *gap* entre 1º e 2º, número de chunks relevantes). Foi um ciclo de **medir → achar padrão → ajustar → testar de novo**, não um número mágico.
-- **Recusar é uma feature.** Num contexto científico, uma resposta errada é pior que um "não sei". O sistema prefere o fallback (com o e-mail de contato) a inventar — e isso precisa ser garantido em mais de um ponto do pipeline (decision layer + marcador de recusa na geração).
+- **A informação está nas distâncias.** O ChromaDB devolve distâncias; o difícil não é buscar, é decidir *se a busca foi boa o suficiente para responder*. O piso de 0,40 nasceu de **observar os scores de perguntas reais e de um dataset rotulado**, varrendo limiares e medindo o que passava e o que era barrado. Foi um ciclo de **medir → achar padrão → ajustar → testar de novo**, não um número mágico.
+- **Um número não resolve tudo.** O score separa bem o que está fora do tema, mas não as perguntas adversariais, que usam as palavras do programa sem ter resposta no material. Para elas foi preciso um **juiz semântico**, e pedir o raciocínio *antes* do veredito deixou as decisões mais estáveis.
+- **Recusar é uma feature.** Num contexto científico, uma resposta errada é pior que um "não sei". O sistema prefere o fallback (com o e-mail de contato) a inventar, e essa decisão fica **antes** da geração (piso + juiz). Assim a geração só tem uma tarefa: responder a partir do contexto aprovado.
 - **Pergunta vaga quebra busca semântica.** *"E como?"* ou *"quero participar"* não têm sinal suficiente para um bom embedding. O passo de **rewrite** resolveu boa parte das falhas de *"às vezes responde, às vezes não"*, tornando a pergunta autônoma antes de buscar.
 - **O que o usuário sente é o TTFT.** Streaming e a medição de *time to first token* mudaram a percepção de velocidade muito mais do que otimizar o tempo total.
 - **Produção é observação contínua.** Logging estruturado com `request_id` em cada etapa foi o que permitiu enxergar o caminho de cada pergunta e calibrar o sistema com base em uso real — e não em suposição.
@@ -175,6 +196,9 @@ Mais do que "plugar um LLM", este projeto me ensinou que **um RAG bom se constr�
 ## Próximos passos (roadmap)
 
 - [ ] **Coletar feedback** do usuário (👍/👎) por resposta, para alimentar a recalibração.
+- [ ] **Mostrar a fonte** (documento oficial) abaixo de cada resposta.
+- [ ] **Aviso no chat** para não digitar dados pessoais e prazo de retenção dos logs.
+- [ ] Incluir no dataset **perguntas informais e com erros de digitação**, para medir se o sistema atende todos igualmente.
 - [ ] **Melhorar o chunking** da base de conhecimento para buscas ainda mais precisas.
 - [ ] **Observabilidade**: dashboard de métricas (latência, taxa de fallback, perguntas sem resposta) a partir dos logs.
 - [ ] **Endurecer o CORS** em produção (restringir métodos/headers em vez de `*`).
@@ -187,7 +211,7 @@ Mais do que "plugar um LLM", este projeto me ensinou que **um RAG bom se constr�
 
 **Caça Asteroides MCTI** é uma iniciativa de ciência cidadã do **MCTI** e da **AEB**, em parceria com o **IASC** (parceiro oficial da NASA), com coordenação do **Observatório Nacional**, **UNILA** e **UFMS**.
 
-Assistente de IA desenvolvido por **Luís Filipe Silva Santos** · [GitHub](https://github.com/Luissantos20)
+Assistente de IA desenvolvido por **Luís Filipe Silva Santos** · [GitHub](https://github.com/Luissantos20), com contribuição de **Luana Stoinski** na definição das regras, na avaliação e na calibração do sistema.
 
 ---
 
